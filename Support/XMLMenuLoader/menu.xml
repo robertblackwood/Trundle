@@ -1,0 +1,15 @@
+<menu version="1.0">
+	<pack id="0" name="Complimentary" image="complimentaryicon.png"/>
+	<level id="1" name="Sunset Mountain" image="l1icon.png"/>
+	<level id="2" name="Desert Sands" image="l2icon.png"/>
+	<level id="9" name="Stellar Orchard" image="l9icon.png"/>
+	<level id="11" name="Tum's Plight" image="l11icon.png"/>
+	<pack id="1"  name="Treedom" image="treedomicon.png"/>
+	<level id="3" name="Timber Hill" image="l3icon.png"/>
+	<level id="4" name="Wood Grove" image="l4icon.png"/>
+	<level id="10" name="Driftwood Valley" image="l10icon.png"/>
+	<pack id="2"  name="Spelunk" image="spelunkicon.png"/>
+	<level id="6" name="Cavernous" image="l6icon.png"/>
+	<level id="7" name="Underpassage" image="l7icon.png"/>
+	<level id="8" name="Bunk's Quarry" image="l8icon.png"/>
+</menu>

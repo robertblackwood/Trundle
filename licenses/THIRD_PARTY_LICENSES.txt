@@ -1,0 +1,2357 @@
+Third-party copyright and license notices
+
+Extracted from the vendored source files listed below. Their original notices
+remain in place. This file supplements the component license files in External Source/.
+
+========================================================================
+Notice 1
+
+Files:
+  External Source/CocosDenshion/CDAudioManager.h
+  External Source/CocosDenshion/CDAudioManager.m
+  External Source/CocosDenshion/CDConfig.h
+  External Source/CocosDenshion/CocosDenshion.h
+  External Source/CocosDenshion/CocosDenshion.m
+  External Source/CocosDenshion/SimpleAudioEngine.h
+  External Source/CocosDenshion/SimpleAudioEngine.m
+
+Copyright (c) 2010 Steve Oldmeadow
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+ $Id$
+
+========================================================================
+Notice 2
+
+Files:
+  External Source/CocosDenshion/CDOpenALSupport.h
+
+Disclaimer: IMPORTANT:  This Apple software is supplied to you by
+ Apple Inc. ("Apple") in consideration of your agreement to the
+ following terms, and your use, installation, modification or
+ redistribution of this Apple software constitutes acceptance of these
+ terms.  If you do not agree with these terms, please do not use,
+ install, modify or redistribute this Apple software.
+
+ In consideration of your agreement to abide by the following terms, and
+ subject to these terms, Apple grants you a personal, non-exclusive
+ license, under Apple's copyrights in this original Apple software (the
+ "Apple Software"), to use, reproduce, modify and redistribute the Apple
+ Software, with or without modifications, in source and/or binary forms;
+ provided that if you redistribute the Apple Software in its entirety and
+ without modifications, you must retain this notice and the following
+ text and disclaimers in all such redistributions of the Apple Software.
+ Neither the name, trademarks, service marks or logos of Apple Inc.
+ may be used to endorse or promote products derived from the Apple
+ Software without specific prior written permission from Apple.  Except
+ as expressly stated in this notice, no other rights or licenses, express
+ or implied, are granted by Apple herein, including but not limited to
+ any patent rights that may be infringed by your derivative works or by
+ other works in which the Apple Software may be incorporated.
+
+ The Apple Software is provided by Apple on an "AS IS" basis.  APPLE
+ MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION
+ THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND
+ OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS.
+
+ IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL
+ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION,
+ MODIFICATION AND/OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED
+ AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE),
+ STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+ Copyright (C) 2009 Apple Inc. All Rights Reserved.
+
+ $Id$
+
+========================================================================
+Notice 3
+
+Files:
+  External Source/CocosDenshion/CDOpenALSupport.m
+
+Disclaimer: IMPORTANT:  This Apple software is supplied to you by
+ Apple Inc. ("Apple") in consideration of your agreement to the
+ following terms, and your use, installation, modification or
+ redistribution of this Apple software constitutes acceptance of these
+ terms.  If you do not agree with these terms, please do not use,
+ install, modify or redistribute this Apple software.
+
+ In consideration of your agreement to abide by the following terms, and
+ subject to these terms, Apple grants you a personal, non-exclusive
+ license, under Apple's copyrights in this original Apple software (the
+ "Apple Software"), to use, reproduce, modify and redistribute the Apple
+ Software, with or without modifications, in source and/or binary forms;
+ provided that if you redistribute the Apple Software in its entirety and
+ without modifications, you must retain this notice and the following
+ text and disclaimers in all such redistributions of the Apple Software.
+ Neither the name, trademarks, service marks or logos of Apple Inc.
+ may be used to endorse or promote products derived from the Apple
+ Software without specific prior written permission from Apple.  Except
+ as expressly stated in this notice, no other rights or licenses, express
+ or implied, are granted by Apple herein, including but not limited to
+ any patent rights that may be infringed by your derivative works or by
+ other works in which the Apple Software may be incorporated.
+
+ The Apple Software is provided by Apple on an "AS IS" basis.  APPLE
+ MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION
+ THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND
+ OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS.
+
+ IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL
+ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION,
+ MODIFICATION AND/OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED
+ AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE),
+ STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+ Copyright (C) 2009 Apple Inc. All Rights Reserved.
+
+ $Id: CDOpenALSupport.h 16 2010-03-11 06:22:10Z steveoldmeadow $
+
+========================================================================
+Notice 4
+
+Files:
+  External Source/cocos2d/CCAction.h
+  External Source/cocos2d/CCAction.m
+  External Source/cocos2d/CCActionCamera.h
+  External Source/cocos2d/CCActionCamera.m
+  External Source/cocos2d/CCActionInstant.h
+  External Source/cocos2d/CCActionInstant.m
+  External Source/cocos2d/CCAnimation.h
+  External Source/cocos2d/CCAnimation.m
+  External Source/cocos2d/CCAtlasNode.m
+  External Source/cocos2d/CCCamera.h
+  External Source/cocos2d/CCCamera.m
+  External Source/cocos2d/CCDirector.h
+  External Source/cocos2d/CCDirector.m
+  External Source/cocos2d/CCLabelAtlas.h
+  External Source/cocos2d/CCLabelTTF.h
+  External Source/cocos2d/CCLabelTTF.m
+  External Source/cocos2d/CCLayer.h
+  External Source/cocos2d/CCLayer.m
+  External Source/cocos2d/CCMenu.h
+  External Source/cocos2d/CCMenu.m
+  External Source/cocos2d/CCParticleExamples.h
+  External Source/cocos2d/CCParticleExamples.m
+  External Source/cocos2d/CCParticleSystem.h
+  External Source/cocos2d/CCParticleSystem.m
+  External Source/cocos2d/CCProtocols.h
+  External Source/cocos2d/CCScene.h
+  External Source/cocos2d/CCScene.m
+  External Source/cocos2d/CCScheduler.h
+  External Source/cocos2d/CCScheduler.m
+  External Source/cocos2d/CCShaderCache.h
+  External Source/cocos2d/CCSprite.h
+  External Source/cocos2d/CCSprite.m
+  External Source/cocos2d/CCTextureAtlas.h
+  External Source/cocos2d/CCTextureAtlas.m
+  External Source/cocos2d/CCTextureCache.h
+  External Source/cocos2d/CCTextureCache.m
+  External Source/cocos2d/CCTileMapAtlas.h
+  External Source/cocos2d/CCTileMapAtlas.m
+  External Source/cocos2d/CCTransition.h
+  External Source/cocos2d/CCTransition.m
+  External Source/cocos2d/Platforms/iOS/CCDirectorIOS.h
+  External Source/cocos2d/Support/CCFileUtils.h
+  External Source/cocos2d/Support/CCFileUtils.m
+  External Source/cocos2d/ccConfig.h
+  External Source/cocos2d/ccMacros.h
+  External Source/cocos2d/ccTypes.h
+  External Source/cocos2d/cocos2d.h
+  External Source/cocos2d/cocos2d.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2008-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 5
+
+Files:
+  External Source/cocos2d/CCActionCatmullRom.h
+  External Source/cocos2d/CCActionCatmullRom.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2008 Radu Gruian
+
+Copyright (c) 2011 Vit Valentin
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+Orignal code by Radu Gruian: http://www.codeproject.com/Articles/30838/Overhauser-Catmull-Rom-Splines-for-Camera-Animatio.So
+
+Adapted to cocos2d-x by Vit Valentin
+
+Adapted from cocos2d-x to cocos2d-iphone by Ricardo Quesada
+
+========================================================================
+Notice 6
+
+Files:
+  External Source/cocos2d/CCActionEase.h
+  External Source/cocos2d/CCActionEase.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2008-2009 Jason Booth
+Copyright (c) 2013 Nader Eloshaiker
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 7
+
+Files:
+  External Source/cocos2d/CCActionGrid.h
+  External Source/cocos2d/CCActionGrid.m
+  External Source/cocos2d/CCActionGrid3D.h
+  External Source/cocos2d/CCActionGrid3D.m
+  External Source/cocos2d/CCActionTiledGrid.h
+  External Source/cocos2d/CCActionTiledGrid.m
+  External Source/cocos2d/CCGrabber.h
+  External Source/cocos2d/CCGrabber.m
+  External Source/cocos2d/CCGrid.h
+  External Source/cocos2d/CCGrid.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009 On-Core
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 8
+
+Files:
+  External Source/cocos2d/CCActionInterval.h
+  External Source/cocos2d/CCActionInterval.m
+  External Source/cocos2d/CCLabelAtlas.m
+  External Source/cocos2d/CCMenuItem.h
+  External Source/cocos2d/CCMenuItem.m
+  External Source/cocos2d/CCSpriteFrame.h
+  External Source/cocos2d/CCSpriteFrame.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2008-2011 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 9
+
+Files:
+  External Source/cocos2d/CCActionManager.h
+  External Source/cocos2d/CCActionManager.m
+  External Source/cocos2d/CCNode.h
+  External Source/cocos2d/CCNode.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009 Valentin Milea
+
+Copyright (c) 2008-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 10
+
+Files:
+  External Source/cocos2d/CCActionPageTurn3D.h
+  External Source/cocos2d/CCActionPageTurn3D.m
+  External Source/cocos2d/CCTransitionPageTurn.h
+  External Source/cocos2d/CCTransitionPageTurn.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009 Sindesso Pty Ltd http://www.sindesso.com/
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 11
+
+Files:
+  External Source/cocos2d/CCActionProgressTimer.h
+  External Source/cocos2d/CCActionProgressTimer.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (C) 2010 Lam Pham
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 12
+
+Files:
+  External Source/cocos2d/CCActionTween.h
+  External Source/cocos2d/CCActionTween.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright 2009 lhunath (Maarten Billemont)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 13
+
+Files:
+  External Source/cocos2d/CCAnimationCache.h
+  External Source/cocos2d/CCConfiguration.h
+  External Source/cocos2d/CCConfiguration.m
+  External Source/cocos2d/Platforms/CCGL.h
+  External Source/cocos2d/Platforms/CCNS.h
+  External Source/cocos2d/Platforms/Mac/CCDirectorMac.h
+  External Source/cocos2d/Platforms/Mac/CCDirectorMac.m
+  External Source/cocos2d/Platforms/Mac/CCEventDispatcher.h
+  External Source/cocos2d/Platforms/Mac/CCEventDispatcher.m
+  External Source/cocos2d/Platforms/Mac/CCGLView.h
+  External Source/cocos2d/Platforms/Mac/CCGLView.m
+  External Source/cocos2d/Platforms/iOS/CCDirectorIOS.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 14
+
+Files:
+  External Source/cocos2d/CCAnimationCache.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Copyright (c) 2011 John Wordsworth
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 15
+
+Files:
+  External Source/cocos2d/CCAtlasNode.h
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2008-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 16
+
+Files:
+  External Source/cocos2d/CCClippingNode.h
+  External Source/cocos2d/CCClippingNode.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2012 Pierre-David Bélanger
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 17
+
+Files:
+  External Source/cocos2d/CCDrawNode.h
+  External Source/cocos2d/CCDrawNode.m
+  External Source/cocos2d/CCPhysicsDebugNode.h
+  External Source/cocos2d/CCPhysicsDebugNode.m
+  External Source/cocos2d/CCPhysicsSprite.h
+  External Source/cocos2d/CCPhysicsSprite.mm
+  External Source/cocos2d/ccShader_PositionColorLengthTexture_frag.h
+  External Source/cocos2d/ccShader_PositionColorLengthTexture_vert.h
+
+Copyright (c) 2012 Scott Lembcke and Howling Moon Software
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+Notice 18
+
+Files:
+  External Source/cocos2d/CCDrawingPrimitives.h
+  External Source/cocos2d/CCDrawingPrimitives.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2008-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+Copyright (c) 2013 Nader Eloshaiker
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 19
+
+Files:
+  External Source/cocos2d/CCFontDefinition.h
+  External Source/cocos2d/CCFontDefinition.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2013 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 20
+
+Files:
+  External Source/cocos2d/CCLabelBMFont.h
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2008-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Portions of this code are based and inspired on:
+  http://www.71squared.co.uk/2009/04/iphone-game-programming-tutorial-4-bitmap-font-class
+  by Michael Daley
+
+Use any of these editors to generate BMFonts:
+  http://glyphdesigner.71squared.com/ (Commercial, Mac OS X)
+  http://www.n4te.com/hiero/hiero.jnlp (Free, Java)
+  http://slick.cokeandcode.com/demos/hiero.jnlp (Free, Java)
+  http://www.angelcode.com/products/bmfont/ (Free, Windows only)
+
+========================================================================
+Notice 21
+
+Files:
+  External Source/cocos2d/CCLabelBMFont.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2008-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Portions of this code are based and inspired on:
+  http://www.71squared.co.uk/2009/04/iphone-game-programming-tutorial-4-bitmap-font-class
+  by Michael Daley
+
+
+Use any of these editors to generate BMFonts:
+  http://glyphdesigner.71squared.com/ (Commercial, Mac OS X)
+  http://www.n4te.com/hiero/hiero.jnlp (Free, Java)
+  http://slick.cokeandcode.com/demos/hiero.jnlp (Free, Java)
+  http://www.angelcode.com/products/bmfont/ (Free, Windows only)
+
+========================================================================
+Notice 22
+
+Files:
+  External Source/cocos2d/CCMotionStreak.h
+  External Source/cocos2d/CCMotionStreak.m
+  External Source/cocos2d/Support/CCVertex.h
+  External Source/cocos2d/Support/CCVertex.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2011 ForzeField Studios S.L. http://forzefield.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 23
+
+Files:
+  External Source/cocos2d/CCNode+Debug.h
+  External Source/cocos2d/CCNode+Debug.m
+  External Source/cocos2d/ccFPSImages.h
+  External Source/cocos2d/ccFPSImages.m
+  External Source/cocos2d/ccShaders.h
+  External Source/cocos2d/ccShaders.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2012 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 24
+
+Files:
+  External Source/cocos2d/CCParallaxNode.h
+  External Source/cocos2d/CCParallaxNode.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 25
+
+Files:
+  External Source/cocos2d/CCParticleBatchNode.h
+  External Source/cocos2d/CCParticleBatchNode.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (C) 2009 Matt Oswald
+
+Copyright (c) 2009-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Copyright (c) 2011 Marco Tillemans
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 26
+
+Files:
+  External Source/cocos2d/CCParticleSystemQuad.h
+  External Source/cocos2d/CCParticleSystemQuad.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009 Leonardo Kasperavičius
+
+Copyright (c) 2008-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 27
+
+Files:
+  External Source/cocos2d/CCProgressTimer.h
+  External Source/cocos2d/CCProgressTimer.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2010 Lam Pham
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 28
+
+Files:
+  External Source/cocos2d/CCRenderTexture.h
+  External Source/cocos2d/CCRenderTexture.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009 Jason Booth
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 29
+
+Files:
+  External Source/cocos2d/CCShaderCache.m
+  External Source/cocos2d/ccGLStateCache.h
+  External Source/cocos2d/ccGLStateCache.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2011 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 30
+
+Files:
+  External Source/cocos2d/CCSpriteBatchNode.h
+  External Source/cocos2d/CCSpriteBatchNode.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (C) 2009 Matt Oswald
+
+Copyright (c) 2009-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 31
+
+Files:
+  External Source/cocos2d/CCSpriteFrameCache.h
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009 Jason Booth
+
+Copyright (c) 2009 Robert J Payne
+
+Copyright (c) 2008-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 32
+
+Files:
+  External Source/cocos2d/CCSpriteFrameCache.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009 Jason Booth
+
+Copyright (c) 2009 Robert J Payne
+
+Copyright (c) 2008-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 33
+
+Files:
+  External Source/cocos2d/CCTMXLayer.h
+  External Source/cocos2d/CCTMXLayer.m
+  External Source/cocos2d/CCTMXTiledMap.h
+  External Source/cocos2d/CCTMXTiledMap.m
+  External Source/cocos2d/CCTMXXMLParser.h
+  External Source/cocos2d/CCTMXXMLParser.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009-2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+TMX Tiled Map support:
+http://www.mapeditor.org
+
+========================================================================
+Notice 34
+
+Files:
+  External Source/cocos2d/CCTMXObjectGroup.h
+  External Source/cocos2d/CCTMXObjectGroup.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2010 Neophit
+
+Copyright (c) 2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+TMX Tiled Map support:
+http://www.mapeditor.org
+
+========================================================================
+Notice 35
+
+Files:
+  External Source/cocos2d/CCTexture2D.h
+
+===== IMPORTANT =====
+
+This is sample code demonstrating API, technology or techniques in development.
+Although this sample code has been reviewed for technical accuracy, it is not
+final. Apple is supplying this information to help you plan for the adoption of
+the technologies and programming interfaces described herein. This information
+is subject to change, and software implemented based on this sample code should
+be tested with final operating system software and final documentation. Newer
+versions of this sample code may be provided with future seeds of the API or
+technology. For information about updates to this and other developer
+documentation, view the New & Updated sidebars in subsequent documentation
+seeds.
+
+=====================
+
+File: Texture2D.h
+Abstract: Creates OpenGL 2D textures from images or text.
+
+Version: 1.6
+
+Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple Inc.
+("Apple") in consideration of your agreement to the following terms, and your
+use, installation, modification or redistribution of this Apple software
+constitutes acceptance of these terms.  If you do not agree with these terms,
+please do not use, install, modify or redistribute this Apple software.
+
+In consideration of your agreement to abide by the following terms, and subject
+to these terms, Apple grants you a personal, non-exclusive license, under
+Apple's copyrights in this original Apple software (the "Apple Software"), to
+use, reproduce, modify and redistribute the Apple Software, with or without
+modifications, in source and/or binary forms; provided that if you redistribute
+the Apple Software in its entirety and without modifications, you must retain
+this notice and the following text and disclaimers in all such redistributions
+of the Apple Software.
+Neither the name, trademarks, service marks or logos of Apple Inc. may be used
+to endorse or promote products derived from the Apple Software without specific
+prior written permission from Apple.  Except as expressly stated in this notice,
+no other rights or licenses, express or implied, are granted by Apple herein,
+including but not limited to any patent rights that may be infringed by your
+derivative works or by other works in which the Apple Software may be
+incorporated.
+
+The Apple Software is provided by Apple on an "AS IS" basis.  APPLE MAKES NO
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
+WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN
+COMBINATION WITH YOUR PRODUCTS.
+
+IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR
+DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF
+CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF
+APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Copyright (C) 2008 Apple Inc. All Rights Reserved.
+
+========================================================================
+Notice 36
+
+Files:
+  External Source/cocos2d/CCTexture2D.m
+
+===== IMPORTANT =====
+
+ This is sample code demonstrating API, technology or techniques in development.
+ Although this sample code has been reviewed for technical accuracy, it is not
+ final. Apple is supplying this information to help you plan for the adoption of
+ the technologies and programming interfaces described herein. This information
+ is subject to change, and software implemented based on this sample code should
+ be tested with final operating system software and final documentation. Newer
+ versions of this sample code may be provided with future seeds of the API or
+ technology. For information about updates to this and other developer
+ documentation, view the New & Updated sidebars in subsequent documentationd
+ seeds.
+
+ =====================
+
+ File: Texture2D.m
+ Abstract: Creates OpenGL 2D textures from images or text.
+
+ Version: 1.6
+
+ Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple Inc.
+ ("Apple") in consideration of your agreement to the following terms, and your
+ use, installation, modification or redistribution of this Apple software
+ constitutes acceptance of these terms.  If you do not agree with these terms,
+ please do not use, install, modify or redistribute this Apple software.
+
+ In consideration of your agreement to abide by the following terms, and subject
+ to these terms, Apple grants you a personal, non-exclusive license, under
+ Apple's copyrights in this original Apple software (the "Apple Software"), to
+ use, reproduce, modify and redistribute the Apple Software, with or without
+ modifications, in source and/or binary forms; provided that if you redistribute
+ the Apple Software in its entirety and without modifications, you must retain
+ this notice and the following text and disclaimers in all such redistributions
+ of the Apple Software.
+ Neither the name, trademarks, service marks or logos of Apple Inc. may be used
+ to endorse or promote products derived from the Apple Software without specific
+ prior written permission from Apple.  Except as expressly stated in this notice,
+ no other rights or licenses, express or implied, are granted by Apple herein,
+ including but not limited to any patent rights that may be infringed by your
+ derivative works or by other works in which the Apple Software may be
+ incorporated.
+
+ The Apple Software is provided by Apple on an "AS IS" basis.  APPLE MAKES NO
+ WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
+ WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN
+ COMBINATION WITH YOUR PRODUCTS.
+
+ IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR
+ DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF
+ CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF
+ APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ Copyright (C) 2008 Apple Inc. All Rights Reserved.
+
+========================================================================
+Notice 37
+
+Files:
+  External Source/cocos2d/CCTexturePVR.h
+
+File: PVRTexture.h
+Abstract: The PVRTexture class is responsible for loading .pvr files.
+
+Version: 1.0
+
+Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple Inc.
+("Apple") in consideration of your agreement to the following terms, and your
+use, installation, modification or redistribution of this Apple software
+constitutes acceptance of these terms.  If you do not agree with these terms,
+please do not use, install, modify or redistribute this Apple software.
+
+In consideration of your agreement to abide by the following terms, and subject
+to these terms, Apple grants you a personal, non-exclusive license, under
+Apple's copyrights in this original Apple software (the "Apple Software"), to
+use, reproduce, modify and redistribute the Apple Software, with or without
+modifications, in source and/or binary forms; provided that if you redistribute
+the Apple Software in its entirety and without modifications, you must retain
+this notice and the following text and disclaimers in all such redistributions
+of the Apple Software.
+Neither the name, trademarks, service marks or logos of Apple Inc. may be used
+to endorse or promote products derived from the Apple Software without specific
+prior written permission from Apple.  Except as expressly stated in this notice,
+no other rights or licenses, express or implied, are granted by Apple herein,
+including but not limited to any patent rights that may be infringed by your
+derivative works or by other works in which the Apple Software may be
+incorporated.
+
+The Apple Software is provided by Apple on an "AS IS" basis.  APPLE MAKES NO
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
+WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN
+COMBINATION WITH YOUR PRODUCTS.
+
+IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR
+DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF
+CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF
+APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Copyright (C) 2008 Apple Inc. All Rights Reserved.
+
+========================================================================
+Notice 38
+
+Files:
+  External Source/cocos2d/CCTexturePVR.m
+
+File: PVRTexture.m
+Abstract: The PVRTexture class is responsible for loading .pvr files.
+
+Version: 1.0
+
+Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple Inc.
+("Apple") in consideration of your agreement to the following terms, and your
+use, installation, modification or redistribution of this Apple software
+constitutes acceptance of these terms.  If you do not agree with these terms,
+please do not use, install, modify or redistribute this Apple software.
+
+In consideration of your agreement to abide by the following terms, and subject
+to these terms, Apple grants you a personal, non-exclusive license, under
+Apple's copyrights in this original Apple software (the "Apple Software"), to
+use, reproduce, modify and redistribute the Apple Software, with or without
+modifications, in source and/or binary forms; provided that if you redistribute
+the Apple Software in its entirety and without modifications, you must retain
+this notice and the following text and disclaimers in all such redistributions
+of the Apple Software.
+Neither the name, trademarks, service marks or logos of Apple Inc. may be used
+to endorse or promote products derived from the Apple Software without specific
+prior written permission from Apple.  Except as expressly stated in this notice,
+no other rights or licenses, express or implied, are granted by Apple herein,
+including but not limited to any patent rights that may be infringed by your
+derivative works or by other works in which the Apple Software may be
+incorporated.
+
+The Apple Software is provided by Apple on an "AS IS" basis.  APPLE MAKES NO
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
+WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN
+COMBINATION WITH YOUR PRODUCTS.
+
+IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR
+DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF
+CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF
+APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Copyright (C) 2008 Apple Inc. All Rights Reserved.
+
+========================================================================
+Notice 39
+
+Files:
+  External Source/cocos2d/CCTransitionProgress.h
+  External Source/cocos2d/CCTransitionProgress.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009 Lam Pham
+
+Copyright (c) 2012 Ricardo Quesada
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 40
+
+Files:
+  External Source/cocos2d/Platforms/Mac/CCWindow.h
+  External Source/cocos2d/Platforms/Mac/CCWindow.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2010 Ricardo Quesada
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 41
+
+Files:
+  External Source/cocos2d/Platforms/iOS/CCES2Renderer.h
+  External Source/cocos2d/Platforms/iOS/CCESRenderer.h
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2010 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+File autogenerated with Xcode. Adapted for cocos2d needs.
+
+========================================================================
+Notice 42
+
+Files:
+  External Source/cocos2d/Platforms/iOS/CCES2Renderer.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2011 Ricardo Quesada
+Copyright (c) 2011 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+File autogenerated with Xcode. Adapted for cocos2d needs.
+
+========================================================================
+Notice 43
+
+Files:
+  External Source/cocos2d/Platforms/iOS/CCGLView.h
+
+===== IMPORTANT =====
+
+This is sample code demonstrating API, technology or techniques in development.
+Although this sample code has been reviewed for technical accuracy, it is not
+final. Apple is supplying this information to help you plan for the adoption of
+the technologies and programming interfaces described herein. This information
+is subject to change, and software implemented based on this sample code should
+be tested with final operating system software and final documentation. Newer
+versions of this sample code may be provided with future seeds of the API or
+technology. For information about updates to this and other developer
+documentation, view the New & Updated sidebars in subsequent documentation
+seeds.
+
+=====================
+
+File: CCGLView.h
+Abstract: Convenience class that wraps the CAEAGLLayer from CoreAnimation into a
+UIView subclass.
+
+Version: 1.3
+
+Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple Inc.
+("Apple") in consideration of your agreement to the following terms, and your
+use, installation, modification or redistribution of this Apple software
+constitutes acceptance of these terms.  If you do not agree with these terms,
+please do not use, install, modify or redistribute this Apple software.
+
+In consideration of your agreement to abide by the following terms, and subject
+to these terms, Apple grants you a personal, non-exclusive license, under
+Apple's copyrights in this original Apple software (the "Apple Software"), to
+use, reproduce, modify and redistribute the Apple Software, with or without
+modifications, in source and/or binary forms; provided that if you redistribute
+the Apple Software in its entirety and without modifications, you must retain
+this notice and the following text and disclaimers in all such redistributions
+of the Apple Software.
+Neither the name, trademarks, service marks or logos of Apple Inc. may be used
+to endorse or promote products derived from the Apple Software without specific
+prior written permission from Apple.  Except as expressly stated in this notice,
+no other rights or licenses, express or implied, are granted by Apple herein,
+including but not limited to any patent rights that may be infringed by your
+derivative works or by other works in which the Apple Software may be
+incorporated.
+
+The Apple Software is provided by Apple on an "AS IS" basis.  APPLE MAKES NO
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
+WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN
+COMBINATION WITH YOUR PRODUCTS.
+
+IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR
+DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF
+CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF
+APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Copyright (C) 2008 Apple Inc. All Rights Reserved.
+
+========================================================================
+Notice 44
+
+Files:
+  External Source/cocos2d/Platforms/iOS/CCGLView.m
+
+===== IMPORTANT =====
+
+This is sample code demonstrating API, technology or techniques in development.
+Although this sample code has been reviewed for technical accuracy, it is not
+final. Apple is supplying this information to help you plan for the adoption of
+the technologies and programming interfaces described herein. This information
+is subject to change, and software implemented based on this sample code should
+be tested with final operating system software and final documentation. Newer
+versions of this sample code may be provided with future seeds of the API or
+technology. For information about updates to this and other developer
+documentation, view the New & Updated sidebars in subsequent documentation
+seeds.
+
+=====================
+
+File: CCGLView.m
+Abstract: Convenience class that wraps the CAEAGLLayer from CoreAnimation into a
+UIView subclass.
+
+Version: 1.3
+
+Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple Inc.
+("Apple") in consideration of your agreement to the following terms, and your
+use, installation, modification or redistribution of this Apple software
+constitutes acceptance of these terms.  If you do not agree with these terms,
+please do not use, install, modify or redistribute this Apple software.
+
+In consideration of your agreement to abide by the following terms, and subject
+to these terms, Apple grants you a personal, non-exclusive license, under
+Apple's copyrights in this original Apple software (the "Apple Software"), to
+use, reproduce, modify and redistribute the Apple Software, with or without
+modifications, in source and/or binary forms; provided that if you redistribute
+the Apple Software in its entirety and without modifications, you must retain
+this notice and the following text and disclaimers in all such redistributions
+of the Apple Software.
+Neither the name, trademarks, service marks or logos of Apple Inc. may be used
+to endorse or promote products derived from the Apple Software without specific
+prior written permission from Apple.  Except as expressly stated in this notice,
+no other rights or licenses, express or implied, are granted by Apple herein,
+including but not limited to any patent rights that may be infringed by your
+derivative works or by other works in which the Apple Software may be
+incorporated.
+
+The Apple Software is provided by Apple on an "AS IS" basis.  APPLE MAKES NO
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
+WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN
+COMBINATION WITH YOUR PRODUCTS.
+
+IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR
+DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF
+CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF
+APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Copyright (C) 2008 Apple Inc. All Rights Reserved.
+
+========================================================================
+Notice 45
+
+Files:
+  External Source/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h
+  External Source/cocos2d/Platforms/iOS/CCTouchDispatcher.h
+  External Source/cocos2d/Platforms/iOS/CCTouchDispatcher.m
+  External Source/cocos2d/Platforms/iOS/CCTouchHandler.h
+  External Source/cocos2d/Platforms/iOS/CCTouchHandler.m
+  External Source/cocos2d/Support/TransformUtils.h
+  External Source/cocos2d/Support/TransformUtils.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2009 Valentin Milea
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 46
+
+Files:
+  External Source/cocos2d/Support/CCArray.h
+  External Source/cocos2d/Support/CCArray.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2010 ForzeField Studios S.L. http://forzefield.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 47
+
+Files:
+  External Source/cocos2d/Support/CCProfiling.h
+  External Source/cocos2d/Support/CCProfiling.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2010 Stuart Carnie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 48
+
+Files:
+  External Source/cocos2d/Support/CGPointExtension.h
+  External Source/cocos2d/Support/CGPointExtension.m
+
+cocos2d for iPhone
+http://www.cocos2d-iphone.org
+
+Copyright (c) 2007 Scott Lembcke
+
+Copyright (c) 2010 Lam Pham
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+Notice 49
+
+Files:
+  External Source/cocos2d/Support/OpenGL_Internal.h
+
+===== IMPORTANT =====
+
+This is sample code demonstrating API, technology or techniques in development.
+Although this sample code has been reviewed for technical accuracy, it is not
+final. Apple is supplying this information to help you plan for the adoption of
+the technologies and programming interfaces described herein. This information
+is subject to change, and software implemented based on this sample code should
+be tested with final operating system software and final documentation. Newer
+versions of this sample code may be provided with future seeds of the API or
+technology. For information about updates to this and other developer
+documentation, view the New & Updated sidebars in subsequent documentation
+seeds.
+
+=====================
+
+File: OpenGL_Internal.h
+Abstract: This file is included for support purposes and isn't necessary for
+understanding this sample.
+
+Version: 1.0
+
+Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple Inc.
+("Apple") in consideration of your agreement to the following terms, and your
+use, installation, modification or redistribution of this Apple software
+constitutes acceptance of these terms.  If you do not agree with these terms,
+please do not use, install, modify or redistribute this Apple software.
+
+In consideration of your agreement to abide by the following terms, and subject
+to these terms, Apple grants you a personal, non-exclusive license, under
+Apple's copyrights in this original Apple software (the "Apple Software"), to
+use, reproduce, modify and redistribute the Apple Software, with or without
+modifications, in source and/or binary forms; provided that if you redistribute
+the Apple Software in its entirety and without modifications, you must retain
+this notice and the following text and disclaimers in all such redistributions
+of the Apple Software.
+Neither the name, trademarks, service marks or logos of Apple Inc. may be used
+to endorse or promote products derived from the Apple Software without specific
+prior written permission from Apple.  Except as expressly stated in this notice,
+no other rights or licenses, express or implied, are granted by Apple herein,
+including but not limited to any patent rights that may be infringed by your
+derivative works or by other works in which the Apple Software may be
+incorporated.
+
+The Apple Software is provided by Apple on an "AS IS" basis.  APPLE MAKES NO
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
+WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN
+COMBINATION WITH YOUR PRODUCTS.
+
+IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR
+DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF
+CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF
+APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Copyright (C) 2008 Apple Inc. All Rights Reserved.
+
+========================================================================
+Notice 50
+
+Files:
+  External Source/cocos2d/Support/base64.c
+  External Source/cocos2d/Support/base64.h
+
+public domain BASE64 code
+
+ modified for cocos2d-iphone: http://www.cocos2d-iphone.org
+
+========================================================================
+Notice 51
+
+Files:
+  External Source/cocos2d/Support/ccCArray.h
+  External Source/cocos2d/Support/ccCArray.m
+  External Source/external/Chipmunk/include/chipmunk/chipmunk.h
+  External Source/external/Chipmunk/include/chipmunk/chipmunk_private.h
+  External Source/external/Chipmunk/include/chipmunk/chipmunk_unsafe.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpConstraint.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpGearJoint.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpPinJoint.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+  External Source/external/Chipmunk/include/chipmunk/constraints/util.h
+  External Source/external/Chipmunk/include/chipmunk/cpArbiter.h
+  External Source/external/Chipmunk/include/chipmunk/cpBB.h
+  External Source/external/Chipmunk/include/chipmunk/cpBody.h
+  External Source/external/Chipmunk/include/chipmunk/cpPolyShape.h
+  External Source/external/Chipmunk/include/chipmunk/cpShape.h
+  External Source/external/Chipmunk/include/chipmunk/cpSpace.h
+  External Source/external/Chipmunk/include/chipmunk/cpVect.h
+  External Source/external/Chipmunk/src/chipmunk.c
+  External Source/external/Chipmunk/src/constraints/cpConstraint.c
+  External Source/external/Chipmunk/src/constraints/cpDampedRotarySpring.c
+  External Source/external/Chipmunk/src/constraints/cpDampedSpring.c
+  External Source/external/Chipmunk/src/constraints/cpGearJoint.c
+  External Source/external/Chipmunk/src/constraints/cpGrooveJoint.c
+  External Source/external/Chipmunk/src/constraints/cpPinJoint.c
+  External Source/external/Chipmunk/src/constraints/cpPivotJoint.c
+  External Source/external/Chipmunk/src/constraints/cpRatchetJoint.c
+  External Source/external/Chipmunk/src/constraints/cpRotaryLimitJoint.c
+  External Source/external/Chipmunk/src/constraints/cpSimpleMotor.c
+  External Source/external/Chipmunk/src/constraints/cpSlideJoint.c
+  External Source/external/Chipmunk/src/cpArbiter.c
+  External Source/external/Chipmunk/src/cpArray.c
+  External Source/external/Chipmunk/src/cpBB.c
+  External Source/external/Chipmunk/src/cpBody.c
+  External Source/external/Chipmunk/src/cpCollision.c
+  External Source/external/Chipmunk/src/cpHashSet.c
+  External Source/external/Chipmunk/src/cpPolyShape.c
+  External Source/external/Chipmunk/src/cpShape.c
+  External Source/external/Chipmunk/src/cpSpace.c
+  External Source/external/Chipmunk/src/cpSpaceComponent.c
+  External Source/external/Chipmunk/src/cpSpaceHash.c
+  External Source/external/Chipmunk/src/cpSpaceQuery.c
+  External Source/external/Chipmunk/src/cpSpaceStep.c
+  External Source/external/Chipmunk/src/cpVect.c
+  External Source/external/Chipmunk/src/prime.h
+
+Copyright (c) 2007 Scott Lembcke
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+Notice 52
+
+Files:
+  External Source/cocos2d/Support/uthash.h
+
+Copyright (c) 2003-2013, Troy D. Hanson     http://uthash.sourceforge.net
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+========================================================================
+Notice 53
+
+Files:
+  External Source/cocos2d/Support/utlist.h
+
+Copyright (c) 2007-2013, Troy D. Hanson   http://uthash.sourceforge.net
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+========================================================================
+Notice 54
+
+Files:
+  External Source/cocos2d/ccDeprecated.h
+  External Source/cocos2d/ccDeprecated.m
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2012 Ricardo Quesada
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 55
+
+Files:
+  External Source/cocos2d/ccShader_PositionColor_frag.h
+  External Source/cocos2d/ccShader_PositionColor_vert.h
+  External Source/cocos2d/ccShader_PositionTextureA8Color_frag.h
+  External Source/cocos2d/ccShader_PositionTextureA8Color_vert.h
+  External Source/cocos2d/ccShader_PositionTextureColor_frag.h
+  External Source/cocos2d/ccShader_PositionTextureColor_vert.h
+  External Source/cocos2d/ccShader_PositionTexture_frag.h
+  External Source/cocos2d/ccShader_PositionTexture_uColor_frag.h
+  External Source/cocos2d/ccShader_PositionTexture_uColor_vert.h
+  External Source/cocos2d/ccShader_PositionTexture_vert.h
+  External Source/cocos2d/ccShader_Position_uColor_frag.h
+  External Source/cocos2d/ccShader_Position_uColor_vert.h
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2011 Ricardo Quesada
+Copyright (c) 2012 Zynga Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 56
+
+Files:
+  External Source/cocos2d/ccShader_PositionTextureColorAlphaTest_frag.h
+
+cocos2d for iPhone: http://www.cocos2d-iphone.org
+
+Copyright (c) 2011 Brian Chapados
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+Notice 57
+
+Files:
+  External Source/external/Chipmunk/include/chipmunk/cpSpatialIndex.h
+  External Source/external/Chipmunk/src/cpSpatialIndex.c
+  External Source/external/Chipmunk/src/cpSweep1D.c
+
+Copyright (c) 2010 Scott Lembcke
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+Notice 58
+
+Files:
+  External Source/external/Chipmunk/src/cpBBTree.c
+
+Copyright (c) 2009 Scott Lembcke
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+Notice 59
+
+Files:
+  External Source/kazmath/include/kazmath/GL/mat4stack.h
+  External Source/kazmath/include/kazmath/GL/matrix.h
+  External Source/kazmath/include/kazmath/aabb.h
+  External Source/kazmath/include/kazmath/kazmath.h
+  External Source/kazmath/include/kazmath/mat3.h
+  External Source/kazmath/include/kazmath/mat4.h
+  External Source/kazmath/include/kazmath/plane.h
+  External Source/kazmath/include/kazmath/quaternion.h
+  External Source/kazmath/include/kazmath/utility.h
+  External Source/kazmath/include/kazmath/vec2.h
+  External Source/kazmath/include/kazmath/vec3.h
+  External Source/kazmath/include/kazmath/vec4.h
+  External Source/kazmath/src/GL/mat4stack.c
+  External Source/kazmath/src/GL/matrix.c
+  External Source/kazmath/src/aabb.c
+  External Source/kazmath/src/mat3.c
+  External Source/kazmath/src/mat4.c
+  External Source/kazmath/src/plane.c
+  External Source/kazmath/src/quaternion.c
+  External Source/kazmath/src/utility.c
+  External Source/kazmath/src/vec2.c
+  External Source/kazmath/src/vec3.c
+  External Source/kazmath/src/vec4.c
+
+Copyright (c) 2008, Luke Benstead.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+========================================================================
+Notice 60
+
+Files:
+  External Source/kazmath/include/kazmath/neon_matrix_impl.h
+  External Source/kazmath/src/neon_matrix_impl.c
+
+NEON math library for the iPhone / iPod touch
+
+ Copyright (c) 2009 Justin Saunders
+
+ This software is provided 'as-is', without any express or implied warranty.
+ In no event will the authors be held liable for any damages arising
+ from the use of this software.
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it freely,
+ subject to the following restrictions:
+
+ 1. The origin of this software must not be misrepresented; you must
+ not claim that you wrote the original software. If you use this
+ software in a product, an acknowledgment in the product documentation
+ would be appreciated but is not required.
+
+ 2. Altered source versions must be plainly marked as such, and must
+ not be misrepresented as being the original software.
+
+ 3. This notice may not be removed or altered from any source distribution.
+
+========================================================================
+Notice 61
+
+Files:
+  External Source/kazmath/include/kazmath/ray2.h
+
+Copyright (c) 2011, Luke Benstead.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+========================================================================
+Notice 62
+
+Files:
+  Support/SpaceManager/cpExtras/cpPulleyJoint.c
+  Support/SpaceManager/cpExtras/cpPulleyJoint.h
+
+Copyright (c) 2010 Robert Blackwood
+
+Based upon Box2d's b2PulleyJoint equations:
+Copyright (c) 2007 Erin Catto http://www.gphysics.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+Notice 63
+
+Files:
+  Support/SpaceManager/cpSpaceSerializer/tinyxml/tinyxml.cpp
+  Support/SpaceManager/cpSpaceSerializer/tinyxml/tinyxml.h
+  Support/SpaceManager/cpSpaceSerializer/tinyxml/tinyxmlerror.cpp
+
+www.sourceforge.net/projects/tinyxml
+Original code (2.0 and earlier )copyright (c) 2000-2006 Lee Thomason (www.grinninglizard.com)
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any
+damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any
+purpose, including commercial applications, and to alter it and
+redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must
+not claim that you wrote the original software. If you use this
+software in a product, an acknowledgment in the product documentation
+would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and
+must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source
+distribution.
+
+========================================================================
+Notice 64
+
+Files:
+  Support/SpaceManager/cpSpaceSerializer/tinyxml/tinyxmlparser.cpp
+
+www.sourceforge.net/projects/tinyxml
+Original code (2.0 and earlier )copyright (c) 2000-2002 Lee Thomason (www.grinninglizard.com)
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any
+damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any
+purpose, including commercial applications, and to alter it and
+redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must
+not claim that you wrote the original software. If you use this
+software in a product, an acknowledgment in the product documentation
+would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and
+must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source
+distribution.

@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode build products and caches
+build/
+DerivedData/
+.build/
+*.xcarchive
+*.xcresult
+*.dSYM/
+*.dSYM.zip
+*.ipa
+*.hmap
+*.log
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+
+# Local Xcode state (shared schemes remain versioned)
+xcuserdata/
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+
+# Local editor and Python caches
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+
