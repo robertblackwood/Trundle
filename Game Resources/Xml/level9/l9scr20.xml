@@ -49,10 +49,6 @@
 	<pin toTag="92001" fromTag="92002" toX="0" toY="0" fromX="0" fromY="10"/>
 	<pin toTag="92001" fromTag="92003" toX="0" toY="0" fromX="0" fromY="10"/>
 	
-	<!--<glow x="342" y="150" numParticles="40" size="34" speed="35" r="255" g="253" b="233"/>
-	<circle x="342" y="150" radius="13" mass="-1" file="lev0select.png" visible="true" tag="300" type="200" z="49"/>
-	<transportAction cTag1="300" cTag2="1" receiverTag="300" level="0" screen="0" nonColliding="true"/>
--->
 	<glow x="342" y="150" numParticles="40" size="64" speed="35" r="255" g="255" b="255"/>
 	<circle x="342" y="150" radius="16" mass="-1" file="transportsym.png" visible="true" tag="200" type="200"/>
 	<transportAction cTag1="200" cTag2="1" receiverTag="200" level="11" screen="1" nonColliding="true"/>

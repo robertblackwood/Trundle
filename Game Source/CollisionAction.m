@@ -447,13 +447,12 @@
 		CCNode *node = [parent getChildByTag:_receiverTag];
 		[node runAction:[CCScaleTo actionWithDuration:2.0 scale:10]];
 		
-		//preload before action otherwise lag
-		[[CCTextureCache sharedTextureCache] addImage:[NSString stringWithFormat:@"l%dback%d.png", _level, _screen]];
-		
 		GameLayer *game;
 		
 		if (_level > 0)
 		{
+			// Preload gameplay backgrounds before the transition to avoid lag.
+			[[CCTextureCache sharedTextureCache] addImage:[NSString stringWithFormat:@"l%dback%d.png", _level, _screen]];
 			scene = [GameScene node];
 			game = [(GameScene*)scene game];
 		
