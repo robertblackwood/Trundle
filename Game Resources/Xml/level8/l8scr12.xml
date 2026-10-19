@@ -1,0 +1,47 @@
+<trundle map = "">
+
+	<rect x="81" y="27" width="65" height="6" mass="10" visible="true" tag="81201" friction=".2"/>
+	<rect x="345" y="95" width="60" height="6" mass="12" visible="true" tag="81202"/>
+	<pulley toTag="81201" fromTag="81202" toY="40" fromY="20" pX1="100" pY1="249" pX2="345" pY2="249" ratio="1" visible="true"/>
+	
+	<connector toTag="81201" fromTag="81201" offset1X="-20" offset1Y="0" offset2X="0" offset2Y="40" lineWidth="2"/>
+	<connector toTag="81201" fromTag="81201" offset1X="20" offset1Y="0" offset2X="0" offset2Y="40" lineWidth="2"/>
+
+	<connector toTag="81202" fromTag="81202" offset1X="-20" offset1Y="0" offset2X="0" offset2Y="20" lineWidth="2"/>
+	<connector toTag="81202" fromTag="81202" offset1X="20" offset1Y="0" offset2X="0" offset2Y="20" lineWidth="2"/>
+
+	<circle x="95" y="42" mass="3" visible="true" radius="15" file="circler15.png" tag="81203"/>
+	<circle x="175" y="42" mass="3" visible="true" radius="15" file="circler15.png" tag="81204"/>
+	<pin toTag="81203" fromTag="81204"/>
+	
+	<rect x="135" y="80" width="80" height="6" visible="true" mass="3" tag="81205"/>
+	<pin toTag="81205" fromTag="81203" toX="40" visible="false"/>
+	<pin toTag="81205" fromTag="81204" toX="-40" visible="false"/>
+	<pin toTag="81205" fromTag="81203" toX="-40" visible="true"/>
+	<pin toTag="81205" fromTag="81204" toX="40" visible="true"/>
+
+	
+	<defaultxy x="50" y="250"/>
+	
+	<segment x1="480" y1="16" x2="702" y2="18" type="666"/>
+	<segment x1="702" y1="18" x2="702" y2="100"/>
+
+	<segment x1="0" y1="197" x2="32" y2="201"/>
+	<segment x1="32" y1="201" x2="52" y2="195"/>
+	<segment x1="52" y1="195" x2="64" y2="190"/>
+	<segment x1="64" y1="190" x2="78" y2="189"/>
+	<segment x1="78" y1="189" x2="74" y2="180"/>
+	<segment x1="74" y1="180" x2="56" y2="163"/>
+	<segment x1="56" y1="163" x2="43" y2="131"/>
+	<segment x1="43" y1="131" x2="41" y2="33"/>
+	<segment x1="41" y1="33" x2="52" y2="16"/>
+	<segment x1="52" y1="16" x2="112" y2="21"/>
+	<segment x1="112" y1="21" x2="122" y2="32"/>
+	<segment x1="122" y1="32" x2="119" y2="65"/>
+	<segment x1="119" y1="65" x2="159" y2="55"/>
+	<segment x1="159" y1="55" x2="159" y2="30"/>
+	<segment x1="159" y1="30" x2="256" y2="23"/>
+	<segment x1="256" y1="23" x2="262" y2="17"/>
+	<segment x1="262" y1="17" x2="680" y2="17" type="666"/>
+	<segment x1="680" y1="17" x2="680" y2="217"/>
+</trundle>

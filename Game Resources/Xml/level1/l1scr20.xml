@@ -1,0 +1,28 @@
+<trundle map = "lscr16">
+
+	<background file="l1back20.png"/>
+	
+	<segment x1="0" y1="218" x2="32" y2="215"/>
+	<segment x1="32" y1="215" x2="116" y2="55"/>
+	<segment x1="116" y1="55" x2="479" y2="50"/>
+	
+	<defaultxy x="140" y="200"/>
+	
+	<glow x="330" y="135" numParticles="40" size="64" speed="35" r="255" g="255" b="255"/>
+	<circle x="330" y="135" radius="16" mass="-1" file="transportsym.png" visible="true" tag="200" type="200"/>
+	<transportAction cTag1="200" cTag2="1" receiverTag="200" level="2" screen="1" nonColliding="true"/>
+	
+	<!--
+	
+	<circle radius="50" mass="-1" x="260" y="135" tag="12001" type="12001" z="48" visible="true"/>
+	<fragmentAction cTag1="1" cTag2="12001" receiverTag="12001" pieces="10" mass="4"/>
+	
+	<ignoreCollision cTag1="4" cTag2="200"/>
+
+	<moveToAndBackAction receiverTag="12001" duration="5" x="350" y="135"/>
+	<moveToAndBackAction receiverTag="200" duration="5" x="350" y="135"/>
+	
+	<fireworks/>
+	-->
+	
+</trundle>

@@ -1,0 +1,43 @@
+<trundle map = "">
+	<pinion x="-34" y="69" tag="110000" type="110000" scale=".7"/>
+	
+	<removeAfter toTag="110000" screen="7" dependTag="11002"/>
+
+	<walkAction x="4" y="67" bin="11.6.2" binValue="2" duration="1" delay="1" receiverTag="110000"/>
+	<walkAction x="38" y="58" bin="11.6.2" binValue="2" duration="1" delay="2" receiverTag="110000"/>
+	
+	<circle x="100" y="60" mass="4" radius="45" file="circler45.png" visible="true" tag="110701"/>
+	<circle x="200" y="60" mass="4" radius="45" file="circler45.png" visible="true" tag="110702" type="110702"/>
+	<pin toTag="110701" fromTag="110702"/>
+	<rect x="150" y="115" width="150" mass="4" height="12" tag="110703" visible="true"/>
+	<pin toTag="110701" fromTag="110703" fromX="50" visible="true"/>
+	<pin toTag="110702" fromTag="110703" fromX="-50" visible="true"/>
+	<pin toTag="110701" fromTag="110703" fromX="-50" visible="true"/>
+	<pin toTag="110702" fromTag="110703" fromX="50" visible="true"/>
+	
+	<sprite toTag="110703" y="-7" file="circler10-3.png" visible="true"/>
+	<sprite toTag="110703" y="7" x="20" file="circler10-3.png" visible="true"/>
+	<sprite toTag="110703" y="7" x="-20" file="circler10-3.png" visible="true"/>
+	
+	<!--<segment x1="480" y1="20" x2="480" y2="520" tag="110704"/>
+	<circle x="40" y="60" radius="10" mass="5" sensor="true" tag="110705" type="110705"/>
+	<pivot toTag="110705" fromTag="-1" pin="true"/>
+	
+	<deleteAction cTag1="110000" cTag2="110705" receiverTag="110704"/>-->
+	
+	<segment x1="0" y1="55" x2="6" y2="57"/>
+	<segment x1="6" y1="57" x2="42" y2="48"/>
+	<segment x1="42" y1="48" x2="44" y2="31"/>
+	<segment x1="44" y1="31" x2="52" y2="13"/>
+	<segment x1="52" y1="13" x2="80" y2="14"/>
+	<segment x1="80" y1="14" x2="112" y2="12"/>
+	<segment x1="112" y1="12" x2="141" y2="18"/>
+	<segment x1="141" y1="18" x2="200" y2="18"/>
+	<segment x1="200" y1="18" x2="267" y2="14"/>
+	<segment x1="267" y1="14" x2="284" y2="15"/>
+	<segment x1="284" y1="15" x2="372" y2="12"/>
+	<segment x1="372" y1="12" x2="408" y2="15"/>
+	<segment x1="408" y1="15" x2="480" y2="12"/>
+	<segment x1="800" y1="15" x2="480" y2="12"/>
+	<segment x1="800" y1="15" x2="800" y2="102"/>
+</trundle>

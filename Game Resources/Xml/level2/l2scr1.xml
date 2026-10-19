@@ -1,0 +1,17 @@
+<trundle map = "lscr1">
+	<segment x1="1" y1="320" x2="0" y2="292"/>
+	<segment x1="0" y1="292" x2="102" y2="291"/>
+	<segment x1="102" y1="291" x2="15" y2="224"/>
+	<segment x1="15" y1="224" x2="14" y2="76"/>
+	<segment x1="14" y1="76" x2="36" y2="39"/>
+	<segment x1="36" y1="39" x2="600" y2="38"/>
+	
+	<glowflower x="100" y="33" xlen="0" ylen="30"/>
+	
+	<theo x="320" y="150"/>
+	<defaultxy x="320" y="180"/>
+	
+	<sprite tag="20101" file="l2title.png" x="240" y="160" z="1000" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="2" toTag="20101"/>
+	
+</trundle>

@@ -1,0 +1,59 @@
+<trundle map = "">
+
+	<rect x="171" y="100" mass="9" width="8" height="120" file="rect8x120.png" visible="true" tag="81001"/>
+	<rect x="161" y="165" mass="5" width="8" height="120" file="rect8x120.png" visible="true" tag="81002" group="81002"/>
+
+	<sprite file="circler10-3.png" x="1" y="85" visible="true" toTag="81001"/>
+	<sprite file="circler10-3.png" x="1" y="103" visible="true" toTag="81001"/>
+
+	<pivot toTag="81001" fromTag="-1" toY="-60" pin="true"/>
+
+	<pivot toTag="81001" fromTag="81002" pin="true"/>
+	<pivot toTag="81002" fromTag="81001" pin="true"/>
+	
+	<circle x="161" y="218" mass="3" radius="10" file="circler10-2.png" group="81002" tag="81003" type="81003" visible="true"/>
+	<circle x="161" y="268" mass="3" radius="6" file="circler10-2.png" group="81002" tag="81004" type="81004" visible="true"/>
+
+	<connector toTag="81003" fromTag="81004" offset1X="10" offset1Y="10" offset2X="10" offset2Y="10" lineWidth="2"/>
+
+	<pivot toTag="81003" fromTag="81002" pin="true"/>
+	<pivot toTag="81004" fromTag="81002" pin="true"/>
+	
+	<connectAction cTag1="81004" cTag2="80907" receiverTag="81004" otherTag="80907"/>
+	<connectAction cTag1="81003" cTag2="80907" receiverTag="81003" otherTag="80907"/>
+	
+	<rect x="398" y="67" width="62" height="10" mass="-1" visible="true" tag="81005" type="81005"/>
+	<fragmentAction cTag1="80907" cTag2="81005" receiverTag="81005" pieces="4" mass="2"/>
+
+	<defaultxy x="50" y="280"/>
+	<segment x1="0" y1="225" x2="31" y2="228"/>
+	<segment x1="31" y1="228" x2="79" y2="225"/>
+	<segment x1="79" y1="225" x2="120" y2="221"/>
+	<segment x1="120" y1="221" x2="129" y2="202"/>
+	<segment x1="129" y1="202" x2="129" y2="142"/>
+	<segment x1="129" y1="142" x2="144" y2="102"/>
+	<segment x1="144" y1="102" x2="147" y2="21"/>
+	<segment x1="147" y1="21" x2="225" y2="18"/>
+	<segment x1="225" y1="18" x2="266" y2="22"/>
+	<segment x1="266" y1="22" x2="310" y2="21"/>
+	<segment x1="310" y1="21" x2="328" y2="30"/>
+	<segment x1="328" y1="30" x2="357" y2="68"/>
+	<segment x1="357" y1="68" x2="370" y2="66"/>
+	<segment x1="370" y1="66" x2="370" y2="52"/>
+	<segment x1="370" y1="52" x2="362" y2="25"/>
+	<segment x1="362" y1="25" x2="383" y2="11"/>
+	<segment x1="383" y1="11" x2="480" y2="9"/>
+	<segment x1="480" y1="53" x2="431" y2="65"/>
+	<segment x1="431" y1="65" x2="431" y2="70"/>
+	<segment x1="431" y1="70" x2="458" y2="80"/>
+	<segment x1="458" y1="80" x2="469" y2="119"/>
+	<segment x1="469" y1="119" x2="467" y2="161"/>
+	<segment x1="467" y1="161" x2="459" y2="213"/>
+	<segment x1="459" y1="213" x2="450" y2="320"/>
+	
+
+	<segment x1="-89" y1="187" x2="-89" y2="320"/>	
+	<segment x1="-89" y1="187" x2="-38" y2="215"/>
+	<segment x1="-38" y1="215" x2="0" y2="223"/>
+
+</trundle>

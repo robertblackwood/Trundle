@@ -1,0 +1,75 @@
+<mobilebros map = "l6back1">
+	<background file="l6back1.png"/>
+
+	<birds count="2"/>
+	
+	<sprite tag="10104" file="l6title.png" x="240" y="160" z="1000" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="2" toTag="10104"/>
+	
+	<segment x1="0" y1="400" x2="480" y2="400"/>	
+	<segment x1="5" y1="400" x2="5" y2="297"/>
+	<segment x1="5" y1="297" x2="24" y2="236"/>
+	<segment x1="24" y1="236" x2="23" y2="176"/>
+	<segment x1="23" y1="176" x2="17" y2="140"/>
+	<segment x1="17" y1="140" x2="17" y2="97"/>
+	<segment x1="17" y1="97" x2="22" y2="76"/>
+	<segment x1="22" y1="76" x2="33" y2="59"/>
+	<segment x1="33" y1="59" x2="285" y2="60"/>
+	<segment x1="285" y1="60" x2="285" y2="74"/>
+	<segment x1="285" y1="74" x2="275" y2="77"/>
+	<segment x1="275" y1="77" x2="275" y2="95"/>
+	<segment x1="275" y1="95" x2="290" y2="95"/>	
+	<segment x1="290" y1="95" x2="290" y2="0"/>	
+	
+	<segment x1="350" y1="0" x2="350" y2="95"/>
+	<segment x1="350" y1="95" x2="365" y2="95"/>
+	<segment x1="365" y1="95" x2="365" y2="76"/>
+	<segment x1="365" y1="76" x2="355" y2="75"/>
+	<segment x1="355" y1="75" x2="355" y2="58"/>
+	<segment x1="355" y1="58" x2="448" y2="56"/>
+	<segment x1="448" y1="56" x2="448" y2="64"/>
+	<segment x1="448" y1="64" x2="462" y2="78"/>
+	<segment x1="462" y1="78" x2="470" y2="99"/>
+	<segment x1="470" y1="99" x2="471" y2="203"/>
+	<segment x1="471" y1="203" x2="467" y2="210"/>
+	<segment x1="467" y1="210" x2="467" y2="288"/>
+	<segment x1="467" y1="288" x2="475" y2="400"/>
+    
+	<!-- cover over the pipe to give appearance of going inside -->
+	<sprite tag="60100" file="uprightpipe.png" x="320" y="50" z="1000" visible="true"/>
+	
+	<grass x="50" y="60" rotation="0"/>
+	<grass x="100" y="60" rotation="0"/>
+	<grass x="150" y="60" rotation="0"/>
+	<grass x="200" y="60" rotation="0"/>
+	<grass x="250" y="60" rotation="0"/>
+	<grass x="370" y="58" rotation="0"/>
+	<grass x="420" y="58" rotation="0"/>
+<!--	
+	
+	<glowflower x="20" y="63" xlen="25" ylen="50"/>
+	<glowflower x="20" y="63" xlen="25" ylen="40"/>
+	<glowflower x="20" y="63" xlen="25" ylen="30"/>
+	<glowflower x="20" y="63" xlen="25" ylen="20"/>
+	
+	<glowflower x="465" y="210" xlen="-55" ylen="90"/>
+	<glowflower x="465" y="210" xlen="-35" ylen="60"/>
+	<glowflower x="465" y="210" xlen="-15" ylen="30"/>
+-->
+
+	<!-- unk-bunk character -->
+	<pinion x="415" y="75" tag="60101" type="60101"/>
+	<messageAction receiverTag="60101" message="Hope you're not\nafraid of the dark!"/>
+	
+	<circle x="175" y="90" radius="30" tag="60102" type="60102" visible="false"/>
+	<messageAction cTag1="1" cTag2="60102" receiverTag="60101" nonColliding="true" message="I give you\nthe power of\nthe spotlight;This will help\nguide your way!"/>
+			
+					
+	<updateAction cTag1="1" cTag2="60101" receiverTag="60101" duration="3" percentage="0.6"/> 
+	<messageAction cTag1="1" cTag2="60101" receiverTag="60101" message="Ouch!\nI think you missed the pipe!"/>
+	
+	
+    <transitionScreens left = "0" right = "0" top = "0" bottom = "1"/>
+	
+	
+</mobilebros>

@@ -1,0 +1,22 @@
+<trundle map = "l7scr7">
+	<background file="l7back7.png" spotlight="true" lightRadius="420"/>
+	
+	<segment x1="20" y1="0"	x2="20" y2="320"/>
+	<segment x1="460" y1="0" x2="460" y2="320" friction="0.0001" elasticity=".95"/>
+	
+	<particles x="460" y="80" angle="180"/>
+	<rect x="460" y="100" width="50" height="20" mass="-1" visible="false" type="70701" tag="70701"/>
+	<impulseAction cTag1="70701" cTag2="1" receiverTag="1" repeat="true" x="-1000" y="200" nonColliding="true" ignoreContactPt="true"/>
+	
+	<particles x="20" y="190" angle="0"/>
+	<rect x="20" y="190" width="50" height="20" mass="-1" visible="false" type="70702" tag="70702"/>
+	<impulseAction cTag1="70702" cTag2="1" receiverTag="1" repeat="true" x="1000" y="200" nonColliding="true" ignoreContactPt="true"/>
+	
+	<particles x="460" y="280" angle="180"/>
+	<rect x="460" y="280" width="50" height="20" mass="-1" visible="false" type="70703" tag="70703"/>
+	<impulseAction cTag1="70703" cTag2="1" receiverTag="1" repeat="true" x="-1000" y="200" nonColliding="true" ignoreContactPt="true"/>
+		
+	<rain/>
+	<defaultxy x="150" y="150"/>
+	<transitionScreens left="0" right="0" top="1" bottom="-1"/>
+</trundle>

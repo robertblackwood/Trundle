@@ -1,0 +1,39 @@
+<trundle map = "">
+	
+	<segment x1="244" y1="103" x2="345" y2="103" radius="10"/>
+	<segment x1="78" y1="59" x2="162" y2="59" radius="4"/>
+
+	<segment x1="42" y1="0" x2="42" y2="11"/>
+	<segment x1="42" y1="11" x2="29" y2="11"/>
+	<segment x1="29" y1="11" x2="29" y2="17"/>
+	<segment x1="29" y1="17" x2="10" y2="18"/>
+	<segment x1="10" y1="18" x2="11" y2="103"/>
+	<segment x1="11" y1="103" x2="140" y2="233"/>
+	<segment x1="140" y1="233" x2="265" y2="232"/>
+	<segment x1="265" y1="232" x2="264" y2="115"/>
+	<segment x1="264" y1="115" x2="318" y2="115"/>
+	<segment x1="318" y1="115" x2="319" y2="274"/>
+	<segment x1="319" y1="274" x2="112" y2="277"/>
+	<segment x1="112" y1="277" x2="0" y2="165"/>
+
+	<segment x1="480" y1="39" x2="460" y2="33"/>
+	<segment x1="460" y1="33" x2="434" y2="38"/>
+	<segment x1="434" y1="38" x2="380" y2="37"/>
+	<segment x1="380" y1="37" x2="372" y2="33"/>
+	<segment x1="372" y1="33" x2="288" y2="36"/>
+	<segment x1="288" y1="36" x2="238" y2="41"/>
+	<segment x1="238" y1="41" x2="198" y2="30"/>
+	<segment x1="198" y1="30" x2="200" y2="23"/>
+	<segment x1="200" y1="23" x2="365" y2="0"/>
+	
+	<segment x1="480" y1="400" x2="0" y2="400"/>
+	
+	<transitionScreens left = "666" right = "1" top = "0" bottom = "-1"/>
+	<defaultxy x="100" y="100"/>
+	
+	<sprite tag="30101" file="beacon.png" x="230" y="219" z="1" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="1.5" toTag="30101" repeat="true"/>
+	
+	<leaves/>
+
+</trundle>

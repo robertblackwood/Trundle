@@ -1,0 +1,57 @@
+<trundle map = "lscr16">
+
+	<background file="l1back16.png"/>
+
+	<sprite x="362" y="67" file="l1cage16.png" z="1000" visible="true"/>
+	
+	<segment x1="-1" y1="218" x2="43" y2="217"/>
+	<segment x1="43" y1="217" x2="44" y2="135"/>
+	<segment x1="44" y1="135" x2="61" y2="119"/>
+	<segment x1="61" y1="119" x2="43" y2="119"/>
+	<segment x1="43" y1="119" x2="38" y2="53"/>
+	<segment x1="38" y1="53" x2="58" y2="35"/>
+	<segment x1="58" y1="35" x2="445" y2="35"/>
+	<segment x1="445" y1="35" x2="466" y2="67"/>
+	<segment x1="466" y1="67" x2="464" y2="94"/>
+	<segment x1="464" y1="94" x2="447" y2="102"/>
+	<segment x1="447" y1="102" x2="257" y2="103"/>
+	<segment x1="257" y1="103" x2="256" y2="114"/>
+	<segment x1="256" y1="114" x2="600" y2="116"/>
+	<segment x1="600" y1="400" x2="600" y2="116"/>
+	
+	<segment x1="410" y1="120" x2="410" y2="320" visible="true" radius="5" tag="11607" type="11607"/>
+	
+	<segment x1="0" y1="520" x2="410" y2="325" radius="2"/>
+	<segment x1="127" y1="162" x2="167" y2="140" radius="4"/>
+
+	<rect x="147" y="292" width="200" height="8" mass="10" visible="true" tag="11601"/>
+	<rect x="70" y="210" width="40" height="16" mass="5" visible="true" tag="11602"/>
+	<rect x="249" y="81" width="8" height="90" mass="8" visible="true" tag="11603" type="11601"/>
+	<rect x="240" y="105" width="8" height="35" mass="-1" visible="true"/>
+	
+	<circle x="249" y="180" radius="5" mass="-1" visible="false" tag="11604" type="11602"/>
+		
+	<pin toTag="-1" fromTag="11601" toX="147" toY="292" fromX="0" fromY="0" visible="false"/>
+	<pin toTag="11601" fromTag="11602" toX="-78" toY="0" fromX="-18" fromY="0" visible="true"/>
+	<pin toTag="11601" fromTag="11602" toX="-78" toY="0" fromX="18" fromY="0" visible="true"/>
+	<pin toTag="11601" fromTag="11603" toX="95" toY="0" fromX="0" fromY="38" visible="true"/>
+
+	<pinion x="270" y="51" tag="11605" type="11604"/>
+	<messageAction receiverTag="11605" message="Help Me!\nI'm trapped!"/>
+	
+	<rect x="190" y="50" width="15" height="10" mass="1" visible="false" tag="11606" type="11603"/>
+	
+	<walkAction cTag1="11603" cTag2="11604" receiverTag="11605" nonColliding="true" x="185" y="51" duration="2"/>
+	<updateAction cTag1="11606" cTag2="11605" receiverTag="11605" nonColliding="true" duration="5" percentage="0.8"/> 
+	<messageAction cTag1="11606" cTag2="11605" receiverTag="11605" nonColliding="true" message="I'm free!\nThank you!;That must\nhave been a\nhunter's trap;Looks like\nyou need some\nhelp;Allow me\nto assist\n...;Good\nLuck!"/> 
+	<lightningAction cTag1="11606" cTag2="11605" receiverTag="11605" x="215" y="320" strikeX="195" strikeY="-160" delay="21.1"/>
+	<lightningAction cTag1="11606" cTag2="11605" receiverTag="11605" x="220" y="320" strikeX="190" strikeY="-150" delay="21"/>
+	<lightningAction cTag1="11606" cTag2="11605" receiverTag="11605" x="225" y="320" strikeX="185" strikeY="-142" delay="21.2"/>
+	
+	<fragmentAction cTag1="11606" cTag2="11605" receiverTag="11607" delay="21.2" pieces="6" mass="4"/>
+	<ignoreCollision cTag1="11604" cTag2="1"/>
+	<ignoreCollision cTag1="11606" cTag2="1"/>
+	
+	<birds count="1"/>
+	
+</trundle>

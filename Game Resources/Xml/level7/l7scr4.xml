@@ -1,0 +1,30 @@
+<trundle map = "l7scr4">
+	<background file="l7back4.png" spotlight="true" lightRadius="420"/>
+	
+	<segment x1="20" y1="0" x2="20" y2="270"/>
+	<segment x1="20" y1="270" x2="250" y2="180"/>
+	<segment x1="250" y1="180" x2="250" y2="200"/>
+	<segment x1="250" y1="200" x2="20" y2="300"/>
+	<segment x1="20" y1="300" x2="20" y2="320"/>
+	<segment x1="460" y1="0" x2="460" y2="320" friction="0.0001" elasticity=".95"/>
+	
+	<rect x="360"	y="80"	mass="-1"	width="60"	height="6"	visible="true"  tag="70401"/>
+	<rect x="360"	y="60"	mass="-1"	width="6"	height="40" visible="true"	tag="70402"/>
+	<moveToAndBack tag="70401"	duration="5"	x="360"		y="240"/>
+	<moveToAndBack tag="70402"	duration="5"	x="360"		y="220"/>
+	<sprite x="28" y="0" toTag="70401" file="redbutton.png" visible="true"/>
+	<sprite x="0" y="-18" toTag="70402" file="redbutton.png" visible="true"/>
+	<sprite x="-28" y="0" toTag="70401" file="redbutton.png" visible="true"/>
+	
+	<rect x="300"	y="80"	mass="-1"	width="60"	height="6"	visible="true"  tag="70403"/>
+	<rect x="300"	y="60"	mass="-1"	width="6"	height="40" visible="true"	tag="70404"/>
+	<moveToAndBack tag="70403"	duration="5"	x="100"		y="80"/>
+	<moveToAndBack tag="70404"	duration="5"	x="100"		y="60"/>
+	<sprite x="28" y="0" toTag="70403" file="redbutton.png" visible="true"/>
+	<sprite x="0" y="-18" toTag="70404" file="redbutton.png" visible="true"/>
+	<sprite x="-28" y="0" toTag="70403" file="redbutton.png" visible="true"/>
+
+	<rain/>
+	<defaultxy x="150" y="150"/>
+	<transitionScreens left="0" right="0" top="1" bottom="-1"/>
+</trundle>

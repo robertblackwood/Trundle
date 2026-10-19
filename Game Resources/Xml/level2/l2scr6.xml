@@ -1,0 +1,28 @@
+<trundle map = "">
+	<segment x1="0" y1="268" x2="17" y2="264"/>
+	<segment x1="17" y1="264" x2="36" y2="210"/>
+	<segment x1="36" y1="210" x2="135" y2="211"/>
+	<segment x1="135" y1="211" x2="275" y2="150"/>
+	
+	<segment x1="299" y1="74" x2="204" y2="56"/>
+	<segment x1="299" y1="74" x2="345" y2="87"/>
+	<segment x1="345" y1="87" x2="579" y2="40"/>
+	
+	<segment x1="275" y1="149" x2="264" y2="144"/>
+	<segment x1="264" y1="144" x2="109" y2="179"/>
+	<segment x1="109" y1="179" x2="75" y2="176"/>
+	<segment x1="75" y1="176" x2="59" y2="136"/>
+	<segment x1="59" y1="136" x2="61" y2="94"/>
+	<segment x1="61" y1="94" x2="103" y2="66"/>
+	<segment x1="103" y1="66" x2="204" y2="56"/>
+	
+	
+	<circle x="60" y="260" visible="true" mass="10" file="boulder20.png" radius="20" tag="20601" friction=".4"/>
+	<pinion x="160" y="75" tag="20602" type="20602"/>
+	
+	<messageAction cTag1="1" cTag2="20602" receiverTag="20602" message="Hello there...;I'm hiding\nfrom the\nhunters;Please don't\ntell\nanyone..." right="true"/>
+	<updateAction duration="8" percentage="0.6" receiverTag="20602" cycle="true"/>
+	
+	<defaultxy x="140" y="260"/>
+	
+</trundle>

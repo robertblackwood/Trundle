@@ -1,0 +1,40 @@
+<mobilebros map = "l6back8">
+
+	<background file="l6back8.png" spotlight="true" lightRadius="370"/>
+	
+	<segment x1="119" y1="0" x2="88" y2="14"/>
+	<segment x1="88" y1="14" x2="81" y2="43"/>
+	<segment x1="81" y1="43" x2="84" y2="76"/>
+	<segment x1="84" y1="76" x2="82" y2="92"/>
+	<segment x1="82" y1="92" x2="80" y2="104"/>
+	<segment x1="80" y1="104" x2="74" y2="75"/>
+	<segment x1="74" y1="75" x2="66" y2="60"/>
+	<segment x1="66" y1="60" x2="59" y2="32"/>
+	<segment x1="59" y1="32" x2="29" y2="71"/>
+	<segment x1="29" y1="71" x2="24" y2="115"/>
+	<segment x1="24" y1="115" x2="19" y2="114"/>
+	<segment x1="19" y1="114" x2="16" y2="94"/>
+	<segment x1="16" y1="94" x2="13" y2="90"/>
+	<segment x1="13" y1="90" x2="0" y2="110"/>
+
+	<segment x1="0" y1="194" x2="6" y2="202"/>
+	<segment x1="6" y1="202" x2="19" y2="244"/>
+	<segment x1="19" y1="244" x2="17" y2="266"/>
+	<segment x1="17" y1="266" x2="14" y2="320"/>
+	
+	<segment x1="474" y1="320" x2="461" y2="208"/>
+	<segment x1="461" y1="208" x2="453" y2="169"/>
+	<segment x1="453" y1="169" x2="441" y2="118"/>
+	<segment x1="441" y1="118" x2="440" y2="98"/>
+	<segment x1="440" y1="98" x2="427" y2="54"/>
+	<segment x1="427" y1="54" x2="392" y2="28"/>
+	<segment x1="392" y1="28" x2="377" y2="43"/>
+	<segment x1="377" y1="43" x2="363" y2="89"/>
+	<segment x1="363" y1="89" x2="360" y2="71"/>
+	<segment x1="360" y1="71" x2="362" y2="48"/>
+	<segment x1="362" y1="48" x2="367" y2="36"/>
+	<segment x1="367" y1="36" x2="366" y2="10"/>
+	<segment x1="366" y1="10" x2="352" y2="0"/>
+	
+	<transitionScreens left = "-1" right = "0" top = "-3" bottom = "3"/>
+</mobilebros>

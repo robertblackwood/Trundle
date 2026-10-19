@@ -1,0 +1,47 @@
+<trundle map = "lscr1">
+
+	<background file="l1back0.png" spotlight="false"/>
+	
+	<birds count="2"/>
+	<music file="level1music.mp3"/>
+		
+	<segment x1="0" y1="95" x2="27" y2="88"/>
+	<segment x1="27" y1="88" x2="58" y2="57"/>
+	<segment x1="58" y1="57" x2="114" y2="51"/>
+	<segment x1="114" y1="51" x2="146" y2="63"/>
+	<segment x1="146" y1="63" x2="169" y2="67"/>
+	<segment x1="169" y1="67" x2="248" y2="63"/>
+	<segment x1="248" y1="63" x2="332" y2="35"/>
+	<segment x1="332" y1="35" x2="356" y2="46"/>
+	<segment x1="356" y1="46" x2="402" y2="40"/>
+	<segment x1="402" y1="40" x2="451" y2="69"/>
+	<segment x1="451" y1="69" x2="479" y2="90"/>
+	
+	<curlyplant x="300" y="177" xlen="0" ylen="40" xdir="-1" tag="10001"/>
+	<updateAction duration="16" percentage="0.8" receiverTag="10001" cycle="true"/>
+
+	<segment x1="394" y1="168" x2="304" y2="168" radius="10"/>
+	
+	<glowflower x="280" y="52" xlen="0" ylen="30"/>
+	<glowflower x="410" y="42" xlen="0" ylen="30"/>
+	
+	<grass x="168" y="70" rotation="-5"/>
+	<grass x="220" y="69" rotation="3"/>
+	<grass x="272" y="60" rotation="20"/>
+	
+	<pinion x="340" y="193" tag="10002" type="10002"/>
+	<messageAction receiverTag="10002" message="Well, Hello\nthere."/>
+		
+	<updateAction cTag1="1" cTag2="10002" receiverTag="10002" duration="3" percentage="0.6"/> 
+	<messageAction cTag1="1" cTag2="10002" receiverTag="10002" message="Hey, you\nmade it up\nhere finally."/> 	
+
+	<circle x="340" y="70" radius="15" tag="10003" type="10003" visible="false"/>
+	<messageAction cTag1="1" cTag2="10003" receiverTag="10002" nonColliding="true" message="May I\nsuggest you try\nthe menu.;The top one\nis a good one\nto try.;Just go\nahead and\ntouch one."/>
+	
+	<circle x="40" y="250" radius="15" tag="10004" type="10004" visible="false"/>
+	<messageAction cTag1="1" cTag2="10004" receiverTag="10002" nonColliding="true" message="Bird\ncatching are\nwe?"/>
+	
+	<circle x="440" y="250" radius="15" tag="10005" type="10005" visible="false"/>
+	<messageAction cTag1="1" cTag2="10005" receiverTag="10002" nonColliding="true" message="How did\nyou jump\nthat high?"/>
+
+</trundle>

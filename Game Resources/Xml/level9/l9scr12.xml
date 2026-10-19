@@ -1,0 +1,58 @@
+<trundle map = "">
+	<segment x1="0" y1="120" x2="52" y2="119"/>
+	<segment x1="52" y1="119" x2="89" y2="86"/>
+	<segment x1="89" y1="86" x2="42" y2="81"/>
+	<segment x1="42" y1="81" x2="32" y2="71"/>
+	<segment x1="32" y1="71" x2="34" y2="52"/>
+	<segment x1="34" y1="52" x2="31" y2="40"/>
+	<segment x1="31" y1="40" x2="40" y2="29"/>
+	<segment x1="40" y1="29" x2="93" y2="26"/>
+	<segment x1="93" y1="26" x2="102" y2="30"/>
+	<segment x1="102" y1="30" x2="129" y2="21"/>
+	<segment x1="129" y1="21" x2="306" y2="24"/>
+	<segment x1="306" y1="24" x2="330" y2="37"/>
+	<segment x1="330" y1="37" x2="334" y2="23"/>
+	<segment x1="334" y1="23" x2="351" y2="20"/>
+	<segment x1="351" y1="20" x2="451" y2="16"/>
+	<segment x1="451" y1="16" x2="455" y2="22"/>
+	<segment x1="455" y1="22" x2="480" y2="21"/>
+	<segment x1="480" y1="21" x2="514" y2="17"/>
+	<segment x1="514" y1="17" x2="516" y2="-20"/>
+	<segment x1="1000" y1="-20" x2="516" y2="-20" friction=".15" radius="4"/>
+	<segment x1="1000" y1="-20" x2="1000" y2="40" radius="4"/>
+	
+	
+	<segment x1="39" y1="322" x2="500" y2="520"/>
+	<segment x1="39" y1="322" x2="38" y2="291"/>
+	<segment x1="38" y1="291" x2="34" y2="234"/>
+	<segment x1="34" y1="234" x2="46" y2="207"/>
+	<segment x1="46" y1="207" x2="73" y2="203"/>
+	<segment x1="73" y1="203" x2="87" y2="196"/>
+	<segment x1="87" y1="196" x2="144" y2="198"/>
+	<segment x1="144" y1="198" x2="158" y2="200"/>
+	<segment x1="158" y1="200" x2="167" y2="182"/>
+	<segment x1="167" y1="182" x2="161" y2="176"/>
+	<segment x1="161" y1="176" x2="46" y2="170"/>
+	<segment x1="46" y1="170" x2="0" y2="175"/>
+	
+	<circle x="130" y="30" mass="1.1" radius="10" file="circler10-3.png" visible="true" friction=".4"/>
+	<circle x="150" y="30" mass="1.1" radius="10" file="circler10-3.png" visible="true" friction=".4"/>
+	<circle x="180" y="30" mass="1.1" radius="10" file="circler10-3.png" visible="true" friction=".4"/>
+	<circle x="210" y="30" mass="1.1" radius="10" file="circler10-3.png" visible="true" friction=".4"/>
+	
+	<circle x="210" y="145" mass="6" radius="45" file="circler45.png" visible="true" tag="91201" type="91201"/>
+	<circle x="295" y="145" mass="6" radius="30" file="circler30.png" visible="true" tag="91202" type="91202"/>
+	
+	<pivot toTag="91201" fromTag="-1" toX="0" toY="0" fromX="210" fromY="145" visible="true"/>
+	<pivot toTag="91202" fromTag="-1" toX="0" toY="0" fromX="295" fromY="145" visible="true"/>
+	
+	<rect x="120" y="227" width="60" height="60" visible="true" mass="7" file="rect60x60.png"/>
+	
+	<shootingStars count="2" offsetX="50" offsetY="0"/>
+	
+	<grass x="420" y="25"/>
+	<grass x="382" y="25"/>
+
+	<firefly/>
+
+</trundle>

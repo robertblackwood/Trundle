@@ -1,0 +1,17 @@
+<trundle map = "l4scr7">
+	<segment x1="100" y1="0" x2="100" y2="40"/>
+	<segment x1="100" y1="40" x2="250" y2="40"/>
+	<segment x1="250" y1="40" x2="300" y2="70"/>
+	<segment x1="300" y1="70" x2="350" y2="40"/>
+	<segment x1="350" y1="40" x2="480" y2="40"/>
+	
+	<rect x="300" y="100" width="50" height="250" mass="-1" visible="false" type="40701" tag="40701"/>
+	<particles x="300" y="60" angle="91"/>
+	
+	<impulseAction cTag1="40701" cTag2="1" receiverTag="1" repeat="true" x="0" y="2000" nonColliding="true" ignoreContactPt="true"/>
+	<transitionScreens left = "-1" right = "1" top = "5" bottom = "666"/>
+	
+	<defaultxy x="125" y="300" screen="5"/>
+	
+	<fuzzles/>
+</trundle>

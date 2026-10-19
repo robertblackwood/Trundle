@@ -1,0 +1,43 @@
+<trundle map = "">
+
+	<circle x="370" y="230" radius="16" mass="-1" file="transportsym.png" visible="true" tag="200" type="200"/>
+	<glow x="21" y="10" toTag="200" z="-1" numParticles="40" size="64" speed="35" r="255" g="255" b="255"/>
+	<transportAction cTag1="200" cTag2="1" receiverTag="200" level="0" screen="0" nonColliding="true"/>
+
+
+	<defaultxy x="70" y="259"/>
+	<segment x1="0" y1="259" x2="43" y2="261"/>
+	<segment x1="43" y1="261" x2="51" y2="246"/>
+	<segment x1="51" y1="246" x2="79" y2="224"/>
+	<segment x1="79" y1="224" x2="89" y2="220"/>
+	<segment x1="89" y1="220" x2="90" y2="200"/>
+	<segment x1="90" y1="200" x2="84" y2="186"/>
+	<segment x1="84" y1="186" x2="87" y2="113"/>
+	
+	<segment x1="87" y1="113" x2="100" y2="50"/>
+	<segment x1="100" y1="50" x2="124" y2="16"/>
+
+	<segment x1="124" y1="16" x2="241" y2="15"/>
+	<segment x1="241" y1="15" x2="280" y2="51"/>
+	<segment x1="280" y1="51" x2="296" y2="55"/>
+	<segment x1="296" y1="55" x2="323" y2="45"/>
+	<segment x1="323" y1="45" x2="350" y2="44"/>
+	<segment x1="350" y1="44" x2="383" y2="25"/>
+	<segment x1="383" y1="25" x2="449" y2="28"/>
+	<segment x1="449" y1="28" x2="461" y2="25"/>
+	<segment x1="461" y1="25" x2="467" y2="35"/>
+	<segment x1="467" y1="35" x2="469" y2="149"/>
+	<segment x1="469" y1="149" x2="463" y2="195"/>
+	<segment x1="463" y1="195" x2="461" y2="272"/>
+	<segment x1="461" y1="272" x2="445" y2="282"/>
+	<segment x1="445" y1="282" x2="431" y2="282"/>
+	<segment x1="431" y1="282" x2="422" y2="292"/>
+	<segment x1="422" y1="292" x2="418" y2="320"/>
+	<segment x1="163" y1="320" x2="149" y2="309"/>
+	<segment x1="149" y1="309" x2="77" y2="311"/>
+	<segment x1="77" y1="311" x2="0" y2="302"/>
+	<segment x1="323" y1="179" x2="408" y2="179"/>
+	<segment x1="408" y1="179" x2="409" y2="166"/>
+	<segment x1="409" y1="166" x2="324" y2="168"/>
+	<segment x1="324" y1="168" x2="326" y2="178"/>
+</trundle>

@@ -1,0 +1,39 @@
+<trundle map = "lscr6">
+
+<background file="l1back6.png"/>
+	
+	<rect x="64" y="155" width="25" height="25" mass="2" visible="true" tag="10601"/>
+	<rect x="64" y="180" width="25" height="25" mass="2" visible="true" tag="10602"/>
+	
+	<segment x1="-1" y1="102" x2="46" y2="135" />
+	<segment x1="46" y1="135" x2="125" y2="136"/>
+	<segment x1="125" y1="136" x2="127" y2="205" />
+	<segment x1="127" y1="205" x2="176" y2="207"/>
+	<segment x1="176" y1="207" x2="175" y2="251" />
+	<segment x1="175" y1="251" x2="299" y2="250"/>
+	<segment x1="299" y1="250" x2="300" y2="1" />
+
+	<segment x1="357" y1="0" x2="355" y2="75" />
+	<segment x1="355" y1="75" x2="397" y2="75" />
+	<segment x1="397" y1="75" x2="399" y2="0" />
+
+	<segment x1="480" y1="56" x2="448" y2="56" />
+	<segment x1="448" y1="56" x2="449" y2="96"/>
+	<segment x1="449" y1="96" x2="480" y2="96" />
+
+	<segment x1="480" y1="227" x2="447" y2="169" />
+	<segment x1="447" y1="169" x2="435" y2="169"/>
+	<segment x1="435" y1="169" x2="430" y2="340" />
+	<segment x1="0" y1="520" x2="430" y2="340" />
+	<segment x1="65" y1="320" x2="480" y2="520"/>
+	
+	<grass x="205" y="255" rotation="-4"/>
+	<grass x="265" y="253" rotation="4"/>
+	
+	<rain/>
+	
+	<defaultxy x="70" y="220"/>
+	
+	<transitionScreens left = "-1" right = "1" top = "0" bottom = "666"/>
+	
+</trundle>

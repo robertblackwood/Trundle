@@ -1,0 +1,39 @@
+<trundle map = "lscr1">
+
+<background file="l1back5.png"/>
+	
+	<segment x1="70" y1="321" x2="67" y2="197"/>
+	<segment x1="67" y1="197" x2="32" y2="196"/>
+	<segment x1="32" y1="196" x2="31" y2="87"/>
+	<segment x1="31" y1="87" x2="131" y2="86"/>
+	<segment x1="131" y1="86" x2="148" y2="33"/>
+	<segment x1="148" y1="33" x2="283" y2="33"/>
+	<segment x1="283" y1="33" x2="369" y2="104"/>
+	<segment x1="369" y1="104" x2="475" y2="100"/>
+	<segment x1="600" y1="144" x2="475" y2="100"/>
+	<segment x1="600" y1="144" x2="600" y2="320"/>
+
+	<segment x1="480" y1="289" x2="150" y2="241"/>
+	<segment x1="150" y1="241" x2="143" y2="283"/>
+	<segment x1="143" y1="283" x2="149" y2="320"/>
+	
+	<transitionScreens left = "0" right = "1" top = "-1" bottom = "0"/>
+	
+	<rect x="180" y="60" width="40" height="50" mass="3" visible="true" tag="10501" file="rect40x50.png" rotation="180"/>
+	<rect x="225" y="60" width="40" height="50" mass="3" visible="true" tag="10502" file="rect40x50.png"/>
+	<rect x="270" y="60" width="40" height="50" mass="3" visible="true" tag="10503" file="rect40x50.png" rotation="180"/>
+	<rect x="200" y="100" width="40" height="50" mass="3" visible="true" tag="10504" file="rect40x50.png"/>
+	<rect x="245" y="100" width="40" height="50" mass="3" visible="true" tag="10505" file="rect40x50.png" rotation="180"/>
+	<rect x="220" y="170" width="40" height="50" mass="3" visible="true" tag="10506" file="rect40x50.png"/>
+	
+<!--	<rect x="310" y="80" width="50" height="50" mass="3" visible="true" tag="10509" file=""/>
+	<rect x="285" y="100" width="50" height="50" mass="3" visible="true" tag="10510" file=""/>
+	<rect x="255" y="200" width="50" height="50" mass="3" visible="true" tag="10511" file=""/>
+	-->
+	<pinion x="75" y="100" tag="10508" type="10508"/>
+	<messageAction cTag1="1" cTag2="10508" receiverTag="10508" message="Hello,\nI'm an\nUnk Bunk;Don't be\n afraid I'm here\nto help;Be sure to\nlook for us if\nyou get stuck;Our magic\nabilities can help\n...;\nLIKE THIS!" right="true"/>
+	<updateAction duration="8" percentage="0.8" receiverTag="10508" cycle="true"/>	
+	
+	<impulseAction cTag1="1" cTag2="10508" receiverTag="10502" repeat="false" delay="25" x="500" y="3050" ignoreContactPt="true"/>
+
+</trundle>

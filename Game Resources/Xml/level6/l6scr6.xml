@@ -1,0 +1,99 @@
+<mobilebros map = "l6back6">
+
+	<background file="l6back6.png" spotlight="true" lightRadius="370"/>
+	
+	<defaultxy x="30" y="250"/>	
+	
+ 	<segment x1="11" y1="0" x2="48" y2="96"/>
+	<segment x1="48" y1="96" x2="60" y2="132"/>
+	<segment x1="60" y1="132" x2="70" y2="173"/>
+	<segment x1="70" y1="173" x2="62" y2="183"/>
+	<segment x1="62" y1="183" x2="61" y2="209"/>
+	<segment x1="61" y1="209" x2="58" y2="227"/>
+	<segment x1="58" y1="227" x2="56" y2="240"/>
+	<segment x1="56" y1="240" x2="52" y2="214"/>
+	<segment x1="52" y1="214" x2="46" y2="191"/>
+	<segment x1="46" y1="191" x2="16" y2="192"/>
+	<segment x1="16" y1="192" x2="8" y2="212"/>
+	<segment x1="8" y1="212" x2="8" y2="229"/>
+	<segment x1="8" y1="229" x2="10" y2="320"/>
+
+	<segment x1="474" y1="320" x2="468" y2="281"/>
+	<segment x1="468" y1="281" x2="453" y2="239"/>
+	<segment x1="453" y1="239" x2="442" y2="258"/>
+	<segment x1="442" y1="258" x2="443" y2="268"/>
+	<segment x1="443" y1="268" x2="433" y2="284"/>
+	<segment x1="433" y1="284" x2="433" y2="248"/>
+	<segment x1="433" y1="248" x2="432" y2="222"/>
+	<segment x1="432" y1="222" x2="433" y2="199"/>
+	<segment x1="433" y1="199" x2="434" y2="179"/>
+	<segment x1="434" y1="179" x2="440" y2="165"/>
+	<segment x1="440" y1="165" x2="480" y2="101"/>
+
+	<segment x1="480" y1="34" x2="440" y2="34"/>
+	<segment x1="440" y1="34" x2="421" y2="36"/>
+	<segment x1="421" y1="36" x2="398" y2="28"/>
+	<segment x1="398" y1="28" x2="388" y2="45"/>
+	<segment x1="388" y1="45" x2="388" y2="67"/>
+	<segment x1="388" y1="67" x2="384" y2="78"/>
+	<segment x1="384" y1="78" x2="378" y2="97"/>
+	<segment x1="378" y1="97" x2="376" y2="73"/>
+	<segment x1="376" y1="73" x2="372" y2="56"/>
+	<segment x1="372" y1="56" x2="374" y2="42"/>
+	<segment x1="374" y1="42" x2="370" y2="10"/>
+	<segment x1="370" y1="10" x2="357" y2="0"/>
+ 
+ 
+	<!-- upper left stalactite platform -->
+	<sprite tag="60600" file="stalactite.png" x="125" y="230" visible="true"/> 
+	<segment x1="105" y1="255" x2="145" y2="255" radius="1"/>
+	
+ 	<!-- upper center left stalactite platform -->
+	<sprite tag="60601" file="stalactite.png" x="200" y="200" visible="true"/>
+	<segment x1="180" y1="225" x2="220" y2="225" radius="1"/>
+	
+	<!-- upper center right stalactite platform -->
+	<sprite tag="60602" file="stalactite.png" x="285" y="225" visible="true"/>	
+	<segment x1="265" y1="250" x2="305" y2="250" radius="1"/>
+	
+	<!-- upper right stalactite platform -->
+	<sprite tag="60603" file="stalactite.png" x="365" y="185" visible="true"/>
+	<segment x1="345" y1="210" x2="385" y2="210" radius="1"/>
+	
+	<!-- middle left stalactite platform -->
+	<sprite tag="60604" file="stalactite.png" x="100" y="80" visible="true"/>
+	<segment x1="80" y1="105" x2="120" y2="105" radius="1"/>
+	
+	<!-- middle center left stalactite platform -->
+	<sprite tag="60605" file="stalactite.png" x="175" y="120" visible="true"/>
+	<segment x1="155" y1="145" x2="195" y2="145" radius="1"/>
+	
+	<!-- middle center right stalactite platform -->
+	<sprite tag="60606" file="stalactite.png" x="255" y="90" visible="true"/>
+	<segment x1="235" y1="115" x2="275" y2="115" radius="1"/>
+	
+	<!-- middle right stalactite platform -->
+	<sprite tag="60607" file="stalactite.png" x="320" y="130" visible="true"/>
+	<segment x1="300" y1="155" x2="340" y2="155" radius="1"/>
+	
+	<!-- lower left stalactite platform -->
+	<sprite tag="60608" file="stalactite.png" x="155" y="40" visible="true"/>			
+	<segment x1="135" y1="65" x2="175" y2="65" radius="1"/>
+	
+	<!-- lower right stalactite platform -->
+	<sprite tag="60609" file="stalactite.png" x="320" y="35" visible="true"/>
+	<segment x1="300" y1="60" x2="340" y2="60" radius="1"/>
+		
+	<!-- center particle to collect -->
+	<glow x="245" y="190" size="10" numParticles="5" speed="5" r="255" g="150" b="150" tag="60611"/>
+	<circle x="245" y="190" radius="6" mass="-1" sensor="true" tag="60612" type="60611"/>
+	<showAction hide="true" cTag1="1" cTag2="60612" receiverTag="60611"/>
+	<binAction cTag1="1" cTag2="60612" bin="6.6.1" binValue="1"/>
+	
+	
+	<!-- lower right glow flower -->
+	<glowflower x="377" y="95" xlen="0" ylen="40"/>
+
+	
+	<transitionScreens left = "0" right = "1" top = "-3" bottom = "3"/>
+</mobilebros>

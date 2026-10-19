@@ -1,0 +1,27 @@
+<trundle map = "l4scr20">
+
+	<segment x1="480" y1="229" x2="456" y2="223"/>
+	<segment x1="456" y1="223" x2="454" y2="199"/>
+	<segment x1="454" y1="199" x2="450" y2="189"/>
+	<segment x1="450" y1="189" x2="453" y2="185"/>
+	<segment x1="453" y1="185" x2="448" y2="161"/>
+	<segment x1="448" y1="161" x2="448" y2="144"/>
+	<segment x1="448" y1="144" x2="453" y2="131"/>
+	<segment x1="453" y1="131" x2="447" y2="115"/>
+	<segment x1="447" y1="115" x2="449" y2="99"/>
+	<segment x1="449" y1="99" x2="453" y2="42"/>
+	<segment x1="453" y1="42" x2="445" y2="0"/>
+
+	<segment x1="0" y1="200" x2="40" y2="200"/>
+	<segment x1="40" y1="200" x2="40" y2="220"/>
+	<segment x1="40" y1="220" x2="0" y2="220"/>
+	
+	<gunTurret x="150" y="100" angle="300" tag="42001" automatic="true"/>
+	<gunTurret x="270" y="100" angle="300" tag="42002" automatic="true"/>
+	<gunTurret x="390" y="100" angle="300" tag="42003" automatic="true"/>
+	
+	<defaultxy x="20" y="300"/>
+	
+	<fuzzles/>
+
+</trundle>

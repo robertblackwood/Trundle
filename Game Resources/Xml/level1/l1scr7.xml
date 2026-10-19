@@ -1,0 +1,25 @@
+<trundle map = "lscr6">
+
+<background file="l1back7.png"/>
+	
+	<segment x1="-9" y1="219" x2="76" y2="399"/>
+	<segment x1="-40" y1="102" x2="89" y2="101"/>
+	<segment x1="89" y1="101" x2="88" y2="34"/>
+	<segment x1="88" y1="34" x2="-40" y2="34"/>
+	<segment x1="480" y1="57" x2="376" y2="57"/>
+	<segment x1="376" y1="57" x2="376" y2="117"/>	
+	<segment x1="376" y1="117" x2="480" y2="117"/>
+	
+	<chain x1="105" y1="165" x2="245" y2="100" tag="10702"/>
+	<chain x1="360" y1="170" x2="255" y2="100" tag="10703"/>
+	<pivot toTag="10703" fromTag="10702" toX="0" toY="0" fromX="0" fromY="0"/>
+		
+<!--	<rect x="240" y="70" width="120" height="8" mass="3" visible="true" tag="10701"/>
+	<pin toTag="10702" fromTag="10701" toX="0" toY="0" fromX="-50" fromY="0" visible="true"/>
+	<pin toTag="10702" fromTag="10701" toX="0" toY="0" fromX="50" fromY="0" visible="true"/>
+-->	
+	<rain/>
+	
+	<transitionScreens left = "-1" right = "1" top = "0" bottom = "666"/>
+	
+</trundle>

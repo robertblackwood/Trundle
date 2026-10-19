@@ -1,0 +1,12 @@
+<trundle map = "l14scr0">
+	<segment x1="20"	y1="320"	x2="20"		y2="70"/>
+	<segment x1="20"	y1="70"		x2="50"		y2="30"/>
+	<segment x1="50"	y1="30"		x2="100"	y2="20"/>
+	<segment x1="100"	y1="20"		x2="380"	y2="20"/>
+	<segment x1="380"	y1="20"		x2="430"	y2="30"/>
+	<segment x1="430"	y1="30"		x2="460"	y2="70"/>
+	<segment x1="460"	y1="70"		x2="460"	y2="320"/>
+	
+	<defaultxy x="150" y="150"/>
+	<transitionScreens left="0" right="0" top="0" bottom="0"/>
+</trundle>

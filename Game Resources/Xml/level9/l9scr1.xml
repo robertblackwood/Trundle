@@ -1,0 +1,39 @@
+<trundle map = "">
+	<segment x1="5" y1="400" x2="500" y2="400"/>
+	<segment x1="5" y1="400" x2="5" y2="161"/>
+	<segment x1="5" y1="161" x2="20" y2="138"/>
+	<segment x1="20" y1="138" x2="65" y2="135"/>
+	<segment x1="65" y1="135" x2="72" y2="129"/>
+	<segment x1="72" y1="129" x2="73" y2="95"/>
+	<segment x1="73" y1="95" x2="140" y2="93" tag="90101" type="90101"/>
+	<segment x1="140" y1="93" x2="148" y2="84"/>
+	<segment x1="148" y1="84" x2="148" y2="65"/>
+	<segment x1="148" y1="65" x2="163" y2="50"/>
+	<segment x1="163" y1="50" x2="186" y2="49"/>
+	<segment x1="186" y1="49" x2="193" y2="43"/>
+	<segment x1="193" y1="43" x2="191" y2="38"/>
+	<segment x1="191" y1="38" x2="208" y2="36"/>
+	<segment x1="208" y1="36" x2="222" y2="24"/>
+	<segment x1="222" y1="24" x2="378" y2="27" tag="90102" type="90102"/>
+	<segment x1="378" y1="27" x2="390" y2="22"/>
+	<segment x1="390" y1="22" x2="479" y2="22" tag="90103" type="90103"/>
+	
+	<glowFloorAction cTag1="90101" cTag2="1" receiverTag="90101" repeat="true" radius="20"/>
+	<glowFloorAction cTag1="90102" cTag2="1" receiverTag="90102" repeat="true" radius="70"/>
+	<glowFloorAction cTag1="90103" cTag2="1" receiverTag="90103" repeat="true" radius="60"/>
+	
+	<firefly x="40" y="250" centerX="280" centerY="120"/>
+	<firefly x="40" y="100"/>
+	<firefly x="390" y="170" centerX="200" centerY="200"/>
+	
+	<grass x="260" y="30"/>
+	<grass x="300" y="30"/>
+	<grass x="400" y="30" type="t"/>
+	
+	<sprite tag="90104" file="l9title.png" x="240" y="160" z="1000" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="2" toTag="90104"/>
+	
+	<defaultxy x="60" y="150"/>
+	
+	<shootingStars count="2" offsetX="0" offsetY="0"/>
+</trundle>

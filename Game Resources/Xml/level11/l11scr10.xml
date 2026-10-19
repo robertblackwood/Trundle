@@ -1,0 +1,110 @@
+<trundle map = "">
+	<pinion x="-35" y="107" tag="110000" type="110000" scale=".7"/>
+	<removeAfter toTag="110000" screen="10"/>
+
+	<walkAction x="10" y="97" duration="1" delay="1" bin="11.9.2" binValue="4" receiverTag="110000"/>
+	<jumpAction x="76" y="113" duration="1" delay="2" height="30" bin="11.9.2" binValue="4" receiverTag="110000"/>
+	<walkAction x="192" y="114" duration="1.5" delay="3" bin="11.9.2" binValue="4" receiverTag="110000"/>
+	<jumpAction x="313" y="129" duration="1.5" delay="1" height="30" bin="11.9.2" binValue="4" cTag1="90606" cTag2="90607" receiverTag="110000"/>
+	<jumpAction x="400" y="206" duration="1" delay="2.5" height="60" bin="11.9.2" binValue="4" cTag1="90606" cTag2="90607" receiverTag="110000"/>
+	<!-- -->
+	
+	<segment x1="300" y1="60" x2="350" y2="60" mass="2" visible="true" radius="10" tag="90601" type="90601" group="90601"/>
+	<circle x="300" y="30" radius="10" mass="2" visible="true" tag="90602" type="90602" group="90601" file="circler10-3.png"/>
+	<circle x="350" y="30" radius="10" mass="2" visible="true" tag="90603" type="90603" group="90601" file="circler10-3.png"/>
+	
+	<glow x="23" y="-10" toTag="90601" numParticles="15" speed="4" size="12" r="30" g="64" b="194" z="-1"/>
+	<glow x="-23" y="-10" toTag="90601" numParticles="15" speed="4" size="12" r="30" g="64" b="194" z="-1"/>
+	
+	<circle x="300" y="70" radius="10" mass="2" visible="true" tag="90604" type="90604" group="90601"/>
+	<circle x="350" y="70" radius="10" mass="2" visible="true" tag="90605" type="90605" group="90601"/>
+
+	<pivot toTag="90602" fromTag="90601" toX="0" toY="0" fromX="-25" fromY="-30"/>
+	<pivot toTag="90603" fromTag="90601" toX="0" toY="0" fromX="25" fromY="-30"/>
+	
+	<pivot toTag="90604" fromTag="90601" toX="0" toY="0" fromX="-25" fromY="10"/>
+	<pivot toTag="90605" fromTag="90601" toX="0" toY="0" fromX="25" fromY="10"/>
+
+	<rect x="420" y="74" width="30" height="29" mass="4" visible="true"/>
+	<circle x="420" y="120" radius="29" mass="10" visible="true" file="circler30.png" tag="90606" type="90606"/>
+	<circle x="272" y="110" radius="5" mass="-1" visible="false" tag="90607" type="90607" group="1"/>
+	
+	<rect x="250" y="15" width="30" height="30" mass="-1" visible="true"/>
+	
+	<connectAction cTag1="90606" cTag2="90607" receiverTag="90606" otherTag="90607"/>
+	<connectAction cTag1="90606" cTag2="90607" receiverTag="90606" otherTag="90601"/>
+
+	<!--Set this bin, and then set another that's a sum, it'll create a chained bin of sorts -->
+	<binAction cTag1="90606" cTag2="90607" bin="11.10.1" binValue="1"/>
+	<binSum bin="11.10.2" bins="11.10.1,11.9.2"/>
+	
+	<!--Remove after will only happen if the check above is true -->
+	<handledCheck bin="11.10.2" value="5" tag="11005"/>
+	<removeAfter toTag="110000" screen="10" dependTag="11005"/>
+
+	<segment x1="0" y1="91" x2="14" y2="89"/>
+	<segment x1="14" y1="89" x2="23" y2="70"/>
+	<segment x1="23" y1="70" x2="16" y2="18"/>
+	<segment x1="16" y1="18" x2="77" y2="13"/>
+	<segment x1="77" y1="13" x2="128" y2="9"/>
+	<segment x1="128" y1="9" x2="166" y2="12"/>
+	<segment x1="166" y1="12" x2="200" y2="10"/>
+	<segment x1="200" y1="10" x2="272" y2="11"/>
+	<segment x1="272" y1="11" x2="279" y2="12"/>
+	<segment x1="279" y1="12" x2="322" y2="14"/>
+	<segment x1="322" y1="14" x2="349" y2="10"/>
+	<segment x1="349" y1="10" x2="466" y2="14"/>
+	<segment x1="466" y1="14" x2="469" y2="49"/>
+	<segment x1="469" y1="49" x2="465" y2="53"/>
+	<segment x1="465" y1="53" x2="389" y2="52"/>
+	<segment x1="389" y1="52" x2="389" y2="61"/>
+	<segment x1="389" y1="61" x2="467" y2="61"/>
+	<segment x1="467" y1="61" x2="463" y2="123"/>
+	<segment x1="463" y1="123" x2="457" y2="133"/>
+	<segment x1="457" y1="133" x2="457" y2="138"/>
+	<segment x1="457" y1="138" x2="433" y2="159"/>
+	<segment x1="433" y1="159" x2="424" y2="154"/>
+	<segment x1="424" y1="154" x2="390" y2="157" type="666"/>
+	<segment x1="390" y1="157" x2="387" y2="185" type="666"/>
+	<segment x1="383" y1="189" x2="397" y2="199"/>
+	<segment x1="397" y1="199" x2="425" y2="200"/>
+	<segment x1="425" y1="200" x2="449" y2="184"/>
+	<segment x1="449" y1="184" x2="480" y2="184"/>
+
+	<segment x1="480" y1="259" x2="461" y2="261"/>
+	<segment x1="461" y1="261" x2="454" y2="279"/>
+	<segment x1="454" y1="279" x2="437" y2="288"/>
+	<segment x1="437" y1="288" x2="427" y2="302"/>
+	<segment x1="427" y1="302" x2="366" y2="312"/>
+	<segment x1="366" y1="312" x2="312" y2="309"/>
+	<segment x1="312" y1="309" x2="293" y2="304"/>
+	<segment x1="293" y1="304" x2="244" y2="306"/>
+	<segment x1="244" y1="306" x2="284" y2="266"/>
+	<segment x1="284" y1="266" x2="291" y2="250"/>
+	<segment x1="291" y1="250" x2="291" y2="232"/>
+	<segment x1="291" y1="232" x2="284" y2="214"/>
+	<segment x1="284" y1="214" x2="264" y2="200"/>
+	<segment x1="264" y1="200" x2="243" y2="199"/>
+	<segment x1="243" y1="199" x2="220" y2="207"/>
+	<segment x1="220" y1="207" x2="120" y2="309"/>
+	<segment x1="120" y1="309" x2="84" y2="306"/>
+	<segment x1="84" y1="306" x2="74" y2="264"/>
+	<segment x1="74" y1="264" x2="61" y2="259"/>
+	<segment x1="61" y1="259" x2="58" y2="231"/>
+	<segment x1="58" y1="231" x2="52" y2="222"/>
+	<segment x1="52" y1="222" x2="36" y2="216"/>
+	<segment x1="36" y1="216" x2="40" y2="197"/>
+	<segment x1="40" y1="197" x2="36" y2="181"/>
+	<segment x1="36" y1="181" x2="22" y2="178"/>
+	<segment x1="22" y1="178" x2="13" y2="165"/>
+	<segment x1="13" y1="165" x2="0" y2="165"/>
+
+	<segment x1="68" y1="105" x2="204" y2="104"/>
+	<segment x1="204" y1="104" x2="207" y2="99"/>
+	<segment x1="207" y1="99" x2="207" y2="83"/>
+	<segment x1="207" y1="83" x2="201" y2="80"/>
+	<segment x1="201" y1="80" x2="67" y2="79"/>
+	<segment x1="67" y1="79" x2="62" y2="84"/>
+	<segment x1="62" y1="84" x2="62" y2="100"/>
+	<segment x1="62" y1="100" x2="68" y2="105"/>
+</trundle>

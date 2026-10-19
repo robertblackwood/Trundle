@@ -1,0 +1,21 @@
+<trundle map = "l4scr14">
+
+	<circle x="110" y="-50" visible="true" tag="41401" mass="-1" radius="120"/>
+	<circle x="240" y="110" visible="true" tag="41402" mass="-1" radius="20"/>
+	<circle x="240" y="65" visible="true" tag="41403" mass="-1" radius="20"/>
+	<circle x="370" y="-50" visible="true" tag="41404" mass="-1" radius="120"/>
+	
+	<rotateAction duration="6" angle="360" forever="true" receiverTag="41401"/>
+	<rotateAction duration="3" angle="-360" forever="true" receiverTag="41402"/>
+	<rotateAction duration="3" angle="-360" forever="true" receiverTag="41403"/>
+	<rotateAction duration="6" angle="-360" forever="true" receiverTag="41404"/>
+	
+	<rect x="240" y="185" mass="30" width="10" height="100" visible="true" tag="41405" type="41405"/>
+	<pivot toTag="41405" fromTag="-1" toX="0" toY="0" fromX="240" fromY="185"/>
+	<motor tag="41405" rate="-8"/>
+	
+	<transitionScreens left = "-1" right = "1" top = "0" bottom = "666"/>
+	
+	<fuzzles/>
+
+</trundle>

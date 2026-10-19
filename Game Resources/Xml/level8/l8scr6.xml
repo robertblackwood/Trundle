@@ -1,0 +1,46 @@
+<trundle map = "">
+
+	<rect x="251" y="240" width="7" height="120" rotation="45" mass="3" visible="true" file="rect8x120.png" tag="80601" group="80601"/>
+	<rect x="194" y="202" width="3" height="36" rotation="-83" mass="1" visible="true" tag="80602" group="80601"/>
+	<pivot toTag="80601" fromTag="80602" worldX="249" worldY="252"/>
+	<pivot toTag="80601" fromTag="80602" worldX="195" worldY="197"/>
+
+	
+	<pivot toTag="80601" fromTag="-1" toY="-59" pin="true"/>
+	<spring toTag="-1" fromTag="80601" toX="320" toY="200"  fromY="60" visible="true" restLength="110" stiffness="30"/>
+
+	<circle x="45" y="205" radius="19" mass="2" visible="true" file="boulder20.png"/>
+
+	<segment x1="13" y1="520" x2="25" y2="183"/>
+	<segment x1="25" y1="183" x2="124" y2="190"/>
+	<segment x1="124" y1="190" x2="137" y2="206"/>
+	<segment x1="139" y1="203" x2="152" y2="140"/>
+	<segment x1="152" y1="140" x2="186" y2="119"/>
+	<segment x1="186" y1="119" x2="181" y2="101"/>
+	<segment x1="181" y1="101" x2="123" y2="73"/>
+	<segment x1="123" y1="73" x2="0" y2="65"/>
+	<segment x1="0" y1="6" x2="148" y2="7"/>
+	<segment x1="148" y1="7" x2="185" y2="18"/>
+	<segment x1="185" y1="18" x2="310" y2="28"/>
+	<segment x1="310" y1="28" x2="323" y2="54"/>
+	<segment x1="323" y1="54" x2="322" y2="78"/>
+	<segment x1="322" y1="78" x2="366" y2="60"/>
+	<segment x1="366" y1="60" x2="387" y2="28"/>
+	<segment x1="387" y1="28" x2="480" y2="27"/>
+	<segment x1="800" y1="28" x2="480" y2="27"/>
+	<segment x1="800" y1="28" x2="800" y2="270"/>
+
+	
+	<segment x1="356" y1="209" x2="362" y2="132"/>
+	<segment x1="362" y1="132" x2="326" y2="132"/>
+	<segment x1="326" y1="132" x2="326" y2="211"/>
+	
+	<segment x1="321" y1="203" x2="326" y2="203" radius="3"/>
+	
+	<segment x1="326" y1="211" x2="354" y2="210"/>
+	<segment x1="356" y1="320" x2="354" y2="266"/>
+	
+	<segment x1="354" y1="266" x2="328" y2="266"/>
+	<segment x1="328" y1="266" x2="326" y2="320"/>
+	<defaultxy x="100" y="50"/>
+</trundle>

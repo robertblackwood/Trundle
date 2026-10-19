@@ -1,0 +1,85 @@
+<trundle map = "">
+
+	<rect x="378" y="100" width="60" height="100" mass="-1" visible="true" tag="111401" type="111401"/>
+	<circle x="350" y="90" radius="18" mass="-1" visible="true" tag="111402" type="111402"/>
+	<glow x="0" y="0" numParticles="19" speed="6" size="12" toTag="111402" r="222" g="33" b="77"/>
+	
+	<rect x="370" y="153" width="10" height="6" mass="4" visible="true" tag="111403"/>
+	<rope toX="330" toY="240" toTag="-1" fromY="2" fromTag="111403"/>
+	
+	<pivot toTag="111403" fromTag="111401" worldX="370" worldY="153"/>
+	
+	<fragmentAction cTag1="111302" cTag2="111402" receiverTag="111401" pieces="8" mass="2"/>
+	<fragmentAction cTag1="111302" cTag2="111402" receiverTag="111402" pieces="6" mass="2"/>
+	<explosionAction cTag1="111302" cTag2="111402" receiverTag="22002" x="350" y="90"/>
+	<fragmentAction cTag1="111302" cTag2="111402" receiverTag="111301" pieces="4" mass="2"/>
+	<explosionAction cTag1="111302" cTag2="111402" receiverTag="111301" x="350" y="90"/>
+	
+	<fragmentAction cTag1="111303" cTag2="111402" receiverTag="111401" pieces="8" mass="2"/>
+	<fragmentAction cTag1="111303" cTag2="111402" receiverTag="111402" pieces="6" mass="2"/>
+	<explosionAction cTag1="111303" cTag2="111402" receiverTag="22002" x="350" y="90"/>
+	<fragmentAction cTag1="111303" cTag2="111402" receiverTag="111301" pieces="4" mass="2"/>
+	<explosionAction cTag1="111303" cTag2="111402" receiverTag="111301" x="350" y="90"/>
+	
+	<fragmentAction cTag1="111304" cTag2="111402" receiverTag="111401" pieces="8" mass="2"/>
+	<fragmentAction cTag1="111304" cTag2="111402" receiverTag="111402" pieces="6" mass="2"/>
+	<explosionAction cTag1="111304" cTag2="111402" receiverTag="22002" x="350" y="90"/>
+	<fragmentAction cTag1="111304" cTag2="111402" receiverTag="111301" pieces="4" mass="2"/>
+	<explosionAction cTag1="111304" cTag2="111402" receiverTag="111301" x="350" y="90"/>
+	
+	<fragmentAction cTag1="111305" cTag2="111402" receiverTag="111401" pieces="8" mass="2"/>
+	<fragmentAction cTag1="111305" cTag2="111402" receiverTag="111402" pieces="6" mass="2"/>
+	<explosionAction cTag1="111305" cTag2="111402" receiverTag="22002" x="350" y="90"/>
+	<fragmentAction cTag1="111305" cTag2="111402" receiverTag="111301" pieces="4" mass="2"/>
+	<explosionAction cTag1="111305" cTag2="111402" receiverTag="111301" x="350" y="90"/>
+	
+	<!--Set this bin, and then set another that's a sum, it'll create a chained bin of sorts -->
+	<binAction cTag1="111305" cTag2="111402" bin="11.14.1" binValue="1"/>
+	<binAction cTag1="111304" cTag2="111402" bin="11.14.1" binValue="1"/>
+	<binAction cTag1="111303" cTag2="111402" bin="11.14.1" binValue="1"/>
+	<binAction cTag1="111302" cTag2="111402" bin="11.14.1" binValue="1"/>
+	<binSum bin="11.14.2" bins="11.14.1,11.10.2"/>
+
+	<segment x1="-120" y1="200" x2="-120" y2="77"/>
+	<segment x1="0" y1="76" x2="-120" y2="77"/>
+	<segment x1="0" y1="76" x2="18" y2="74"/>
+	<segment x1="18" y1="74" x2="22" y2="70"/>
+	<segment x1="22" y1="70" x2="121" y2="62"/>
+	<segment x1="121" y1="62" x2="142" y2="69"/>
+	<segment x1="142" y1="69" x2="204" y2="61"/>
+	<segment x1="204" y1="61" x2="263" y2="59"/>
+	<segment x1="263" y1="59" x2="307" y2="59"/>
+	<segment x1="307" y1="59" x2="341" y2="60"/>
+	<segment x1="341" y1="60" x2="401" y2="62"/>
+	<segment x1="401" y1="62" x2="400" y2="72"/>
+	<segment x1="400" y1="72" x2="404" y2="76"/>
+	<segment x1="404" y1="76" x2="400" y2="81"/>
+	<segment x1="400" y1="81" x2="400" y2="97"/>
+	<segment x1="400" y1="97" x2="402" y2="101"/>
+	<segment x1="402" y1="101" x2="400" y2="104"/>
+	<segment x1="400" y1="104" x2="400" y2="121"/>
+	<segment x1="400" y1="121" x2="405" y2="124"/>
+	<segment x1="405" y1="124" x2="402" y2="128"/>
+	<segment x1="402" y1="128" x2="401" y2="145"/>
+	<segment x1="401" y1="145" x2="404" y2="149"/>
+	<segment x1="404" y1="149" x2="401" y2="153"/>
+	<segment x1="401" y1="153" x2="400" y2="168"/>
+	<segment x1="400" y1="168" x2="404" y2="172"/>
+	<segment x1="404" y1="172" x2="400" y2="176"/>
+	<segment x1="400" y1="176" x2="400" y2="192"/>
+	<segment x1="400" y1="192" x2="404" y2="196"/>
+	<segment x1="404" y1="196" x2="401" y2="200"/>
+	<segment x1="401" y1="200" x2="401" y2="213"/>
+	<segment x1="401" y1="213" x2="315" y2="215"/>
+	<segment x1="315" y1="215" x2="312" y2="218"/>
+	<segment x1="312" y1="218" x2="312" y2="247"/>
+	<segment x1="312" y1="247" x2="315" y2="254"/>
+	<segment x1="315" y1="254" x2="400" y2="257"/>
+	<segment x1="400" y1="257" x2="400" y2="265"/>
+	<segment x1="400" y1="265" x2="402" y2="267"/>
+	<segment x1="402" y1="267" x2="400" y2="269"/>
+	<segment x1="400" y1="269" x2="400" y2="287"/>
+	<segment x1="400" y1="287" x2="403" y2="291"/>
+	<segment x1="403" y1="291" x2="401" y2="295"/>
+	<segment x1="401" y1="295" x2="400" y2="320"/>
+</trundle>

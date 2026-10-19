@@ -1,0 +1,16 @@
+<trundle map = "lscr1">
+	<segment x1="-100" y1="40" x2="600" y2="40"/>
+	
+	<grass x="210" y="44" rotation="0"/>
+	<grass x="270" y="44" rotation="0"/>
+	
+	<curlyplant x="238" y="54" xlen="-4" ylen="40" xdir="-1" tag="20201"/>
+	<updateAction duration="12" percentage="0.8" receiverTag="20201" cycle="true"/>
+	<curlyplant x="242" y="54" xlen="4" ylen="40" xdir="1" tag="20202"/>
+	<updateAction duration="12" percentage="0.8" receiverTag="20202" cycle="true"/>
+	
+	<curlyplant x="238" y="54" xlen="0" ylen="20" xdir="-1" tag="20203"/>
+	<updateAction duration="12" percentage="0.6" receiverTag="20203" cycle="true"/>
+	<curlyplant x="242" y="54" xlen="0" ylen="20" xdir="1" tag="20204"/>
+	<updateAction duration="12" percentage="0.6" receiverTag="20204" cycle="true"/>
+</trundle>

@@ -1,0 +1,48 @@
+<trundle map = "">
+	<segment x1="-200" y1="50" x2="30" y2="50"/>
+	<segment x1="30" y1="50" x2="56" y2="50"/>
+	<segment x1="56" y1="50" x2="97" y2="48"/>
+	<segment x1="97" y1="48" x2="139" y2="52"/>
+	<segment x1="139" y1="52" x2="182" y2="48"/>
+	<segment x1="182" y1="48" x2="212" y2="53"/>
+	<segment x1="212" y1="53" x2="248" y2="48"/>
+	<segment x1="248" y1="48" x2="264" y2="53"/>
+	<segment x1="264" y1="53" x2="320" y2="50"/>
+	<segment x1="320" y1="50" x2="345" y2="54"/>
+	<segment x1="345" y1="54" x2="398" y2="52"/>
+	<segment x1="398" y1="52" x2="442" y2="45"/>
+	<segment x1="442" y1="45" x2="455" y2="51"/>
+	<segment x1="455" y1="51" x2="480" y2="50"/>
+	<segment x1="480" y1="130" x2="445" y2="129"/>
+	<segment x1="445" y1="129" x2="434" y2="154"/>
+	<segment x1="434" y1="154" x2="442" y2="247"/>
+	<segment x1="442" y1="247" x2="446" y2="320"/>
+	<segment x1="0" y1="520" x2="446" y2="320"/>
+
+
+	<circle x="178" y="197" radius="30" visible="true" mass="-1" tag="91501" type="91501"/>
+	<circle x="72" y="236" radius="38" visible="true" mass="-1" tag="91502" type="91502"/>
+	<circle x="365" y="192" radius="27" visible="true" mass="-1" tag="91504" type="91504"/>
+	
+	<circle x="295" y="150" radius="5" visible="false" mass="-1" tag="91503" type="91503" group="1"/>
+	
+	<teslaAction x="75" y="238" toTag="91501" duration="-1"/>
+	
+	<rect x="450" y="100" width="8" height="160" mass="-1" visible="true" tag="91508" type="91508"/>
+	
+	<teslaAction x="290" y="145" toTag="91502" cTag1="91405" cTag2="91503" receiverTag="91505" nonColliding="true"/>
+	<teslaAction x="290" y="145" toTag="91504" cTag1="91405" cTag2="91503" receiverTag="91506" nonColliding="true"/>
+	<teslaAction x="435" y="150" toTag="91504" cTag1="91405" cTag2="91503" receiverTag="91507" nonColliding="true"/>
+	<moveAction x="450" y="200" duration="1.8" cTag1="91405" cTag2="91503" receiverTag="91508" nonColliding="true"/>
+	<soundAction delay="0" cTag1="91405" cTag2="91503" receiverTag="91508" nonColliding="true" file="zap.wav"/>
+
+	
+	<sprite x="435" y="150" file="redbutton.png" visible="true"/>
+	<sprite x="435" y="150" file="greenbutton.png" visible="false" tag="91509"/>
+	
+	<showAction duration=".6" cTag1="91405" cTag2="91503" receiverTag="91509" nonColliding="true"/>
+
+	<firefly/>
+	<firefly/>
+
+</trundle>

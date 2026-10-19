@@ -1,0 +1,45 @@
+<trundle map = "lscr6">
+
+<background file="l1back8.png"/>
+
+	<segment x1="0" y1="119" x2="25" y2="116" />
+	<segment x1="25" y1="116" x2="60" y2="130" />
+	<segment x1="60" y1="130" x2="75" y2="127" />
+	<segment x1="75" y1="127" x2="85" y2="106" />
+	<segment x1="85" y1="106" x2="0" y2="70" />
+
+
+	<segment x1="0" y1="400" x2="22" y2="400" />
+	<segment x1="22" y1="400" x2="22" y2="320" />
+	<segment x1="22" y1="320" x2="207" y2="193" />
+	<segment x1="289" y1="198" x2="207" y2="193" />
+	<segment x1="289" y1="198" x2="381" y2="320" />
+	<segment x1="381" y1="320" x2="480" y2="400" />
+
+	
+	<segment x1="481" y1="219" x2="455" y2="222" />
+	<segment x1="404" y1="201" x2="455" y2="222" />
+	<segment x1="404" y1="201" x2="404" y2="194" />
+	<segment x1="420" y1="191" x2="404" y2="194" />
+	<segment x1="420" y1="191" x2="476" y2="0" />
+
+	<glowflower x="470" y="52" xlen="-40" ylen="0"/>
+
+	<rect x="150" y="70" width="120" height="8" mass="3" visible="true" tag="10801"/>
+	<rect x="260" y="135" width="80" height="8" mass="3" visible="true" tag="10802"/>
+	<rect x="360" y="150" width="60" height="8" mass="3" visible="true" tag="10803"/>	
+	
+	<spring toTag="-1" fromTag="10801" toX="100" toY="260" fromX="-50" fromY="0" visible="true" restLength="190" stiffness="1600"/>
+	<spring toTag="-1" fromTag="10801" toX="200" toY="200" fromX="50" fromY="0" visible="true" restLength="130" stiffness="1600"/>
+	
+	<pin toTag="-1" fromTag="10802" toX="225" toY="195" fromX="-35" fromY="0" visible="true"/>
+	<pin toTag="-1" fromTag="10802" toX="295" toY="205" fromX="35" fromY="0" visible="true"/>
+	
+	<spring toTag="-1" fromTag="10803" toX="335" toY="260" fromX="-25" fromY="0" visible="true" restLength="110" stiffness="1600"/>
+	<spring toTag="-1" fromTag="10803" toX="385" toY="320" fromX="25" fromY="0" visible="true" restLength="170" stiffness="1600"/>
+
+	<rain duration="2"/>
+	
+	<transitionScreens left = "-1" right = "1" top = "0" bottom = "666"/>
+
+</trundle>

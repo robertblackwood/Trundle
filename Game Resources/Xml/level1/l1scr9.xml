@@ -1,0 +1,40 @@
+<trundle map = "lscr6">
+
+<background file="l1back9.png"/>
+	
+	<segment x1="-1" y1="217" x2="65" y2="237" />
+	<segment x1="15" y1="1" x2="65" y2="237" />
+	<segment x1="410" y1="70" x2="428" y2="-2" />
+	<segment x1="410" y1="70" x2="478" y2="52" />
+	
+	
+	<segment x1="275" y1="320" x2="0" y2="520" />
+	<segment x1="275" y1="320" x2="285" y2="168" />
+	<segment x1="285" y1="168" x2="293" y2="166" />	
+	<segment x1="293" y1="166" x2="369" y2="320" />
+	<segment x1="369" y1="320" x2="369" y2="400" />
+	<segment x1="0" y1="400" x2="369" y2="400" />
+
+	
+	<circle x="190" y="270" file="circler45.png" visible="true" mass="500" radius="10" tag="10901"/>
+	<pin toTag="10901" fromTag="-1" toX="0" toY="0" fromX="190" fromY="270" visible="false"/>
+	<motor tag="10901" rate="-1"/>
+	
+	<circle x="350" y="160" file="circler45.png" visible="true" mass="500" radius="10" tag="10902"/>
+	<pin toTag="10902" fromTag="-1" toX="0" toY="0" fromX="350" fromY="160" visible="false"/>
+	<motor tag="10902" rate="1"/>
+	
+	<connector toTag="10901" fromTag="-1" offset1X="45" offset1Y="45" offset2X="290" offset2Y="250" lineWidth="7"/>
+	<connector toTag="10902" fromTag="-1" offset1X="45" offset1Y="45" offset2X="300" offset2Y="220" lineWidth="7"/>
+	
+	<rect x="150" y="130" width="100" height="16" mass="10" visible="true" tag="10903"/>
+	<pin toTag="10903" fromTag="10901" toX="-45" toY="0" fromX="-40" fromY="0" visible="true"/>
+	<pin toTag="10903" fromTag="10901" toX="45" toY="0" fromX="-40" fromY="0" visible="true"/>
+	
+	<rect x="310" y="50" width="70" height="16" mass="10" visible="true" tag="10904"/>
+	<pin toTag="10904" fromTag="10902" toX="-30" toY="0" fromX="-40" fromY="0" visible="true"/>
+	<pin toTag="10904" fromTag="10902" toX="30" toY="0" fromX="-40" fromY="0" visible="true"/>
+	
+	<defaultxy x="65" y="300"/>
+	
+</trundle>

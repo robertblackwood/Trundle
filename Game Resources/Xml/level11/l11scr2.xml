@@ -1,0 +1,72 @@
+<trundle map = "">
+	<segment x1="0" y1="15" x2="31" y2="15"/>
+	<segment x1="31" y1="15" x2="46" y2="8"/>
+	<segment x1="46" y1="8" x2="66" y2="15"/>
+	<segment x1="66" y1="15" x2="83" y2="17"/>
+	<segment x1="83" y1="17" x2="99" y2="8"/>
+	<segment x1="99" y1="8" x2="135" y2="10"/>
+	<segment x1="135" y1="10" x2="131" y2="20"/>
+	<segment x1="131" y1="20" x2="162" y2="20"/>
+	<segment x1="162" y1="20" x2="187" y2="23"/>
+	<segment x1="187" y1="23" x2="193" y2="16"/>
+	<segment x1="193" y1="16" x2="206" y2="16"/>
+	<segment x1="206" y1="16" x2="213" y2="22"/>
+	<segment x1="213" y1="22" x2="246" y2="34"/>
+	<segment x1="246" y1="34" x2="252" y2="28"/>
+	<segment x1="252" y1="28" x2="292" y2="37"/>
+	<segment x1="292" y1="37" x2="301" y2="49"/>
+	<segment x1="301" y1="49" x2="333" y2="48"/>
+	<segment x1="333" y1="48" x2="338" y2="45"/>
+	<segment x1="338" y1="45" x2="341" y2="49"/>
+	<segment x1="341" y1="49" x2="382" y2="79"/>
+	<segment x1="382" y1="79" x2="385" y2="85"/>
+	<segment x1="385" y1="85" x2="385" y2="97"/>
+	<segment x1="385" y1="97" x2="428" y2="99"/>
+	<segment x1="428" y1="99" x2="438" y2="96"/>
+	<segment x1="438" y1="96" x2="442" y2="81"/>
+	<segment x1="442" y1="81" x2="452" y2="63"/>
+	<segment x1="452" y1="63" x2="466" y2="66"/>
+	<segment x1="466" y1="66" x2="480" y2="69"/>
+	
+	<pinion x="265" y="44" tag="110001" type="110001"/>
+	<jumpAction x="185" y="36" height="30" duration="1" delay="6" receiverTag="110001"/>
+	<walkAction x="165" y="36" duration=".5" delay="7" receiverTag="110001"/>
+
+	
+	<pinion x="-24" y="23" tag="110000" type="110000" scale=".7"/>
+	<walkAction x="28" y="22" duration="1" delay="1" receiverTag="110000"/>
+	<walkAction x="45" y="14" duration="1" delay="2" receiverTag="110000"/>
+	<walkAction x="78" y="27" duration="1" delay="3" receiverTag="110000"/>
+	<jumpAction x="78" y="27" height="30" duration="1" delay="9" receiverTag="110000"/>
+	<jumpAction x="78" y="27" height="30" duration="1" delay="10" receiverTag="110000"/>
+
+	<jumpAction x="137" y="26" height="20" duration="1" delay="14" receiverTag="110000"/>
+	<walkAction x="187" y="29" duration="1" delay="15" receiverTag="110000"/>
+	<walkAction x="203" y="23" duration="1" delay="16" receiverTag="110000"/>
+	<walkAction x="249" y="40" duration="1" delay="17" receiverTag="110000"/>
+	<jumpAction x="304" y="57" height="20" duration="1" delay="18" receiverTag="110000"/>
+	<walkAction x="337" y="56" duration="1" delay="19" receiverTag="110000"/>
+	<walkAction x="363" y="78" duration="1" delay="20" receiverTag="110000"/>
+	<jumpAction x="389" y="105" height="30" duration="1" delay="21" receiverTag="110000"/>
+	<walkAction x="434" y="105" duration="1" delay="22" receiverTag="110000"/>
+	<!--<jumpAction x="461" y="75" height="5" duration="1" delay="13" receiverTag="110000"/>
+	<walkAction x="504" y="81" duration="1" delay="14" receiverTag="110000"/>-->
+	
+	<hunter x="240" y="600" tag="110201"/>
+	<hunterArmAction receiverTag="110201" rotation1="105" rotation2="20" duration1="1.5" duration2="1.5" delay1="5" delay2="6"/>
+	<hunterPickupAction receiverTag="110201" delay="7.5" tag="110001"/>
+	
+	<messageAction receiverTag="110000" right="true" message="Hey dad!, Look\nwhat I......\nwhat's that???;Oh no!!\nDaddddd!!!;\nCome back!;Oh no...\n*sob* *sob*...\n..come back..."/> 
+	<messageAction receiverTag="110001" right="true" delay="1" message="Hunter!!!\nStay back\nTum!!!"/> 
+
+	<moveAction receiverTag="110201" ease="true" duration="4" x="240" y="240"/>
+	
+	<moveAction receiverTag="110201" ease="true" delay="12" duration="2" x="240" y="600"/>
+	<moveAction receiverTag="110001" ease="true" delay="12" duration="2" x="325" y="600"/>
+	
+	<segment x1="480" y1="40" x2="480" y2="600" tag="110202"/>
+	<deleteAction receiverTag="110202" delay="12"/>
+	
+	<removeAfter toTag="110000" screen="2"/>	
+	
+</trundle>

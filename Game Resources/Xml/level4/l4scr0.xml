@@ -1,0 +1,47 @@
+<trundle map = "">
+
+	<music file="level4music.mp3"/>
+
+	<segment x1="1" y1="46" x2="35" y2="46"/>
+	<segment x1="35" y1="46" x2="70" y2="41"/>
+	<segment x1="70" y1="41" x2="85" y2="29"/>
+	<segment x1="85" y1="29" x2="99" y2="29"/>
+	<segment x1="99" y1="29" x2="115" y2="24"/>
+	<segment x1="115" y1="24" x2="141" y2="31"/>
+	<segment x1="141" y1="31" x2="160" y2="31"/>
+	<segment x1="160" y1="31" x2="181" y2="25"/>
+	<segment x1="181" y1="25" x2="215" y2="31"/>
+	<segment x1="215" y1="31" x2="247" y2="26"/>
+	<segment x1="247" y1="26" x2="280" y2="34"/>
+	<segment x1="280" y1="34" x2="279" y2="45"/>
+	<segment x1="279" y1="45" x2="269" y2="47"/>
+	<segment x1="269" y1="47" x2="268" y2="66"/>
+	<segment x1="268" y1="66" x2="286" y2="74"/>
+	<segment x1="286" y1="74" x2="299" y2="79"/>
+	<segment x1="299" y1="79" x2="316" y2="71"/>
+	<segment x1="316" y1="71" x2="320" y2="61"/>
+	<segment x1="320" y1="61" x2="340" y2="49"/>
+	<segment x1="340" y1="49" x2="336" y2="36"/>
+	<segment x1="336" y1="36" x2="339" y2="27"/>
+	<segment x1="339" y1="27" x2="376" y2="26"/>
+	<segment x1="376" y1="26" x2="405" y2="29"/>
+	<segment x1="405" y1="29" x2="407" y2="47"/>
+	<segment x1="407" y1="47" x2="395" y2="58"/>
+	<segment x1="395" y1="58" x2="401" y2="71"/>
+	<segment x1="401" y1="71" x2="418" y2="73"/>
+	<segment x1="418" y1="73" x2="414" y2="96"/>
+	<segment x1="414" y1="96" x2="422" y2="115"/>
+	<segment x1="422" y1="115" x2="418" y2="124"/>
+	<segment x1="418" y1="124" x2="421" y2="128"/>
+	<segment x1="421" y1="128" x2="440" y2="117"/>
+	<segment x1="440" y1="117" x2="448" y2="123"/>
+	<segment x1="448" y1="123" x2="456" y2="124"/>
+	<segment x1="456" y1="124" x2="463" y2="115"/>
+	<segment x1="480" y1="115" x2="463" y2="117"/>
+	
+	<pinion x="205" y="47" tag="30001" type="100001"/>
+	<updateAction cTag1="1" cTag2="30001" duration="3" percentage="1.4" receiverTag="30001"/>
+	<messageAction receiverTag="30001" right="true" message="Welcome to Treedom.;When the hunters\n come I hide\nhere."/>
+	
+	<fuzzles/>
+</trundle>

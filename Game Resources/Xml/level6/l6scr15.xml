@@ -1,0 +1,98 @@
+<mobilebros map = "l6back15">
+
+	<background file="l6back15.png" spotlight="true" lightRadius="370"/>
+    
+	<segment x1="8" y1="0" x2="6" y2="84"/>
+	<segment x1="6" y1="84" x2="36" y2="177"/>
+	<segment x1="36" y1="177" x2="50" y2="225"/>
+	<segment x1="50" y1="225" x2="46" y2="239"/>
+	<segment x1="46" y1="239" x2="30" y2="249"/>
+	<segment x1="30" y1="249" x2="0" y2="248"/>
+
+	<segment x1="1" y1="308" x2="70" y2="310"/>
+	<segment x1="70" y1="310" x2="83" y2="285"/>
+	<segment x1="83" y1="285" x2="90" y2="311"/>
+	<segment x1="90" y1="311" x2="123" y2="311"/>
+	<segment x1="123" y1="311" x2="136" y2="266"/>
+	<segment x1="136" y1="266" x2="142" y2="227"/>
+	<segment x1="142" y1="227" x2="142" y2="276"/>
+	<segment x1="142" y1="276" x2="146" y2="293"/>
+	<segment x1="146" y1="293" x2="151" y2="314"/>
+	<segment x1="151" y1="314" x2="193" y2="314"/>
+	<segment x1="193" y1="314" x2="200" y2="273"/>
+	<segment x1="200" y1="273" x2="209" y2="318"/>
+	<segment x1="209" y1="318" x2="243" y2="315"/>
+	<segment x1="243" y1="315" x2="258" y2="271"/>
+	<segment x1="258" y1="271" x2="256" y2="246"/>
+	<segment x1="256" y1="246" x2="262" y2="227"/>
+	<segment x1="262" y1="227" x2="262" y2="212"/>
+	<segment x1="262" y1="212" x2="264" y2="242"/>
+	<segment x1="264" y1="242" x2="270" y2="274"/>
+	<segment x1="270" y1="274" x2="279" y2="293"/>
+	<segment x1="279" y1="293" x2="281" y2="318"/>
+	<segment x1="281" y1="318" x2="310" y2="317"/>
+	<segment x1="310" y1="317" x2="326" y2="276"/>
+	<segment x1="326" y1="276" x2="326" y2="248"/>
+	<segment x1="326" y1="248" x2="339" y2="320"/>
+
+	<segment x1="476" y1="320" x2="465" y2="306"/>
+	<segment x1="465" y1="306" x2="462" y2="227"/>
+	<segment x1="462" y1="227" x2="460" y2="167"/>
+	<segment x1="460" y1="167" x2="461" y2="96"/>
+	<segment x1="461" y1="96" x2="469" y2="43"/>
+	<segment x1="469" y1="43" x2="477" y2="0"/>	
+	
+	
+	<segment x1="0" y1="3" x2="480" y2="3" group="1"/>
+	<segment x1="0" y1="317" x2="480" y2="317" group="1"/>
+	
+	<glow x="50" y="170" size="10" numParticles="5" speed="5" r="255" g="150" b="150" tag="61509"/>
+	<circle x="50" y="170" radius="6" mass="-1" sensor="true" tag="61510" type="61509"/>
+	<showAction hide="true" cTag1="1" cTag2="61510" receiverTag="61509"/>
+	<binAction cTag1="1" cTag2="61510" bin="6.15.1" binValue="1"/>
+	
+	
+	<!-- crate one on the far left -->
+	<rect x="85" y="90" width="40" height="40" file="rect40x40.png" mass="125" visible="true" tag="61501"/>
+	
+	<!-- crate two -->
+	<rect x="135" y="200" width="36" height="50" file="rect40x50.png" mass="125" visible="true" tag="61502" type="61502"/>
+		
+	<!-- crate three -->
+	<rect x="185" y="90" width="40" height="40" file="rect40x40.png" mass="125" visible="true" tag="61503"/>
+		
+	<!-- crate four -->
+	<rect x="235" y="200" width="36" height="50" file="rect40x50.png" mass="125" visible="true" tag="61504" type="61504"/>
+	
+	<!-- crate five -->
+	<rect x="285" y="90" width="40" height="40" file="rect40x40.png" mass="125" visible="true" tag="61505"/>
+	
+	<!-- crate six -->
+	<rect x="335" y="200" width="36" height="50" file="rect40x50.png" mass="125" visible="true" tag="61506" type="61506"/>	
+	
+	<!-- crate seven -->
+	<rect x="385" y="90" width="40" height="40" file="rect40x40.png" mass="125" visible="true" tag="61507"/>
+
+	<!-- crate eight on the far right -->
+	<rect x="435" y="200" width="36" height="50" file="rect40x50.png" mass="12" visible="true" tag="61508" type="61508"/>
+	
+	<!-- upper glow flower -->
+	<glowflower x="40" y="220" xlen="35" ylen="30"/>
+	
+	<!-- upper glow flower -->
+	<glowflower x="330" y="300" xlen="30" ylen="-30"/>
+	
+	<!-- pulley between crate one and eight -->
+	<pulley toTag="61501" fromTag="61508" toY="20" fromY="20" pX1="85" pY1="320" pX2="435" pY2="320" ratio="1" visible="true"/>
+	
+	<!-- pulley between crate two and seven -->
+	<pulley toTag="61502" fromTag="61507" toY="20" fromY="20" pX1="135" pY1="320" pX2="385" pY2="320" ratio="1" visible="true"/>
+	
+	<!-- pulley between crate three and six -->
+	<pulley toTag="61503" fromTag="61506" toY="20" fromY="20" pX1="185" pY1="320" pX2="335" pY2="320" ratio="1" visible="true"/>
+	
+	<!-- pulley between crate four and five -->
+	<pulley toTag="61504" fromTag="61505" toY="20" fromY="20" pX1="235" pY1="320" pX2="285" pY2="320" ratio="1" visible="true"/>
+		
+	<transitionScreens left = "-1" right = "0" top = "-4" bottom = "3"/>
+</mobilebros>

@@ -1,0 +1,35 @@
+<trundle map = "">
+
+	<music file="level10music.mp3"/>
+	
+	<segment x1="-1" y1="118" x2="3" y2="82"/>
+	<segment x1="3" y1="82" x2="38" y2="44"/>
+	<segment x1="38" y1="44" x2="82" y2="56"/>
+	<segment x1="82" y1="56" x2="95" y2="50"/>
+	<segment x1="95" y1="50" x2="104" y2="34"/>
+	<segment x1="104" y1="34" x2="126" y2="38"/>
+	<segment x1="126" y1="38" x2="141" y2="26"/>
+	<segment x1="141" y1="26" x2="159" y2="15"/>
+	<segment x1="159" y1="15" x2="177" y2="14"/>
+	<segment x1="177" y1="14" x2="197" y2="17"/>
+	<segment x1="197" y1="17" x2="228" y2="7"/>
+	<segment x1="228" y1="7" x2="266" y2="15"/>
+	<segment x1="266" y1="15" x2="298" y2="15"/>
+	<segment x1="298" y1="15" x2="324" y2="25"/>
+	<segment x1="324" y1="25" x2="364" y2="25"/>
+	<segment x1="364" y1="25" x2="388" y2="32"/>
+	<segment x1="388" y1="32" x2="420" y2="34"/>
+	<segment x1="420" y1="34" x2="442" y2="21"/>
+	<segment x1="442" y1="21" x2="447" y2="47"/>
+	<segment x1="447" y1="47" x2="448" y2="103"/>
+	<segment x1="448" y1="103" x2="454" y2="115"/>
+	<segment x1="454" y1="115" x2="468" y2="114"/>
+	<segment x1="468" y1="114" x2="479" y2="112"/>
+	
+	<pinion x="385" y="48" tag="100001" type="100001"/>
+	<walkAction cTag1="1" cTag2="100001" receiverTag="100001" x="415" y="51" duration=".6"/>
+	<updateAction cTag1="1" cTag2="100001" duration="2" percentage="0.9" receiverTag="100001"/>
+	<messageAction receiverTag="100001" right="true" message="This place\nis kinda dreary\nisn't it?" message2="Do you know\nany games we\ncould play?" message3="Be careful here.\nThere be many\na spike!"/>
+	<messageAction cTag1="1" cTag2="100001" receiverTag="100001" right="false" message="Ouch!\nYou're kinda\nsharp..."/>
+
+</trundle>

@@ -1,0 +1,46 @@
+<trundle map = "lscr6">
+
+<background file="l1back10.png"/>
+	
+	<segment x1="-1" y1="56" x2="44" y2="52" />
+	<segment x1="44" y1="52" x2="58" y2="54" />
+	<segment x1="58" y1="54" x2="63" y2="36" />
+
+	<segment x1="22" y1="-1" x2="63" y2="36" />
+	
+	<segment x1="446" y1="0" x2="415" y2="35" />
+	<segment x1="415" y1="35" x2="422" y2="54" />
+
+	<segment x1="478" y1="55" x2="422" y2="54" />
+
+	<segment x1="10" y1="263" x2="493" y2="263" />
+
+	<segment x1="479" y1="280" x2="443" y2="281" />
+	<segment x1="443" y1="281" x2="429" y2="306" />
+	<segment x1="429" y1="306" x2="427" y2="281" />
+	<segment x1="427" y1="278" x2="34" y2="278" />
+	<segment x1="34" y1="283" x2="33" y2="306" />
+	<segment x1="33" y1="306" x2="10" y2="263" />
+	
+	
+	<circle x="200" y="303" file="circler15.png" visible="true" mass="25" radius="15" tag="11001"/>
+	
+	<rect x="200" y="110" width="100" height="10" mass="10" visible="true" tag="11002"/>
+	<pin toTag="11002" fromTag="11001" toX="-45" toY="0" fromX="0" fromY="0" visible="true"/>
+	<pin toTag="11002" fromTag="11001" toX="45" toY="0" fromX="0" fromY="0" visible="true"/>
+	
+	<rect x="250" y="126" width="10" height="20" mass="10" visible="true" tag="11003"/>
+	<pin toTag="11002" fromTag="11003" toX="-45" toY="0" fromX="0" fromY="10" visible="true"/>
+	<pin toTag="11002" fromTag="11003" toX="45" toY="0" fromX="0" fromY="-10" visible="true"/>
+	
+	<rect x="150" y="126" width="10" height="20" mass="10" visible="true" tag="11004"/>
+	<pin toTag="11002" fromTag="11004" toX="-45" toY="0" fromX="0" fromY="-10" visible="true"/>
+	<pin toTag="11002" fromTag="11004" toX="45" toY="0" fromX="0" fromY="10" visible="true"/>
+	
+	<rect x="7" y="125" width="7" height="20" mass="-1" visible="true" type="11005" tag="11005"/>
+	<rect x="473" y="125" width="7" height="20" mass="-1" visible="true" type="11006" tag="11006"/>
+	
+	<impulseAction cTag1="11005" cTag2="1" receiverTag="11001" repeat="true" x="-130" y="0" ignoreContactPt="true"/>
+	<impulseAction cTag1="11006" cTag2="1" receiverTag="11001" repeat="true" x="130" y="0" ignoreContactPt="true"/>
+	
+</trundle>

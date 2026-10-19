@@ -1,0 +1,48 @@
+<trundle map = "">
+	<segment x1="0" y1="211" x2="87" y2="210"/>
+	<segment x1="87" y1="210" x2="106" y2="197"/>
+	<segment x1="106" y1="197" x2="105" y2="89"/>
+	<segment x1="105" y1="89" x2="103" y2="74"/>
+	<segment x1="103" y1="74" x2="111" y2="65"/>
+	<segment x1="111" y1="65" x2="257" y2="63"/>
+	<segment x1="257" y1="63" x2="269" y2="70"/>
+	<segment x1="269" y1="70" x2="295" y2="52"/>
+	<segment x1="295" y1="52" x2="300" y2="23"/>
+	<segment x1="300" y1="23" x2="282" y2="34"/>
+	<segment x1="282" y1="34" x2="272" y2="16"/>
+	<segment x1="272" y1="16" x2="273" y2="0"/>
+
+	<segment x1="453" y1="0" x2="458" y2="19"/>
+	<segment x1="458" y1="19" x2="452" y2="33"/>
+	<segment x1="452" y1="33" x2="469" y2="39"/>
+	<segment x1="469" y1="39" x2="480" y2="39"/>
+
+	<segment x1="480" y1="95" x2="434" y2="88"/>
+	<segment x1="434" y1="88" x2="428" y2="95"/>
+	<segment x1="428" y1="95" x2="422" y2="87"/>
+	<segment x1="422" y1="87" x2="411" y2="86"/>
+	<segment x1="411" y1="86" x2="404" y2="81"/>
+	<segment x1="404" y1="81" x2="379" y2="91"/>
+	<segment x1="379" y1="91" x2="379" y2="135"/>
+	<segment x1="379" y1="135" x2="380" y2="183"/>
+	<segment x1="380" y1="183" x2="374" y2="190"/>
+	<segment x1="374" y1="190" x2="370" y2="213"/>
+	<segment x1="370" y1="213" x2="368" y2="235"/>
+	<segment x1="368" y1="235" x2="368" y2="264"/>
+	<segment x1="368" y1="264" x2="358" y2="270"/>
+	<segment x1="358" y1="270" x2="361" y2="289"/>
+	<segment x1="361" y1="289" x2="349" y2="308"/>
+	<segment x1="349" y1="308" x2="342" y2="320"/>
+	<segment x1="342" y1="320" x2="342" y2="400"/>
+	<segment x1="342" y1="400" x2="0" y2="400"/>
+	
+	
+	<rect x="170" y="150" width="8" height="165" mass="8" visible="true" tag="31001" group="31001"/>
+	<rect x="170" y="100" width="58" height="8" mass="8" visible="true" tag="31002" group="31001"/>
+	<pivot toTag="31001" fromTag="31002" toX="0" toY="0" fromX="0" fromY="50"/>
+	<pivot toTag="31001" fromTag="31002" toX="0" toY="100" fromX="0" fromY="150"/>
+
+	<leaves/>
+	
+	<defaultxy x="60" y="250"/>
+</trundle>

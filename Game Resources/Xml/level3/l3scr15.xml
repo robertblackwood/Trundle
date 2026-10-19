@@ -1,0 +1,84 @@
+<trundle map = "">
+	<segment x1="480" y1="100" x2="446" y2="106"/>
+	<segment x1="446" y1="106" x2="412" y2="121"/>
+	<segment x1="412" y1="121" x2="403" y2="122"/>
+	<segment x1="403" y1="122" x2="399" y2="115"/>
+	<segment x1="399" y1="115" x2="405" y2="89"/>
+	<segment x1="405" y1="89" x2="402" y2="77"/>
+	<segment x1="402" y1="77" x2="402" y2="20"/>
+	<segment x1="402" y1="20" x2="337" y2="13"/>
+	<segment x1="337" y1="13" x2="287" y2="11"/>
+	<segment x1="287" y1="11" x2="272" y2="16"/>
+	<segment x1="272" y1="16" x2="251" y2="16"/>
+	<segment x1="251" y1="16" x2="246" y2="80"/>
+	<segment x1="246" y1="80" x2="240" y2="92"/>
+	<segment x1="240" y1="92" x2="226" y2="93"/>
+	<segment x1="226" y1="93" x2="210" y2="86"/>
+	<segment x1="210" y1="86" x2="196" y2="87"/>
+	<segment x1="196" y1="87" x2="123" y2="87"/>
+	<segment x1="123" y1="87" x2="112" y2="87"/>
+	<segment x1="112" y1="87" x2="52" y2="89"/>
+	<segment x1="52" y1="89" x2="45" y2="94"/>
+	<segment x1="45" y1="94" x2="38" y2="94"/>
+	<segment x1="38" y1="94" x2="29" y2="93"/>
+	<segment x1="29" y1="93" x2="24" y2="89"/>
+	<segment x1="24" y1="89" x2="-400" y2="90"/>
+
+	<segment x1="-400" y1="192" x2="148" y2="191"/>
+	<segment x1="148" y1="191" x2="149" y2="201"/>
+	<segment x1="149" y1="201" x2="150" y2="217"/>
+	<segment x1="150" y1="217" x2="142" y2="225"/>
+	<segment x1="142" y1="225" x2="72" y2="227"/>
+	<segment x1="72" y1="227" x2="19" y2="226"/>
+	<segment x1="19" y1="226" x2="12" y2="222"/>
+	<segment x1="12" y1="222" x2="0" y2="224"/>
+	<segment x1="-250" y1="225" x2="0" y2="224"/>
+
+
+	<segment x1="480" y1="280" x2="700" y2="288"/>
+	<segment x1="480" y1="280" x2="349" y2="280"/>
+	<segment x1="349" y1="280" x2="338" y2="278"/>
+	<segment x1="338" y1="278" x2="306" y2="275"/>
+	<segment x1="306" y1="275" x2="290" y2="274"/>
+	<segment x1="290" y1="274" x2="236" y2="276"/>
+	<segment x1="236" y1="276" x2="238" y2="262"/>
+	<segment x1="238" y1="262" x2="281" y2="257"/>
+	<segment x1="281" y1="257" x2="310" y2="254"/>
+	<segment x1="310" y1="254" x2="380" y2="256"/>
+	<segment x1="380" y1="256" x2="409" y2="246"/>
+	<segment x1="409" y1="246" x2="480" y2="246"/>
+
+	<circle x="100" y="100" radius="9" visible="true" mass="5" friction=".4"/>
+	<circle x="130" y="100" radius="9" visible="true" mass="5" friction=".4"/>
+	<circle x="160" y="100" radius="9" visible="true" mass="5" friction=".4"/>
+	
+	<rect x="159" y="218" mass="1" width="4" height="6" visible="true" moment="-1" tag="31500"/>
+	<rect x="195" y="210" mass="-1" width="80" height="14" visible="true" moment="-1" tag="31501"/>	
+	<pivot toTag="31500" fromTag="31501" fromX="-36" fromY="8"/>
+	<!--<groove groove1X="195" groove1Y="209" groove2X="195" groove2Y="290" toTag="31501" toX="0" toY="0" visible="false"/>-->
+
+	<rect x="320" y="90" mass="4" width="135" height="8" visible="true" moment="-1" tag="31502" type="31502"/>
+	<spring toTag="-1" fromTag="31502" toX="320" toY="320" fromX="0" fromY="0" visible="false" restLength="230" stiffness="285"/>		
+	<groove groove1X="320" groove1Y="90" groove2X="320" groove2Y="10" toTag="31502" toX="0" toY="0" visible="false"/>
+
+	<connector toTag="31501" fromTag="-1" offset1X="-5" offset1Y="0" offset2X="190" offset2Y="0" lineWidth="5"/>
+	<connector toTag="31502" fromTag="-1" offset1X="-5" offset1Y="0" offset2X="315" offset2Y="0" lineWidth="5"/>
+	<connector toTag="31501" fromTag="-1" offset1X="5" offset1Y="0" offset2X="200" offset2Y="0" lineWidth="5"/>
+	<connector toTag="31502" fromTag="-1" offset1X="5" offset1Y="0" offset2X="325" offset2Y="0" lineWidth="5"/>
+	
+	<rect x="280" y="18" mass="-1" width="10" height="16" tag="31503" type="31503" visible="true"/>
+	<moveAction x="195" y="275" cTag1="31502" cTag2="31503" receiverTag="31501" duration="5"/>
+	
+	<sprite x="280" y="23" file="greenbutton.png" visible="true" tag="31504" z="1000"/>
+	<fade in=".2" out=".2" delay=".1" pause=".1" toTag="31504" repeat="true"/>
+	
+	<segment x1="249" y1="244" x2="249" y2="220" radius="7"/>
+	<segment x1="144" y1="520" x2="144" y2="254" radius="7"/>
+	<segment x1="0" y1="520" x2="480" y2="520"/>
+	
+	<sprite tag="30101" file="beacon.png" x="230" y="219" z="1" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="1.5" toTag="30101" repeat="true"/>
+	
+	<leaves/>
+
+</trundle>

@@ -1,0 +1,78 @@
+<trundle map = "l4scr2">
+
+	<defaultxy x="30" y="300"/>
+
+	<segment x1="0" y1="260" x2="60" y2="260"/>
+	<segment x1="60" y1="260" x2="60" y2="190"/>
+	<segment x1="60" y1="190" x2="100" y2="110"/>
+	<segment x1="100" y1="110" x2="160" y2="50"/>
+	<segment x1="160" y1="50" x2="250" y2="20"/>
+	<segment x1="250" y1="20" x2="340" y2="30"/>
+	<segment x1="340" y1="30" x2="410" y2="50"/>
+	<segment x1="410" y1="50" x2="480" y2="80"/>
+	<segment x1="0"	y1="400" x2="480" y2="400"/>
+	
+	<segment x1="213" y1="37" x2="225" y2="40"/>
+	<segment x1="225" y1="40" x2="231" y2="45"/>
+	<segment x1="231" y1="45" x2="237" y2="48"/>
+	<segment x1="237" y1="48" x2="241" y2="56"/>
+	<segment x1="241" y1="56" x2="236" y2="66"/>
+	<segment x1="236" y1="66" x2="245" y2="129"/>
+	<segment x1="245" y1="129" x2="242" y2="141"/>
+	<segment x1="242" y1="141" x2="246" y2="190"/>
+	<segment x1="246" y1="190" x2="260" y2="250"/>
+	
+	<!-- nub of lower left tree branch to prevent climbing the trunk -->
+	<segment x1="246" y1="190" x2="232" y2="212"/>
+	<segment x1="232" y1="212" x2="240" y2="240"/>
+	<segment x1="240" y1="240" x2="250" y2="230"/>
+	<segment x1="250" y1="230" x2="255" y2="232"/>
+	
+	
+	<segment x1="268" y1="285" x2="277" y2="320"/>
+	
+	<segment x1="277" y1="320" x2="277" y2="400"/>
+	
+	<segment x1="277" y1="320" x2="324" y2="320"/>
+	<segment x1="324" y1="320" x2="320" y2="289"/>
+	<segment x1="320" y1="289" x2="355" y2="320"/>
+	<segment x1="355" y1="320" x2="381" y2="320"/>
+
+	<segment x1="381" y1="320" x2="381" y2="400"/>	
+	
+	<segment x1="381" y1="320" x2="305" y2="250"/>
+	<segment x1="305" y1="250" x2="285" y2="193"/>
+	<segment x1="285" y1="193" x2="280" y2="132"/>
+	<segment x1="280" y1="132" x2="290" y2="73"/>
+
+	<!-- inside tree to kick out cog -->
+	<segment x1="238" y1="70" x2="290" y2="35"/>
+	<segment x1="290" y1="35" x2="320" y2="27"/>
+	
+	<!-- prevent jumping over large wheel -->
+	<segment group="40201" x1="0" y1="360" x2="240" y2="330"/>
+	
+	
+	<!-- tree trunk overlay -->
+	<sprite tag="40200" file="l4back2tree.png" x="307" y="160" z="1000" visible="true"/>
+	
+	<!-- particle at top of tree entrance -->
+	<glow x="285" y="265" size="45" numParticles="5" speed="1" r="255" g="255" b="255"/>
+	
+	<!-- particle at bottom of tree entrance -->
+	<glow x="282" y="45" size="45" numParticles="5" speed="1" r="255" g="255" b="255"/>	
+	
+	
+	<!-- large wheel at top -->
+	<circle x="165" y="300" mass="15" radius="45" file="circler45.png" visible="true" tag="40201" type="40201" group="40201"/>
+	<pivot toTag="40201" fromTag="-1" toX="0" toY="0" fromX="165" fromY="300" visible="false"/>
+
+	<!-- top gear -->
+	<circle x="165" y="155" mass="3" radius="25" file="circler25.png" visible="true" tag="40203" type="40203"/>	
+
+	<!-- connect large wheel to gear -->
+	<pin toTag="40203" fromTag="40201" fromY="-45" visible="true"/> 
+	
+	<fuzzles/>
+	
+</trundle>

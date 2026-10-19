@@ -1,0 +1,75 @@
+<trundle map = "">
+	<pinion x="500" y="32" tag="110000" type="110000" scale=".7"/>
+
+	<walkAction x="457" y="26" duration="1" delay="1" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<walkAction x="416" y="24" duration="1" delay="2" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<walkAction x="368" y="25" duration="1" delay="3" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<walkAction x="327" y="30" duration="1" delay="4" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<walkAction x="277" y="23" duration="1" delay="5" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<walkAction x="212" y="26" duration="1" delay="6" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<walkAction x="160" y="27" duration="1" delay="6" bin="11.16.2" binValue="7" cTag1="111801" cTag2="111802" receiverTag="110000"/>
+	<jumpAction height="50" x="86" y="107" duration="1" delay="7" bin="11.16.2" binValue="7" cTag1="111801" cTag2="111802" receiverTag="110000"/>
+	<jumpAction height="20" x="20" y="91" duration="1" delay="8" bin="11.16.2" binValue="7" cTag1="111801" cTag2="111802" receiverTag="110000"/>
+
+	<messageAction bin="11.16.2" binValue="7" receiverTag="110000" right="true" delay="6" message="Oh shoot!\nCan you get\nup there?;The console\nmust open it"/> 
+	
+	
+	<transitionScreens left="1" right="-1" top="0" bottom="666"/>
+	
+	<rect x="320" y="280" width="40" height="40" mass="6" visible="true" tag="111801" type="111801"/>
+	<rope toX="240" toY="235" toTag="-1" fromY="-14" length="160" fromTag="111801"/>
+	
+	<rect x="80" y="172" width="12" height="160" mass="-1" visible="true" tag="111802" type="111802"/>
+	<rect x="80" y="275" width="30" height="50" mass="-1" visible="true"/>
+	<rect x="80" y="300" width="60" height="50" mass="-1" visible="true"/>
+	<rect x="80" y="80" width="30" height="50" mass="-1" visible="true"/>
+	<segment x1="80" y1="320" x2="80" y2="520"/>
+
+	<defaultxy x="280" y="80"/>
+	
+	<fragmentAction cTag1="111801" cTag2="111802" receiverTag="111802" pieces="9" mass="2" nonColliding="true"/>
+	
+	<!--Set this bin, and then set another that's a sum, it'll create a chained bin of sorts -->
+	<binAction cTag1="111801" cTag2="111802" bin="11.18.1" binValue="1"/>
+	<binSum bin="11.18.2" bins="11.16.2,11.18.1"/>
+	
+	<!--Remove after will only happen if the check above is true -->
+	<handledCheck bin="11.18.2" value="8" tag="11008"/>
+	<removeAfter toTag="110000" screen="18" dependTag="11008"/>
+	
+	<segment x1="-800" y1="55" x2="-9" y2="85"/>
+	<segment x1="-9" y1="85" x2="18" y2="82"/>
+	<segment x1="18" y1="82" x2="69" y2="81"/>
+	<segment x1="69" y1="81" x2="95" y2="75"/>
+	<segment x1="95" y1="75" x2="98" y2="45"/>
+	<segment x1="98" y1="45" x2="135" y2="19"/>
+	<segment x1="135" y1="19" x2="184" y2="13"/>
+	<segment x1="184" y1="13" x2="266" y2="12"/>
+	<segment x1="266" y1="12" x2="311" y2="16"/>
+	<segment x1="311" y1="16" x2="342" y2="19"/>
+	<segment x1="342" y1="19" x2="376" y2="13"/>
+	<segment x1="376" y1="13" x2="435" y2="14"/>
+	<segment x1="435" y1="14" x2="479" y2="14"/>
+
+
+	<segment x1="241" y1="211" x2="240" y2="196"/>
+	<segment x1="240" y1="196" x2="167" y2="196"/>
+	<segment x1="167" y1="196" x2="167" y2="200"/>
+	<segment x1="167" y1="200" x2="175" y2="203"/>
+	<segment x1="175" y1="203" x2="175" y2="211"/>
+	<segment x1="175" y1="211" x2="185" y2="211"/>
+	<segment x1="185" y1="211" x2="186" y2="227"/>
+	<segment x1="186" y1="227" x2="195" y2="227"/>
+	<segment x1="195" y1="227" x2="194" y2="235"/>
+	<segment x1="194" y1="235" x2="200" y2="239"/>
+	<segment x1="200" y1="239" x2="199" y2="251"/>
+	<segment x1="199" y1="251" x2="209" y2="252"/>
+	<segment x1="209" y1="252" x2="210" y2="260"/>
+	<segment x1="210" y1="260" x2="341" y2="261"/>
+	<segment x1="341" y1="261" x2="342" y2="247"/>
+	<segment x1="342" y1="247" x2="262" y2="248"/>
+	<segment x1="262" y1="248" x2="262" y2="221"/>
+	<segment x1="262" y1="221" x2="239" y2="222"/>
+	<segment x1="239" y1="222" x2="239" y2="214"/>
+  
+</trundle>

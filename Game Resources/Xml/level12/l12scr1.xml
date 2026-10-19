@@ -1,0 +1,28 @@
+<trundle map = "l12scr1">
+	<segment x1="46" y1="560" x2="46" y2="320"/>
+	<segment x1="46" y1="320" x2="22" y2="292"/>
+	<segment x1="22" y1="292" x2="29" y2="80"/>
+	<segment x1="29" y1="80" x2="38" y2="46"/>
+	<segment x1="38" y1="46" x2="63" y2="27"/>
+	<segment x1="63" y1="27" x2="112" y2="23"/>
+	<segment x1="112" y1="23" x2="299" y2="26"/>
+	<segment x1="299" y1="26" x2="322" y2="37"/>
+	<segment x1="322" y1="37" x2="335" y2="54"/>
+	<segment x1="335" y1="54" x2="352" y2="72"/>
+	<segment x1="352" y1="72" x2="372" y2="88"/>
+	<segment x1="372" y1="88" x2="401" y2="101"/>
+	<segment x1="401" y1="101" x2="431" y2="108"/>
+	<segment x1="431" y1="108" x2="460" y2="113"/>
+	<segment x1="460" y1="113" x2="480" y2="110"/>
+	<butterfly startX="495" startY="160" midX="70" midY="245" endX="495" endY="320" control1X="300" control1Y="280" control2X="310" control2Y="130"/>
+	<butterfly startX="80" startY="120" midX="280" midY="190" endX="280" endY="220" control1X="200" control1Y="180" control2X="210" control2Y="30"/>
+	<glowflower x="120" y="22" xlen="10" ylen="30"/>
+	<glowflower x="180" y="22" xlen="10" ylen="30"/>
+	<glowflower x="280" y="22" xlen="10" ylen="30"/>
+	<glowflower x="20" y="150" xlen="30" ylen="30"/>
+	<grass x="90" y="28"/>
+	<grass x="140" y="28"/>
+	<grass x="190" y="28"/>
+	<grass x="240" y="28"/>
+	<grass x="290" y="28"/>
+</trundle>

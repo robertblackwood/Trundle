@@ -1,0 +1,36 @@
+<trundle map = "lscr12">
+
+<background file="l1back12.png"/>
+
+	<segment x1="0" y1="151" x2="39" y2="130"/>
+	<segment x1="39" y1="130" x2="34" y2="0"/>
+	<segment x1="85" y1="0" x2="87" y2="94"/>
+	<segment x1="87" y1="94" x2="351" y2="28"/>
+	<segment x1="351" y1="28" x2="404" y2="59"/>
+	<segment x1="404" y1="59" x2="414" y2="129"/>
+	<segment x1="414" y1="129" x2="384" y2="259"/>
+	<segment x1="384" y1="259" x2="434" y2="295"/>
+	<segment x1="434" y1="295" x2="436" y2="360"/>
+
+	<segment x1="330" y1="320" x2="330" y2="360"/>
+	<segment x1="330" y1="320" x2="282" y2="289"/>
+	<segment x1="282" y1="289" x2="194" y2="291"/>
+	<segment x1="194" y1="291" x2="185" y2="319"/>
+
+	<segment x1="212" y1="229" x2="223" y2="195"/>
+	<segment x1="223" y1="195" x2="276" y2="166"/>
+	<segment x1="276" y1="166" x2="300" y2="234"/>
+	<segment x1="300" y1="234" x2="288" y2="228"/>
+	<segment x1="288" y1="228" x2="213" y2="230"/>
+	
+	<circle x="337" y="109" mass="-1" radius="18"/>
+	<circle x="373" y="151" mass="-1" radius="16" friction=".2"/>
+	<circle x="319" y="185" mass="-1" radius="18" friction=".2"/>
+	
+	<segment x1="239" y1="59" x2="254" y2="64"/>
+	<segment x1="254" y1="64" x2="264" y2="50"/>
+	
+	<defaultxy x="220" y="110"/>
+	<transitionScreens left = "-1" right = "0" top = "1" bottom = "666"/>
+	
+</trundle>

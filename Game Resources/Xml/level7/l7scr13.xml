@@ -1,0 +1,17 @@
+<trundle map = "l7scr13">
+	<background file="l7back13.png" spotlight="true" lightRadius="420"/>
+
+	<segment x1="300" y1="0" x2="283" y2="28"/>
+	<segment x1="283" y1="28" x2="480" y2="28"/>
+	<segment x1="20" y1="0" x2="20" y2="180"/>
+	<segment x1="20" y1="181" x2="45" y2="228"/>
+	<segment x1="45" y1="228" x2="76" y2="272"/>
+	<segment x1="76" y1="272" x2="111" y2="309"/>
+	<segment x1="111" y1="309" x2="125" y2="320"/>
+
+	<rect x="150" y="250" width="10" height="60" mass="-1" visible="true" type="71301" tag="71301"/>
+	
+	<rain/>	
+	<defaultxy x="320" y="200"/>
+	<transitionScreens left="6" right="1" top="4" bottom="-1"/>
+</trundle>

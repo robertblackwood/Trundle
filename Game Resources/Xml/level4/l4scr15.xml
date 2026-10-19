@@ -1,0 +1,22 @@
+<trundle map = "l4scr15">
+	<segment x1="20" y1="0" x2="20" y2="20"/>
+	<segment x1="20" y1="20" x2="470" y2="20"/>
+	<segment x1="470" y1="20" x2="440" y2="250" friction="0.0001" elasticity=".95"/>
+	<segment x1="440" y1="250" x2="480" y2="250"/>
+	
+	<segment x1="393" y1="210" x2="450" y2="150"/>
+	<segment x1="393" y1="200" x2="450" y2="160"/>
+	
+	<rect x="150"	y="150"	mass="-1"	width="80"	height="20"	visible="true"	tag="41501"/>	
+	<rect x="350"	y="210"	mass="-1"	width="80"	height="20"	visible="true"	tag="41502"/>
+	
+	<circle x="300" y="100" mass="-1" radius="20" visible="true" tag="41503"/>
+	<rect x="320" y="100"  width="60" height="6" mass="-1" visible="true" tag="41504"/>
+		
+	<rotateAction duration="8" angle="-360" repeat="true" receiverTag="41403"/>
+	<rotateAround x="300" y="100" reverse="true" facing="true" tag="41504" duration="8"/>
+	
+	<transitionScreens left = "-1" right = "1" top = "0" bottom = "666"/>
+	
+	<fuzzles/>
+</trundle>

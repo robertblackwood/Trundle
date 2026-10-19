@@ -1,0 +1,42 @@
+<trundle map = "">
+	<segment x1="-1" y1="138" x2="47" y2="134"/>
+	<segment x1="47" y1="134" x2="73" y2="123"/>
+	<segment x1="73" y1="123" x2="75" y2="78"/>
+	<segment x1="75" y1="78" x2="71" y2="64"/>
+	<segment x1="71" y1="64" x2="110" y2="12"/>
+	<segment x1="110" y1="12" x2="178" y2="14"/>
+	<segment x1="178" y1="14" x2="237" y2="12"/>
+	<segment x1="237" y1="12" x2="442" y2="13"/>
+	<segment x1="442" y1="13" x2="430" y2="73"/>
+	<segment x1="430" y1="73" x2="349" y2="270" friction=".001" elasticity=".9"/>
+	<segment x1="349" y1="270" x2="385" y2="273"/>
+	<segment x1="385" y1="273" x2="451" y2="265"/>
+	<segment x1="451" y1="265" x2="540" y2="264"/>
+	
+	<segment x1="174" y1="221" x2="115" y2="217"/>
+	<segment x1="115" y1="217" x2="115" y2="244" friction=".001"/>
+	<segment x1="115" y1="244" x2="151" y2="228"/>
+	<segment x1="151" y1="228" x2="174" y2="222"/>
+	
+	<segment x1="100" y1="217" x2="98" y2="256" friction=".001"/>
+	<segment x1="98" y1="256" x2="86" y2="270"/>
+	<segment x1="86" y1="270" x2="80" y2="282"/>
+	<segment x1="80" y1="282" x2="45" y2="296"/>
+	<segment x1="45" y1="296" x2="44" y2="228"/>
+	<segment x1="99" y1="216" x2="44" y2="228"/>
+	
+	<rect x="270" y="60" width="225" height="5" file="teeter.png" mass="12" visible="true" tag="20502" friction="10"/>
+	<pivot toTag="20502" fromTag="-1" toX="0" toY="0" fromX="270" fromY="60" visible="false"/>
+	
+	<circle x="60" y="320" radius="18" mass="100" file="boulder20.png" visible="true"/>
+	
+	<rect x="108" y="270" width="12" height="80" visible="true" mass="5" friction="0.6"/>
+	<rect x="108" y="192" width="30" height="26" visible="true" friction="0.01" mass="-1" tag="20501" type="20501"/>
+	<glow x="0" y="0" numParticles="15" speed="4" size="12" toTag="20501" r="30" g="64" b="194"/>
+	
+	<fragmentAction cTag1="1" cTag2="20501" receiverTag="20501" pieces="4" mass="2"/>
+	
+	<segment x1="200" y1="33" x2="200" y2="18" radius="5"/>
+	<segment x1="140" y1="50" x2="140" y2="12" radius="5" visible="true"/>
+
+</trundle>

@@ -1,0 +1,52 @@
+<trundle map = "l4scr3">
+
+	<segment x1="0" y1="87" x2="30" y2="96"/>
+	<segment x1="30" y1="96" x2="37" y2="78"/>
+	<segment x1="37" y1="78" x2="49" y2="67"/>
+	<segment x1="49" y1="67" x2="64" y2="68"/>
+	<segment x1="64" y1="68" x2="85" y2="55"/>
+	<segment x1="85" y1="55" x2="81" y2="41"/>
+	<segment x1="81" y1="41" x2="86" y2="32"/>
+	<segment x1="86" y1="32" x2="87" y2="13"/>
+	<segment x1="87" y1="13" x2="88" y2="13"/>
+	<segment x1="88" y1="13" x2="87" y2="11"/>
+	<segment x1="87" y1="11" x2="88" y2="0"/>
+
+	<segment x1="439" y1="0" x2="433" y2="5" elasticity="1" friction=".01"/>/>
+	<segment x1="433" y1="5" x2="435" y2="12" elasticity="1" friction=".01"/>/>
+	<segment x1="435" y1="12" x2="438" y2="14" elasticity="1" friction=".01"/>/>
+	<segment x1="438" y1="14" x2="439" y2="35" elasticity="1" friction=".01"/>/>
+	<segment x1="439" y1="35" x2="436" y2="41" elasticity="1" friction=".01"/>/>
+	<segment x1="436" y1="41" x2="434" y2="54" elasticity="1" friction=".01"/>/>
+	<segment x1="434" y1="54" x2="434" y2="59" elasticity="1" friction=".01"/>/>
+	<segment x1="434" y1="59" x2="434" y2="71" elasticity="1" friction=".01"/>/>
+	<segment x1="434" y1="71" x2="436" y2="75" elasticity="1" friction=".01"/>/>
+	<segment x1="436" y1="75" x2="437" y2="83" elasticity="1" friction=".01"/>/>
+	<segment x1="437" y1="83" x2="433" y2="87" elasticity="1" friction=".01"/>/>
+	<segment x1="433" y1="87" x2="436" y2="89" elasticity="1" friction=".01"/>/>
+	<segment x1="436" y1="89" x2="438" y2="130" elasticity="1" friction=".01"/>/>
+	<segment x1="438" y1="130" x2="434" y2="145" elasticity="1" friction=".01"/>/>
+	<segment x1="434" y1="145" x2="437" y2="147" elasticity="1" friction=".01"/>/>
+	<segment x1="437" y1="147" x2="438" y2="170" elasticity="1" friction=".01"/>/>
+	<segment x1="438" y1="170" x2="433" y2="177" elasticity="1" friction=".01"/>/>
+	<segment x1="433" y1="177" x2="439" y2="187" elasticity="1" friction=".01"/>/>
+	<segment x1="439" y1="187" x2="439" y2="197" elasticity="1" friction=".01"/>/>
+	<segment x1="439" y1="197" x2="435" y2="200" elasticity="1" friction=".01"/>/>
+	<segment x1="435" y1="200" x2="436" y2="231" elasticity="1" friction=".01"/>/>
+	<segment x1="436" y1="231" x2="434" y2="245" elasticity="1" friction=".01"/>/>
+	<segment x1="434" y1="245" x2="431" y2="249"/>
+	<segment x1="431" y1="249" x2="434" y2="254"/>
+	<segment x1="434" y1="254" x2="445" y2="262"/>
+	<segment x1="445" y1="262" x2="479" y2="261"/>
+	
+	<rect x="245"	y="70"	mass="-1"	width="60"	height="6"	visible="true"	tag="40301"/>
+	<rect x="275"	y="90"	mass="-1"	width="6"	height="40" visible="true"	tag="40302" file="anglelift.png"/>
+	<rect x="305"	y="110"	mass="-1"	width="60"	height="6"	visible="true"  tag="40303"/>
+	
+	<moveToAndBack tag="40301"	duration="5"	x="245"		y="200"/>
+	<moveToAndBack tag="40302"	duration="5"	x="275"		y="220"/>
+	<moveToAndBack tag="40303"	duration="5"	x="305"		y="240"/>
+	
+	<connector toTag="40302" fromTag="-1" offset1X="68" offset1Y="70" offset2X="275" offset2Y="0" lineWidth="5"/>
+	<fuzzles/>
+</trundle>

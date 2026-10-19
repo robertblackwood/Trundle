@@ -1,0 +1,25 @@
+<trundle map = "">
+	<segment x1="2" y1="94" x2="54" y2="96"/>
+	<segment x1="54" y1="96" x2="65" y2="100"/>
+	<segment x1="65" y1="100" x2="94" y2="97"/>
+	<segment x1="94" y1="97" x2="96" y2="72"/>
+	<segment x1="96" y1="72" x2="130" y2="67"/>
+	<segment x1="130" y1="67" x2="135" y2="48"/>
+	<segment x1="135" y1="48" x2="223" y2="48"/>
+	<segment x1="223" y1="48" x2="233" y2="41"/>
+	<segment x1="233" y1="41" x2="232" y2="30"/>
+	<segment x1="232" y1="30" x2="780" y2="30" type="666"/>
+	
+	<segment x1="130" y1="170" x2="220" y2="170" radius="9"/>
+	
+	<circle x="180" y="205" radius="30" mass="5" visible="true" tag="90901" type="90901" file="circler30.png"/>
+	<circle x="135" y="195" radius="10" mass="5" visible="true" tag="90902" type="90902" file="circler10-3.png"/>
+
+	<pin toTag="90901" fromTag="90902" visible="true"/>
+	
+	<shootingStars count="2" offsetX="0" offsetY="0"/>
+
+	
+	<firefly/>
+	
+</trundle>

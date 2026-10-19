@@ -1,0 +1,18 @@
+<trundle map = "l7scr8">
+	<background file="l7back8.png" spotlight="true" lightRadius="420"/>
+
+	<segment x1="20" y1="0" x2="20"	y2="320"/>
+	<segment x1="460" y1="0" x2="460" y2="20" friction="0.0001" elasticity=".95"/>
+	<segment x1="480" y1="20" x2="360" y2="20"/>
+	<segment x1="360" y1="20" x2="360" y2="40"/>
+	<segment x1="360" y1="40" x2="480" y2="40"/>
+	<segment x1="160" y1="200" x2="80" y2="120"/>
+	<segment x1="80" y1="120" x2="160" y2="40"/>
+	<segment x1="160" y1="40" x2="240" y2="120"/>
+	<segment x1="240" y1="120" x2="160" y2="200"/>
+	<segment x1="20" y1="300" x2="480" y2="300"/>
+	
+	<rain/>
+	<defaultxy x="200" y="200"/>
+	<transitionScreens left="0" right="1" top="0" bottom="-1"/>
+</trundle>

@@ -1,0 +1,44 @@
+<trundle map = "">
+	<segment x1="0" y1="44" x2="19" y2="41"/>
+	<segment x1="19" y1="41" x2="32" y2="21"/>
+	<segment x1="32" y1="21" x2="39" y2="0"/>
+
+	<segment x1="103" y1="1" x2="116" y2="33"/>
+	<segment x1="116" y1="33" x2="125" y2="69"/>
+
+	<segment x1="125" y1="69" x2="152" y2="86"/>
+	<segment x1="152" y1="86" x2="175" y2="82"/>
+	<segment x1="175" y1="82" x2="203" y2="61"/>
+
+	<segment x1="203" y1="61" x2="396" y2="52"/>
+	<segment x1="392" y1="52" x2="397" y2="121"/>
+	<segment x1="397" y1="121" x2="379" y2="191"/>
+	<segment x1="379" y1="191" x2="400" y2="188"/>
+	<segment x1="400" y1="188" x2="479" y2="176"/>
+
+	<segment x1="480" y1="295" x2="392" y2="314"/>
+	<segment x1="392" y1="314" x2="372" y2="300"/>
+		
+	<segment x1="371" y1="301" x2="317" y2="307"/>
+	<segment x1="317" y1="307" x2="248" y2="302"/>
+	<segment x1="248" y1="302" x2="199" y2="274"/>
+	<segment x1="199" y1="274" x2="151" y2="248"/>
+	<segment x1="151" y1="248" x2="137" y2="247"/>
+	<segment x1="137" y1="247" x2="129" y2="262"/>
+	<segment x1="129" y1="262" x2="97" y2="275"/>
+	<segment x1="97" y1="275" x2="90" y2="302"/>
+	<segment x1="90" y1="302" x2="115" y2="321"/>
+	
+	<rect x="300" y="90" width="40" height="40" mass="10" visible="true" tag="20801" type="20801" file="rect40x40.png" friction=".1"/>
+	<spring toTag="-1" fromTag="20801" toX="400" toY="90" fromX="20" fromY="0" opacity="210" visible="true" lineWidth="5" restLength="80" stiffness="170"/>
+	<circle x="395" y="75" radius="10" mass="-1" visible="true" tag="20802" type="20802"/>
+	
+
+	<circle x="358" y="255" radius="2" mass="-1" visible="false" tag="20803"/>
+	<rect x="368" y="230" width="4" height="120" mass="3" visible="true" rotation="-10" file="rect8x120.png" tag="20804"/>
+	<deleteAction cTag1="20801" cTag2="20802" receiverTag="20803" nonColliding="true"/>
+	
+	<pivot worldX="378" worldY="171" toTag="-1" fromTag="20804"/>
+
+
+</trundle>

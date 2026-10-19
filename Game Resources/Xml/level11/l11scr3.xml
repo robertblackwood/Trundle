@@ -1,0 +1,90 @@
+<trundle map = "">
+
+	<pinion x="-25" y="77" tag="110000" type="110000" scale=".7"/>
+	<walkAction x="1" y="77" duration="1" delay="1" receiverTag="110000"/>
+	<walkAction x="19" y="75" duration="1" delay="2" receiverTag="110000"/>
+	
+	<messageAction receiverTag="110000" right="true" delay="1.5" message="Hey! What are\nyou doing, you'll\nget caught too!"/> 
+	
+	<circle x="349" y="148" radius="25" file="circler25.png" rotation="3" visible="true" mass="-1" tag="110301"/>
+	<circle x="308" y="168" radius="25" file="circler25.png" visible="true" mass="-1" tag="110302"/>
+	
+	<circle x="280" y="45" radius="9" mass="4" visible="true" tag="110303" type="110303"/>
+	<rope toX="280" toY="140" toTag="-1" fromY="5" fromTag="110303"/>
+	
+	<circle x="340" y="35" radius="9" mass="4" visible="true" tag="110304" type="110304"/>
+	<rope toX="340" toY="100" toTag="-1" fromY="5" fromTag="110304"/>
+	
+	<sprite x="0" y="4" toTag="110303" file="redbutton.png" visible="true"/>
+	<sprite x="0" y="4" toTag="110304" file="redbutton.png" visible="true"/>
+	
+	<rotateAction cTag1="110303" cTag2="110304" receiverTag="110301" duration="4" angle="-210"/>
+	<rotateAction cTag1="110303" cTag2="110304" receiverTag="110302" duration="4" angle="210"/>
+	
+	<connectAction cTag1="110303" cTag2="110304" receiverTag="110303" otherTag="110304"/>
+	<binAction cTag1="110303" cTag2="110304" bin="11.3.1" binValue="1"/>
+	
+	<messageAction cTag1="110303" cTag2="110304" receiverTag="110000" right="true" delay="3" message="Hey!\nYou did it!\nLet's go!"/> 
+	
+	<rect x="310" y="225" width="170" rotation="-25" height="20" mass="-1" visible="true" tag="110305"/> 
+	<rect x="310" y="225" width="110" rotation="-25" height="10" mass="-1" visible="true" tag="110306"/> 
+	<moveAction x="160" y="165" duration="2" cTag1="110303" cTag2="110304" receiverTag="110305"/>
+	<moveAction x="110" y="145" duration="4" cTag1="110303" cTag2="110304" receiverTag="110306"/>
+	
+	<jumpAction x="67" y="141" height="37" duration="1" delay="4" cTag1="110303" cTag2="110304" receiverTag="110000"/>
+	<walkAction x="177" y="193" duration="1" delay="5" cTag1="110303" cTag2="110304" receiverTag="110000"/>
+	<jumpAction x="231" y="251" height="33" duration="1" delay="6" cTag1="110303" cTag2="110304" receiverTag="110000"/>
+	<walkAction x="285" y="267" duration="1" delay="7" cTag1="110303" cTag2="110304" receiverTag="110000"/>
+	<jumpAction x="325" y="287" height="30" duration="1" delay="8" cTag1="110303" cTag2="110304" receiverTag="110000"/>
+	<walkAction x="403" y="281" duration="1" delay="10" cTag1="110303" cTag2="110304" receiverTag="110000"/>
+	
+	<handledCheck bin="11.3.1" value="1" tag="11001"/>
+	<removeAfter toTag="110000" screen="3" dependTag="11001"/>
+	
+	<segment x1="0" y1="0" x2="0" y2="520"/>
+	
+	<!--<sprite x="435" y="150" toTag="" file="greenbutton.png" visible="false" tag="110305"/>	
+	<showAction duration=".6" cTag1="91405" cTag2="91503" receiverTag="110305"/>-->
+
+	<segment x1="0" y1="70" x2="22" y2="69"/>
+	<segment x1="22" y1="69" x2="26" y2="62"/>
+	<segment x1="26" y1="62" x2="26" y2="51"/>
+	<segment x1="26" y1="51" x2="30" y2="47"/>
+	<segment x1="30" y1="47" x2="39" y2="50"/>
+	<segment x1="39" y1="50" x2="223" y2="30"/>
+	<segment x1="223" y1="30" x2="231" y2="29"/>
+	<segment x1="231" y1="29" x2="242" y2="27"/>
+	<segment x1="242" y1="27" x2="288" y2="21"/>
+	<segment x1="288" y1="21" x2="286" y2="13"/>
+	<segment x1="286" y1="13" x2="311" y2="12"/>
+	<segment x1="311" y1="12" x2="406" y2="10"/>
+	<segment x1="406" y1="10" x2="417" y2="5"/>
+	<segment x1="417" y1="5" x2="417" y2="18"/>
+	<segment x1="417" y1="18" x2="414" y2="25"/>
+	<segment x1="414" y1="25" x2="414" y2="33"/>
+	<segment x1="414" y1="33" x2="417" y2="59"/>
+	<segment x1="417" y1="59" x2="413" y2="65"/>
+	<segment x1="413" y1="65" x2="416" y2="76"/>
+	<segment x1="416" y1="76" x2="387" y2="83"/>
+	<segment x1="387" y1="83" x2="316" y2="73"/>
+	<segment x1="316" y1="73" x2="291" y2="99"/>
+	<segment x1="291" y1="99" x2="271" y2="116"/>
+	<segment x1="271" y1="116" x2="271" y2="119"/>
+	<segment x1="271" y1="119" x2="251" y2="150"/>
+	<segment x1="251" y1="150" x2="236" y2="181"/>
+	<segment x1="236" y1="181" x2="225" y2="185"/>
+	<segment x1="225" y1="185" x2="227" y2="224"/>
+	<segment x1="227" y1="224" x2="232" y2="220"/>
+	<segment x1="232" y1="220" x2="232" y2="242"/>
+	<segment x1="232" y1="242" x2="265" y2="253"/>
+	<segment x1="265" y1="253" x2="320" y2="264"/>
+	<segment x1="320" y1="264" x2="322" y2="279"/>
+	<segment x1="322" y1="279" x2="411" y2="269"/>
+	<segment x1="411" y1="269" x2="412" y2="266"/>
+	<segment x1="412" y1="266" x2="412" y2="252"/>
+	<segment x1="412" y1="252" x2="412" y2="240"/>
+	<segment x1="412" y1="240" x2="426" y2="219"/>
+	<segment x1="426" y1="219" x2="448" y2="216"/>
+	<segment x1="448" y1="216" x2="461" y2="188"/>
+	<segment x1="461" y1="188" x2="480" y2="187"/>
+</trundle>

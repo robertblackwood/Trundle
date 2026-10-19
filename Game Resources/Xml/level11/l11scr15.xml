@@ -1,0 +1,38 @@
+<trundle map = "">
+	<pinion x="502" y="263" tag="110000" type="110000" scale=".7"/>
+	<removeAfter toTag="110000" screen="15"/>
+
+	<walkAction x="470" y="263" duration="1" delay="1" bin="11.14.2" binValue="6" receiverTag="110000"/>
+	<jumpAction x="357" y="126" duration="1.3" delay="3" bin="11.14.2" binValue="6" height="40" receiverTag="110000"/>
+	<walkAction x="277" y="100" duration="1" delay="4.3" bin="11.14.2" binValue="6" receiverTag="110000"/>
+	<walkAction x="222" y="86" duration="1" delay="5.3" bin="11.14.2" binValue="6" receiverTag="110000"/>
+<!--	<walkAction x="105" y="40" duration="1" delay="4" receiverTag="110000"/>
+	<walkAction x="33" y="56" duration="1" delay="5" receiverTag="110000"/>
+-->	
+	<circle x="145" y="40" radius="24" file="circler25.png" mass="3" visible="true" tag="111501" type="111501" />
+
+	<transitionScreens left="1" right="-3" top="0" bottom="666"/>
+	
+	<messageAction receiverTag="110000" right="true" bin="11.14.2" binValue="6" delay="6" message="I'm getting\na little bit\nscared...;You really\nthink we can\nfind him?"/> 
+
+	<segment x1="-161" y1="45" x2="-162" y2="26"/>
+	<segment x1="-162" y1="26" x2="-10" y2="49"/>
+	<segment x1="-10" y1="49" x2="13" y2="47"/>
+	<segment x1="13" y1="47" x2="77" y2="32"/>
+	<segment x1="77" y1="32" x2="115" y2="26"/>
+	<segment x1="115" y1="26" x2="142" y2="16"/>
+	<segment x1="142" y1="16" x2="168" y2="21"/>
+	<segment x1="168" y1="21" x2="193" y2="36"/>
+	<segment x1="193" y1="36" x2="214" y2="69"/>
+	<segment x1="214" y1="69" x2="230" y2="77"/>
+	<segment x1="230" y1="77" x2="258" y2="77"/>
+	<segment x1="258" y1="77" x2="273" y2="87"/>
+	<segment x1="273" y1="87" x2="311" y2="96"/>
+	<segment x1="311" y1="96" x2="355" y2="113"/>
+	<segment x1="355" y1="113" x2="394" y2="132"/>
+	<segment x1="394" y1="132" x2="420" y2="159"/>
+	<segment x1="420" y1="159" x2="441" y2="194"/>
+	<segment x1="441" y1="194" x2="460" y2="227"/>
+	<segment x1="460" y1="227" x2="470" y2="251"/>
+	<segment x1="470" y1="251" x2="504" y2="254"/>
+</trundle>

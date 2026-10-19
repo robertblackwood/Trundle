@@ -1,0 +1,45 @@
+<trundle map = "">
+
+	<music file="level3music.mp3"/>
+
+	<segment x1="0" y1="207" x2="13" y2="179"/>
+	<segment x1="13" y1="179" x2="38" y2="168"/>
+	<segment x1="38" y1="168" x2="59" y2="146"/>
+	<segment x1="59" y1="146" x2="68" y2="122"/>
+	<segment x1="68" y1="122" x2="70" y2="91"/>
+	<segment x1="70" y1="91" x2="73" y2="76"/>
+	<segment x1="73" y1="76" x2="114" y2="59"/>
+	<segment x1="114" y1="59" x2="126" y2="31"/>
+	<segment x1="126" y1="31" x2="136" y2="21"/>
+	<segment x1="136" y1="21" x2="207" y2="23"/>
+	<segment x1="207" y1="23" x2="230" y2="47"/>
+	<segment x1="230" y1="47" x2="245" y2="58"/>
+	<segment x1="245" y1="58" x2="273" y2="59"/>
+	<segment x1="273" y1="59" x2="285" y2="34"/>
+	<segment x1="285" y1="34" x2="321" y2="28"/>
+	<segment x1="321" y1="28" x2="370" y2="29"/>
+	<segment x1="370" y1="29" x2="424" y2="35"/>
+	<segment x1="424" y1="35" x2="457" y2="37"/>
+	<segment x1="457" y1="37" x2="479" y2="40"/>
+
+	<segment x1="155" y1="101" x2="159" y2="89"/>
+	<segment x1="159" y1="89" x2="207" y2="90"/>
+	<segment x1="207" y1="90" x2="208" y2="120"/>
+	<segment x1="208" y1="120" x2="202" y2="124"/>
+	<segment x1="202" y1="124" x2="203" y2="148"/>
+	<segment x1="203" y1="148" x2="203" y2="174"/>
+	<segment x1="203" y1="174" x2="134" y2="174"/>
+	<segment x1="134" y1="174" x2="131" y2="108"/>
+	<segment x1="131" y1="108" x2="154" y2="107"/>
+	
+	<pinion x="445" y="54" tag="30001" type="100001"/>
+	<updateAction cTag1="1" cTag2="30001" duration="1" percentage="0.45" receiverTag="30001"/>
+	<messageAction receiverTag="30001"  message="Welcome to\nTreedom." message2="The trees\nkeep disappearing\nwhat to do?" message3="I wonder what\nthat tower is\nfor?"/>
+	<messageAction cTag1="1" cTag2="30001" receiverTag="30001" message="Why are you\nso antsy?" message2="I'll stand here\nYou stand there"/>
+	
+	<sprite tag="30101" file="beacon.png" x="230" y="219" z="1" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="1.5" toTag="30101" repeat="true"/>
+	
+	<leaves/>
+
+</trundle>

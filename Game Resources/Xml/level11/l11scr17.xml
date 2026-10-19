@@ -1,0 +1,44 @@
+<trundle map = "">
+	<pinion x="500" y="210" tag="110000" type="110000" scale=".7"/>
+	<removeAfter toTag="110000" screen="17"/>
+
+	<walkAction x="461" y="210" duration="1" delay="1" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<walkAction x="421" y="205" duration="1" delay="2" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<jumpAction height="40" x="341" y="113" duration="1" bin="11.16.2" binValue="7" delay="3" receiverTag="110000"/>
+	<jumpAction height="40" x="275" y="43" duration="1" bin="11.16.2" binValue="7" delay="4" receiverTag="110000"/>
+	<walkAction x="245" y="24" duration="1" delay="5" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<walkAction x="206" y="26" duration="1" delay="6" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<jumpAction height="20" x="157" y="44" duration="1" delay="7" bin="11.16.2" binValue="7" receiverTag="110000"/>
+	<jumpAction height="40" x="67" y="36" duration="1.3" delay="8" bin="11.16.2" binValue="7" receiverTag="110000"/>
+
+	<transitionScreens left="1" right="-1" top="0" bottom="666"/>
+
+	<segment x1="-109" y1="26" x2="0" y2="14"/>
+	<segment x1="0" y1="14" x2="44" y2="12"/>
+	<segment x1="44" y1="12" x2="50" y2="24"/>
+	<segment x1="50" y1="24" x2="88" y2="24"/>
+	<segment x1="88" y1="24" x2="101" y2="16"/>
+	<segment x1="101" y1="16" x2="138" y2="16"/>
+	<segment x1="138" y1="16" x2="148" y2="32"/>
+	<segment x1="148" y1="32" x2="167" y2="32"/>
+	<segment x1="167" y1="32" x2="180" y2="25"/>
+	<segment x1="180" y1="25" x2="189" y2="25"/>
+	<segment x1="189" y1="25" x2="202" y2="10"/>
+	<segment x1="202" y1="10" x2="258" y2="12"/>
+	<segment x1="258" y1="12" x2="270" y2="26"/>
+	<segment x1="270" y1="26" x2="292" y2="31"/>
+	<segment x1="292" y1="31" x2="301" y2="41"/>
+	<segment x1="301" y1="41" x2="312" y2="42"/>
+	<segment x1="312" y1="42" x2="314" y2="51"/>
+	<segment x1="314" y1="51" x2="330" y2="55"/>
+	<segment x1="330" y1="55" x2="329" y2="82"/>
+	<segment x1="329" y1="82" x2="337" y2="94"/>
+	<segment x1="337" y1="94" x2="353" y2="103"/>
+	<segment x1="353" y1="103" x2="364" y2="111"/>
+	<segment x1="364" y1="111" x2="391" y2="140"/>
+	<segment x1="391" y1="140" x2="404" y2="146"/>
+	<segment x1="404" y1="146" x2="422" y2="154"/>
+	<segment x1="422" y1="154" x2="415" y2="188"/>
+	<segment x1="415" y1="188" x2="443" y2="188"/>
+	<segment x1="443" y1="188" x2="479" y2="195"/>
+</trundle>

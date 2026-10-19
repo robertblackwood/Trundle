@@ -1,0 +1,60 @@
+<trundle map = "">
+	<segment x1="480" y1="38" x2="465" y2="40"/>
+	<segment x1="465" y1="40" x2="439" y2="49"/>
+	<segment x1="439" y1="49" x2="399" y2="48"/>
+	<segment x1="399" y1="48" x2="362" y2="50"/>
+	<segment x1="362" y1="50" x2="318" y2="57"/>
+	<segment x1="318" y1="57" x2="288" y2="66"/>
+	<segment x1="288" y1="66" x2="278" y2="73"/>
+	<segment x1="278" y1="73" x2="238" y2="86"/>
+	<segment x1="238" y1="86" x2="209" y2="93"/>
+	<segment x1="209" y1="93" x2="166" y2="117"/>
+	<segment x1="166" y1="117" x2="138" y2="129"/>
+	<segment x1="138" y1="129" x2="98" y2="127"/>
+	<segment x1="98" y1="127" x2="80" y2="134"/>
+	<segment x1="80" y1="134" x2="66" y2="147"/>
+	<segment x1="66" y1="147" x2="23" y2="184"/>
+	<segment x1="23" y1="184" x2="14" y2="192"/>
+	<segment x1="14" y1="192" x2="7" y2="201"/>
+	<segment x1="7" y1="201" x2="2" y2="212"/>
+	<segment x1="2" y1="212" x2="3" y2="233"/>
+	<segment x1="3" y1="233" x2="0" y2="243"/>
+	<segment x1="0" y1="243" x2="3" y2="246"/>
+	<segment x1="3" y1="246" x2="7" y2="279"/>
+	<segment x1="7" y1="279" x2="22" y2="279"/>
+	<segment x1="22" y1="279" x2="30" y2="285"/>
+	<segment x1="30" y1="285" x2="33" y2="300"/>
+	<segment x1="33" y1="300" x2="44" y2="303"/>
+	<segment x1="44" y1="303" x2="53" y2="320"/>
+	<segment x1="53" y1="320" x2="53" y2="400"/>
+	<segment x1="53" y1="400" x2="0" y2="400"/>
+	
+	<rect x="350" y="75" width="40" height="40" mass="3" file="rect40x40.png" visible="true"/>
+	<rect x="390" y="75" width="40" height="40" mass="3" file="rect40x40.png" visible="true"/>
+	<rect x="370" y="115" width="40" height="40" mass="3" file="rect40x40.png" visible="true"/>
+	
+	<grass x="310" y="65" rotation="14"/>
+	<grass x="360" y="58" rotation="8"/>
+	<grass x="410" y="53" rotation="4"/>
+	
+	<sprite tag="100101" file="l10title.png" x="240" y="160" z="1000" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="2" toTag="100101"/>
+
+	
+	<!-- continuation -->
+	<segment x1="644" y1="0" x2="644" y2="9"/>
+	<segment x1="644" y1="9" x2="642" y2="18"/>
+	<segment x1="642" y1="18" x2="637" y2="22"/>
+	<segment x1="637" y1="22" x2="628" y2="27"/>
+	<segment x1="628" y1="27" x2="615" y2="22"/>
+	<segment x1="615" y1="22" x2="605" y2="18"/>
+	<segment x1="605" y1="18" x2="589" y2="18"/>
+	<segment x1="589" y1="18" x2="546" y2="23"/>
+	<segment x1="546" y1="23" x2="531" y2="22"/>
+	<segment x1="531" y1="22" x2="503" y2="31"/>
+	<segment x1="503" y1="31" x2="480" y2="35"/>
+	
+	<rain/>
+	
+	<defaultxy x="100" y="250"/>
+</trundle>

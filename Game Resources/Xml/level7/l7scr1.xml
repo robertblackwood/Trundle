@@ -1,0 +1,30 @@
+<trundle map = "l7scr1">
+	<background file="l7back1.png" spotlight="true" lightRadius="420"/>
+	
+	<sprite tag="10104" file="l7title.png" x="240" y="160" z="1000" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="2" toTag="10104"/>
+
+	<segment x1="20" y1="320" x2="20" y2="70"/>
+	<segment x1="20" y1="70" x2="50" y2="30"/>
+	<segment x1="50" y1="30" x2="100" y2="20"/>
+	<segment x1="100" y1="20" x2="380" y2="20"/>
+	<segment x1="380" y1="20" x2="430" y2="30"/>
+	<segment x1="430" y1="30" x2="460" y2="70"/>
+	<segment x1="460" y1="70" x2="460" y2="320"/>
+	
+	<segment x1="0" y1="97" x2="49" y2="97"/>
+	
+	<!-- causes roll out from the pipe -->
+	<segment x1="0"	y1="30"		x2="40"	y2="28"/>
+	<!-- cover over the pipe to give appearance of going inside -->
+	<sprite tag="70100" file="sidewayspipe.png" x="30" y="70" z="1000" visible="true"/>	
+	
+	<!--<glow x="250" y="200" numParticles="50" speed="15" r="255" g="150" b="0"/>-->
+	
+	<pinion x="320" y="35" tag="70102" type="70102"/>
+	<messageAction receiverTag="70102" message="Whoa you're\ndown deep, hope\nyou can climb."/>
+	
+	<rain/>
+	<defaultxy x="30" y="60"/>
+	<transitionScreens left="0" right="0" top="1" bottom="-1"/>
+</trundle>

@@ -1,0 +1,58 @@
+<trundle map = "">
+	<segment x1="-250" y1="15" x2="-250" y2="200"/>
+	<segment x1="-250" y1="15" x2="35" y2="20"/>
+	<segment x1="35" y1="20" x2="54" y2="26"/>
+	<segment x1="54" y1="26" x2="66" y2="27"/>
+	<segment x1="66" y1="27" x2="90" y2="22"/>
+	<segment x1="90" y1="22" x2="92" y2="35"/>
+	<segment x1="92" y1="35" x2="95" y2="60"/>
+	<segment x1="95" y1="60" x2="95" y2="89"/>
+	<segment x1="95" y1="89" x2="126" y2="92"/>
+	<segment x1="126" y1="92" x2="155" y2="92"/>
+	<segment x1="155" y1="92" x2="165" y2="28"/>
+	<segment x1="165" y1="28" x2="232" y2="30"/>
+	<segment x1="232" y1="30" x2="298" y2="26"/>
+	<segment x1="298" y1="26" x2="332" y2="22"/>
+	<segment x1="332" y1="22" x2="340" y2="31"/>
+	<segment x1="340" y1="31" x2="376" y2="31"/>
+	<segment x1="376" y1="31" x2="376" y2="19"/>
+	<segment x1="376" y1="19" x2="429" y2="14"/>
+	<segment x1="429" y1="14" x2="608" y2="24"/>
+
+	<segment x1="478" y1="312" x2="423" y2="289"/>
+	<segment x1="423" y1="289" x2="390" y2="246"/>
+	<segment x1="390" y1="246" x2="380" y2="216"/>
+	<segment x1="380" y1="216" x2="378" y2="195"/>
+	<segment x1="378" y1="195" x2="371" y2="172"/>
+	<segment x1="371" y1="172" x2="372" y2="81"/>
+	<segment x1="372" y1="81" x2="338" y2="83"/>
+	<segment x1="338" y1="83" x2="336" y2="175"/>
+	<segment x1="336" y1="175" x2="320" y2="211"/>
+	<segment x1="320" y1="211" x2="306" y2="234"/>
+	<segment x1="306" y1="234" x2="294" y2="255"/>
+	<segment x1="294" y1="255" x2="267" y2="283"/>
+	<segment x1="267" y1="283" x2="234" y2="307"/>
+	<segment x1="234" y1="307" x2="211" y2="320"/>
+	<segment x1="211" y1="320" x2="211" y2="400"/>
+	<segment x1="211" y1="400" x2="0" y2="400"/>
+	
+	<!--<circle x="250" y="55" radius="18" visible="true" mass="8" tag="21903" type="21903"/>-->
+	
+	<particles x="60" y="30" angle="85"/>
+	<rect x="60" y="48" width="20" height="90" mass="-1" visible="false" type="22001" tag="22001"/>
+	<impulseAction cTag1="22001" cTag2="1" receiverTag="1" repeat="true" x="1" y="65" nonColliding="true" ignoreContactPt="true"/>
+	<impulseAction cTag1="22001" cTag2="21903" receiverTag="21903" repeat="true" x="5" y="90" nonColliding="true" ignoreContactPt="true"/>
+
+	<rect width="38" height="40" x="355" y="55" radius="20" mass="-1" visible="true" tag="22002" type="22002" file="rect38x40.png"/>
+	<fragmentAction cTag1="21903" cTag2="22002" receiverTag="22002" pieces="4" mass="2"/>
+	<fragmentAction cTag1="21903" cTag2="22002" receiverTag="21903" pieces="4" mass="2"/>
+	<explosionAction cTag1="21903" cTag2="22002" receiverTag="22002" x="350" y="50"/>
+	
+	<glow x="25" y="25" numParticles="10" speed="4" size="12" toTag="22002" r="222" g="33" b="77"/>
+	
+	<pinion x="180" y="48" tag="22003" type="22003"/>
+	<messageAction cTag1="1" cTag2="22003" receiverTag="22003" message="What? You\nwant to get\nthrough there?;I'd say\nyou need some\nheavy firepower." right="true"/>
+	<messageAction cTag1="21903" cTag2="22003" receiverTag="22003" message="Ouch!\nYikes, this looks\ndangerous..." right="true"/>
+
+
+</trundle>

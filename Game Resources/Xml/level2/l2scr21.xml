@@ -1,0 +1,37 @@
+<trundle map = "">
+	<segment x1="-150" y1="21" x2="15" y2="19"/>
+	<segment x1="15" y1="19" x2="45" y2="14"/>
+	<segment x1="45" y1="14" x2="107" y2="8"/>
+	<segment x1="107" y1="8" x2="152" y2="15"/>
+	<segment x1="152" y1="15" x2="166" y2="15"/>
+	<segment x1="166" y1="15" x2="220" y2="16"/>
+	<segment x1="220" y1="16" x2="276" y2="20"/>
+	<segment x1="276" y1="20" x2="295" y2="18"/>
+	<segment x1="295" y1="18" x2="324" y2="24"/>
+	<segment x1="324" y1="24" x2="346" y2="21"/>
+	<segment x1="346" y1="21" x2="390" y2="15"/>
+	<segment x1="390" y1="15" x2="420" y2="30"/>
+	<segment x1="420" y1="30" x2="455" y2="31"/>
+	<segment x1="455" y1="31" x2="470" y2="42"/>
+	<segment x1="470" y1="42" x2="479" y2="38"/>
+	
+	
+	<glow x="300" y="105" numParticles="40" size="64" speed="35" r="255" g="255" b="255"/>
+	<circle x="300" y="105" radius="16" mass="-1" file="transportsym.png" visible="true" tag="200" type="200"/>
+	<transportAction cTag1="200" cTag2="1" receiverTag="200" level="9" screen="1" nonColliding="true"/>
+	
+	<!--
+	<circle radius="50" mass="-1" x="260" y="100" tag="12001" type="12001" z="48" visible="true"/>
+	<fragmentAction cTag1="1" cTag2="12001" receiverTag="12001" pieces="10" mass="4"/>
+	<glow x="0" y="0" numParticles="40" size="34" speed="35" toTag="12001" r="55" g="55" b="233"/>
+	<circle x="260" y="100" radius="13" mass="-1" file="lev9select.png" z="49" visible="true" tag="200" type="200"/>
+	<transportAction cTag1="200" cTag2="1" receiverTag="200" level="9" screen="1" nonColliding="true"/>
+	
+	<ignoreCollision cTag1="4" cTag2="200"/>
+	
+	<rotateAround x="260" y="155" facing="false" tag="12001" duration="10"/>
+	<rotateAround x="260" y="155" facing="false" tag="200" duration="10"/>
+	
+	<fireworks/>-->
+	
+</trundle>

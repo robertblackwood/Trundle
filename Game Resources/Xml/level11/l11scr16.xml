@@ -1,0 +1,50 @@
+<trundle map = "">
+	<pinion x="504" y="57" tag="110000" type="110000" scale=".7"/>
+
+	<walkAction x="441" y="59" duration="1" delay="1" bin="11.14.2" binValue="6" receiverTag="110000"/>
+	<walkAction x="371" y="76" duration="1" delay="2" bin="11.14.2" binValue="6" receiverTag="110000"/>
+	<walkAction x="301" y="79" duration="1" delay="3" bin="11.14.2" binValue="6" receiverTag="110000"/>
+	<walkAction x="255" y="66" duration="1" delay="4" bin="11.14.2" binValue="6" receiverTag="110000"/>
+	<walkAction x="210" y="55" duration="1" delay="2" bin="11.14.2" binValue="6" cTag1="111501" cTag2="111603" receiverTag="110000"/>
+	<jumpAction height="40" x="100" y="126" duration="1" delay="3" bin="11.14.2" binValue="6" cTag1="111501" cTag2="111603" receiverTag="110000"/>
+	<jumpAction height="40" x="60" y="179" duration="1" delay="4" bin="11.14.2" binValue="6" cTag1="111501" cTag2="111603" receiverTag="110000"/>
+	<jumpAction height="30" x="16" y="205" duration="1" delay="5" bin="11.14.2" binValue="6" cTag1="111501" cTag2="111603" receiverTag="110000"/>
+	
+	<rect x="64" y="270" width="10" rotation="10" height="180" mass="8" visible="true" tag="111601"/>
+	<circle x="56" y="270" radius="5" mass="-1" visible="false" group="1"/>
+	<circle x="76" y="270" radius="5" mass="-1" visible="false" tag="111602" group="1"/>
+	<pivot toTag="111601" fromTag="-1" toY="-90" pin="true" visible="true" pointSize="5"/>
+
+	<rect x="54" y="5" mass="-1" width="14" height="30" visible="true" tag="111603" type="111603"/>
+
+	<transitionScreens left="1" right="-1" top="0" bottom="666"/>
+	
+	<deleteAction cTag1="111501" cTag2="111603" receiverTag="111602"/>
+	<moveAction x="54" y="-3" cTag1="111501" cTag2="111603" receiverTag="111603" duration="1"/>
+	
+	<messageAction cTag1="111501" cTag2="110000" receiverTag="110000" right="true" bin="11.14.2" binValue="6" message="Ouch!!\nWhat are you\nDOING!!"/> 
+	<messageAction cTag1="111501" cTag2="111603" receiverTag="110000" right="true" bin="11.14.2" binValue="6" message="Oh...\nThat makes sense\nI guess..."/> 
+	
+	<!--Set this bin, and then set another that's a sum, it'll create a chained bin of sorts -->
+	<binAction cTag1="111501" cTag2="111603" bin="11.16.1" binValue="1"/>
+	<binSum bin="11.16.2" bins="11.16.1,11.14.2"/>
+	
+	<!--Remove after will only happen if the check above is true -->
+	<handledCheck bin="11.16.2" value="7" tag="11007"/>
+	<removeAfter toTag="110000" screen="16" dependTag="11007"/>
+
+	<segment x1="-75" y1="203" x2="0" y2="194"/>
+	<segment x1="0" y1="194" x2="26" y2="188"/>
+	<segment x1="26" y1="188" x2="29" y2="14"/>
+	<segment x1="29" y1="14" x2="42" y2="6"/>
+	<segment x1="42" y1="6" x2="72" y2="6"/>
+	<segment x1="72" y1="6" x2="79" y2="21"/>
+	<segment x1="79" y1="21" x2="140" y2="33"/>
+	<segment x1="140" y1="33" x2="189" y2="41"/>
+	<segment x1="189" y1="41" x2="234" y2="48"/>
+	<segment x1="234" y1="48" x2="268" y2="53"/>
+	<segment x1="268" y1="53" x2="295" y2="62"/>
+	<segment x1="295" y1="62" x2="362" y2="62"/>
+	<segment x1="362" y1="62" x2="425" y2="46"/>
+	<segment x1="425" y1="46" x2="481" y2="43"/>
+</trundle>

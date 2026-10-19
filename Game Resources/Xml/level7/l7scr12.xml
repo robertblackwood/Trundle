@@ -1,0 +1,27 @@
+<trundle map = "l7scr12">
+	<background file="l7back12.png" spotlight="true" lightRadius="420"/>
+	
+	<segment x1="250" y1="0" x2="250" y2="40"/>
+	<segment x1="250" y1="40" x2="470" y2="40"/>
+	<segment x1="470" y1="40" x2="300" y2="320"/>
+	<segment x1="0" y1="300" x2="20" y2="300"/>
+	<segment x1="20" y1="300" x2="20" y2="320"/>
+	
+	<rect x="90" y="200" width="10" height="60" mass="-1" visible="true" type="71201" tag="71201"/>
+	<rect x="210" y="100" width="100" height="5" mass="-1" visible="true" group="77" type="71206" tag="71206" rotation="-45"/>
+	<rect x="320" y="280" width="60" height="10" mass="-1" visible="true" type="71201" tag="71201"/>
+	
+	<pinion x="300" y="55" tag="71202" type="71202" openRight="true"/>
+	<messageAction receiverTag="71202" right="true" message="It's like a\nmaze down here\n...and no light;You seem to\nbe giving of\na faint glow"/>
+	
+	<rect x="248" y="180" width="8" height="90" mass="6" visible="true" group="77" tag="71207"/>
+	<pivot toTag="71207" fromTag="-1" fromX="248" fromY="135" toY="-45"/>
+	
+	<spring toTag="-1" fromTag="71207" toX="410" toY="260" fromY="40" visible="true" restLength="165" stiffness="60"/>
+	
+	<circle x="418" y="100" radius="30" file="circler30-2.png" mass="6" visible="true"/>
+	
+	<rain/>
+	<defaultxy x="300" y="200"/>
+	<transitionScreens left="-3" right="0" top="1" bottom="-1"/>
+</trundle>

@@ -1,0 +1,64 @@
+<trundle map = "">
+	<pinion x="-37" y="46" tag="110000" type="110000" scale=".7"/>
+	
+	<poly x="350" y="81" points="10,-18, -10,-18, 0,22" mass="4" tag="110603" type="110603" visible="true"/>
+	
+	<walkAction x="3" y="36" bin="11.3.1" binValue="1" duration="1" delay="1" receiverTag="110000"/>
+	<walkAction x="52" y="22" bin="11.3.1" binValue="1" duration="1" delay="2" receiverTag="110000"/>
+	<walkAction x="105" y="29" bin="11.3.1" binValue="1" duration="1" delay="3" receiverTag="110000"/>
+	
+	<rect x="280" y="-35" width="225" height="3" file="teeter.png" mass="-1" visible="true" tag="110601"/>
+	<button x="70" y="235" tag="110602"/>
+	
+	<moveAction x="280" y="35" duration="4" cTag1="110602" cTag2="110602" receiverTag="110601"/>
+	<connector toTag="110601" fromTag="-1" offset1X="112.5" offset1Y="5" offset2X="280" offset2Y="0" lineWidth="7"/>
+
+	<walkAction x="129" y="27" bin="11.3.1" binValue="1" duration="1" delay="2" cTag1="110602" cTag2="110602" receiverTag="110000"/>
+	<jumpAction height="40" x="230" y="36" bin="11.3.1" binValue="1" duration="1" delay="3" cTag1="110602" cTag2="110602" receiverTag="110000"/>
+	<jumpAction height="40" x="355" y="74" bin="11.3.1" binValue="1" duration="1" delay="4" cTag1="110602" cTag2="110602" receiverTag="110000"/>
+	<walkAction x="401" y="65" bin="11.3.1" binValue="1" duration="1" delay="5" cTag1="110602" cTag2="110602" receiverTag="110000"/>
+	<!--<walkAction x="448" y="65" bin="11.3.1" binValue="1" duration="1" delay="6" cTag1="110602" cTag2="110602" receiverTag="110000"/> -->
+
+	<!--Set this bin, and then set another that's a sum, it'll create a chained bin of sorts -->
+	<binAction cTag1="110602" cTag2="110602" bin="11.6.1" binValue="1"/>
+	<binSum bin="11.6.2" bins="11.3.1,11.6.1"/>
+	
+	<!--Remove after will only happen if the check aboe is true -->
+	<handledCheck bin="11.6.2" value="2" tag="11002"/>
+	<removeAfter toTag="110000" screen="6" dependTag="11002"/>
+	
+	<defaultxy x="60" y="40"/>
+	
+	<messageAction bin="11.3.1" binValue="1" receiverTag="110000" right="true" delay="3" message="Whoa... I'm\nnot sure I\ncan jump that."/> 
+	<messageAction bin="11.3.1" binValue="1" cTag1="110000" cTag2="110603" receiverTag="110000" right="false" delay=".5" message="Yikes,\nalmost tripped on\nthat thing!"/> 
+
+	<segment x1="50" y1="195" x2="50" y2="236"/>
+	<segment x1="58" y1="236" x2="50" y2="236"/>
+	<segment x1="90" y1="195" x2="90" y2="236"/>
+	<segment x1="82" y1="236" x2="90" y2="236"/>
+
+	<segment x1="0" y1="20" x2="43" y2="10"/>
+	<segment x1="43" y1="10" x2="85" y2="13"/>
+	<segment x1="85" y1="13" x2="102" y2="16"/>
+	<segment x1="102" y1="16" x2="142" y2="21"/>
+	<segment x1="142" y1="21" x2="146" y2="27"/>
+	<segment x1="146" y1="27" x2="168" y2="23"/>
+	<segment x1="168" y1="23" x2="169" y2="0"/>
+	
+	<segment x1="-100" y1="-90" x2="580" y2="-90"/>
+
+	<segment x1="337" y1="0" x2="340" y2="29"/>
+	<segment x1="340" y1="29" x2="339" y2="62"/>
+	<segment x1="339" y1="62" x2="361" y2="63"/>
+	<segment x1="361" y1="63" x2="382" y2="57"/>
+	<segment x1="382" y1="57" x2="431" y2="54"/>
+	<segment x1="431" y1="54" x2="480" y2="55"/>
+	<segment x1="631" y1="54" x2="480" y2="55"/>
+
+	<segment x1="182" y1="184" x2="174" y2="175"/>
+	<segment x1="174" y1="175" x2="43" y2="173"/>
+	<segment x1="43" y1="173" x2="34" y2="184"/>
+	<segment x1="34" y1="184" x2="42" y2="194"/>
+	<segment x1="42" y1="194" x2="173" y2="194"/>
+	<segment x1="173" y1="194" x2="182" y2="184"/>
+</trundle>

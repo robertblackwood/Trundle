@@ -1,0 +1,29 @@
+<trundle map = "">
+	<segment x1="2" y1="287" x2="304" y2="296"/>
+	<segment x1="304" y1="296" x2="312" y2="304"/>
+	<segment x1="312" y1="304" x2="314" y2="320"/>
+	<segment x1="500" y1="520" x2="314" y2="320"/>
+
+	<segment x1="480" y1="95" x2="325" y2="92"/>
+	<segment x1="325" y1="92" x2="296" y2="88"/>
+	<segment x1="296" y1="88" x2="280" y2="75"/>
+	<segment x1="280" y1="75" x2="280" y2="0"/>
+	
+	<firefly/>
+	<firefly/>
+	<firefly/>
+	<firefly/>
+	
+	<rect x="200" y="85" mass="30" width="8" height="50" visible="true" tag="90801" type="90801"/>
+	<pivot toTag="90801" fromTag="-1" toX="0" toY="0" fromX="200" fromY="85"/>
+	<motor tag="90801" rate="-8"/>
+	
+	<grass x="360" y="100"/>
+	
+	<glowflower x="400" y="90" xlen="8" ylen="30"/>
+	<glowflower x="400" y="90" xlen="-8" ylen="50"/>
+	
+	<defaultxy x="60" y="100" screen="7"/>
+	
+
+</trundle>

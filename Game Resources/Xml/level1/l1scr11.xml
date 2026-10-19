@@ -1,0 +1,33 @@
+<trundle map = "lscr11">
+
+<background file="l1back11.png"/>
+	
+	<segment x1="-137" y1="76" x2="67" y2="51"/>
+	<segment x1="67" y1="51" x2="90" y2="67"/>
+	<segment x1="90" y1="67" x2="97" y2="58"/>
+	<segment x1="107" y1="69" x2="97" y2="58"/>
+	<segment x1="107" y1="69" x2="137" y2="52"/>
+	<segment x1="137" y1="52" x2="379" y2="54"/>
+	<segment x1="379" y1="54" x2="198" y2="204"/>
+	<segment x1="198" y1="204" x2="190" y2="178"/>
+	<segment x1="190" y1="178" x2="183" y2="181"/>
+	<segment x1="183" y1="181" x2="171" y2="246"/>
+	<segment x1="171" y1="246" x2="593" y2="115"/>
+	
+	<circle x="0" y="270" radius="9" mass="-1" visible="true"/>
+	
+	<rect x="100" y="100" width="20" height="70" mass="-1" visible="false" type="11101" tag="11101"/>
+	<particles x="100" y="60" angle="91"/>
+	
+	<impulseAction cTag1="11101" cTag2="1" receiverTag="1" repeat="true" x="-.01" y="50" nonColliding="true" ignoreContactPt="true"/>
+	
+	<glowflower x="160" y="52" xlen="0" ylen="50"/>
+	<glowflower x="193" y="52" xlen="0" ylen="30"/>
+	
+	<glowflower x="223" y="230" xlen="0" ylen="40"/>
+	<glowflower x="333" y="200" xlen="0" ylen="35"/>
+	
+	<grass x="170" y="56" rotation="-3"/>
+	<grass x="220" y="56" rotation="3"/>
+		
+</trundle>

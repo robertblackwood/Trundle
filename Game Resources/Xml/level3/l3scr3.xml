@@ -1,0 +1,79 @@
+<trundle map = "">
+	<segment x1="0" y1="56" x2="34" y2="47"/>
+	<segment x1="34" y1="47" x2="30" y2="39"/>
+	<segment x1="30" y1="39" x2="66" y2="23"/>
+	<segment x1="66" y1="23" x2="90" y2="20"/>
+	<segment x1="90" y1="20" x2="92" y2="10"/>
+	<segment x1="92" y1="10" x2="111" y2="11"/>
+	<segment x1="111" y1="11" x2="123" y2="11"/>
+	<segment x1="123" y1="11" x2="127" y2="7"/>
+	<segment x1="127" y1="7" x2="167" y2="9"/>
+	<segment x1="167" y1="9" x2="192" y2="25"/>
+	<segment x1="192" y1="25" x2="203" y2="63"/>
+	<segment x1="203" y1="63" x2="247" y2="67"/>
+	<segment x1="247" y1="67" x2="225" y2="106"/>
+	<segment x1="225" y1="106" x2="319" y2="149" />
+	<segment x1="319" y1="149" x2="342" y2="158"/>
+	<segment x1="342" y1="158" x2="350" y2="164"/>
+	<segment x1="350" y1="164" x2="360" y2="164"/>
+	<segment x1="360" y1="164" x2="444" y2="199"/>
+	<segment x1="444" y1="199" x2="444" y2="209"/>
+	<segment x1="444" y1="209" x2="327" y2="276" group="30301"/>
+	<segment x1="327" y1="276" x2="162" y2="276" group="30301"/>
+	<segment x1="162" y1="276" x2="159" y2="273" group="30301"/>
+	<segment x1="159" y1="273" x2="158" y2="287" group="30301"/>
+	<segment x1="158" y1="287" x2="161" y2="283"/>
+	<segment x1="161" y1="283" x2="417" y2="283"/>
+	<segment x1="417" y1="283" x2="360" y2="320"/>
+	
+	<segment x1="44" y1="320" x2="44" y2="294"/>
+	<segment x1="44" y1="294" x2="67" y2="294"/>
+	<segment x1="67" y1="294" x2="67" y2="278"/>
+	<segment x1="67" y1="278" x2="58" y2="278"/>
+	<segment x1="58" y1="278" x2="58" y2="256"/>
+	<segment x1="58" y1="256" x2="79" y2="255"/>
+	<segment x1="79" y1="255" x2="78" y2="239"/>
+	<segment x1="78" y1="239" x2="70" y2="238"/>
+	<segment x1="70" y1="238" x2="70" y2="215"/>
+	<segment x1="70" y1="215" x2="107" y2="213"/>
+	<segment x1="107" y1="213" x2="107" y2="205"/>
+	<segment x1="107" y1="205" x2="105" y2="198"/>
+	<segment x1="105" y1="198" x2="89" y2="197"/>
+	<segment x1="89" y1="197" x2="82" y2="191"/>
+	<segment x1="82" y1="191" x2="76" y2="196"/>
+	<segment x1="76" y1="196" x2="40" y2="200"/>
+	<segment x1="40" y1="200" x2="40" y2="211"/>
+	<segment x1="40" y1="211" x2="52" y2="214"/>
+	<segment x1="52" y1="214" x2="53" y2="239"/>
+	<segment x1="53" y1="239" x2="31" y2="242"/>
+	<segment x1="31" y1="242" x2="33" y2="253"/>
+	<segment x1="33" y1="253" x2="42" y2="253"/>
+	<segment x1="42" y1="253" x2="42" y2="277"/>
+	<segment x1="42" y1="277" x2="15" y2="277"/>
+	<segment x1="15" y1="277" x2="15" y2="290"/>
+	<segment x1="15" y1="290" x2="28" y2="289"/>
+	<segment x1="28" y1="289" x2="28" y2="320"/>
+	
+	<circle x="260" y="275" radius="4" mass="8" visible="true" tag="30301" friction="0.1" group="30301"/>
+	<groove groove1X="165" groove1Y="275" groove2X="326" groove2Y="275" toTag="30301" toX="0" toY="0" visible="false"/>
+	
+	<rect x="260" y="200" width="36" height="8" mass="4" visible="true" tag="30302"/>
+	<pin toTag="30301" fromTag="30302" toX="0" toY="0" fromX="-18" fromY="0" visible="true"/>
+	<pin toTag="30301" fromTag="30302" toX="0" toY="0" fromX="18" fromY="0" visible="true"/>
+	
+	<circle x="142" y="155" radius="35" mass="-1" file="sawr35.png" visible="true" tag="30303" type="666"/>
+	<rotateAction angle="360" duration="2" forever="true" receiverTag="30303"/>
+	
+	<sprite tag="30101" file="beacon.png" x="230" y="219" z="1" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="1.5" toTag="30101" repeat="true"/>
+	
+	<grass x="135" y="13" type="t"/>
+	
+	<transitionScreens left = "-1" right = "0" top = "1" bottom = "666"/>
+	
+	<pinion x="415" y="28" tag="30001" type="30001"/>
+	<messageAction receiverTag="30001"  message="Watch out!\nThe hunters'\nmachines hurts!"/>
+	
+	<leaves/>
+	
+</trundle>

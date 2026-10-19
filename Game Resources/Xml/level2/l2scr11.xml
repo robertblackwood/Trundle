@@ -1,0 +1,30 @@
+<trundle map = "">
+	<segment x1="-120" y1="46" x2="144" y2="41"/>
+	<segment x1="144" y1="41" x2="244" y2="48"/>
+	<segment x1="244" y1="48" x2="276" y2="58"/>
+	<segment x1="276" y1="58" x2="317" y2="58"/>
+	<segment x1="317" y1="58" x2="376" y2="72"/>
+	<segment x1="376" y1="72" x2="402" y2="77"/>
+	<segment x1="402" y1="77" x2="444" y2="87"/>
+	<segment x1="444" y1="87" x2="478" y2="90"/>
+	
+	<segment x1="204" y1="185" x2="31" y2="185" radius="21"/>
+
+	<segment x1="56" y1="200" x2="56" y2="259" radius="34"/>
+
+	<segment x1="103" y1="195" x2="428" y2="281" radius="12"/>
+	
+	<sparksAction x="61" y="70" duration="-1" numParticles="5"/>
+	
+	<circle x="150" y="50" radius="10" mass="-1" visible="false" tag="21103" type="21103"/>
+	
+	<circle mass="-1" x="435" y="280" file="circler45.png" radius="45" visible="true" tag="21101"/>
+	<rotateAction cTag1="21001" cTag2="21103" receiverTag="21101" duration="9" angle="-210"/>
+	<sparksAction cTag1="21001" cTag2="21103" x="140" y="85" duration="5" numParticles="5"/>
+	
+	<rect x="240" y="100" width="75" height="95" mass="160" file="rect80x100.png" visible="true" tag="21102" friction="0.6"/>
+	<pin toTag="21101" fromTag="21102" toX="-38" toY="-20" fromX="30" fromY="45" visible="true"/>
+	
+	<ignoreCollision cTag1="1" cTag2="21103"/>
+	
+</trundle>

@@ -1,0 +1,75 @@
+<trundle map = "">
+
+	<rect x="195" y="193" mass="2" width="130" height="6" rotation="14" visible="true" tag="81807" group="81801"/>
+	<circle x="215" y="172" mass="3" radius="15" visible="true" file="circler15.png" tag="81808" group="81801"/>
+	<pivot toTag="81808" fromTag="81807" pin="true"/>
+	<circle x="175" y="183" mass="3" radius="15" visible="true" file="circler15.png" tag="81809" group="81801"/>
+	<pivot toTag="81809" fromTag="81807" pin="true"/>
+
+
+	<sprite x="88" y="32" file="circler15.png" tag="81801" visible="true"/>
+	<sprite x="201" y="73" file="circler15.png" tag="81802" visible="true"/>
+	
+	<rotateAction receiverTag="81801" duration="3" angle="1080" forever="true"/>
+	<rotateAction receiverTag="81802" duration="3" angle="1080" forever="true"/>
+	
+	<circle x="288" y="118" radius="28" mass="805" visible="true" file="circler30-2.png" group="5" tag="81803"/>
+	<pivot toTag="81803" fromTag="-1" pin="true"/>
+	<motor tag="81803" rate="2"/>
+	
+	
+	<circle x="380" y="50" radius="28" mass="805" friction=".1" visible="true" file="circler30-2.png" group="5" tag="81804"/>
+	<pivot toTag="81804" fromTag="-1" pin="true"/>
+	
+	<proximityGear toTag="81803" fromTag="81701" siblingTag="81803" ratio="-1" radius="60" visible="false"/>
+	<proximityGear toTag="81804" fromTag="81701" siblingTag="81803" ratio="-1" radius="60" visible="false"/>
+	
+	<circle x="335" y="80" radius="10" mass="-1" sensor="true" tag="81805" type="81805"/>
+	<rect x="424" y="180" width="10" height="100" mass="-1" visible="true" tag="81806"/>
+	
+	<moveAction x="424" y="100" duration="4" cTag1="81701" cTag2="81805" delay="2.3" receiverTag="81806"/>
+	
+	<defaultxy x="90" y="230"/>
+	<segment x1="0" y1="135" x2="41" y2="139"/>
+	<segment x1="41" y1="139" x2="120" y2="169"/>
+	<segment x1="120" y1="169" x2="176" y2="171"/>
+	<segment x1="176" y1="171" x2="202" y2="154"/>
+	<segment x1="202" y1="154" x2="240" y2="155"/>
+	<segment x1="240" y1="155" x2="263" y2="158"/>
+	<segment x1="263" y1="158" x2="285" y2="149"/>
+	<segment x1="285" y1="149" x2="302" y2="147"/>
+	<segment x1="302" y1="147" x2="302" y2="134"/>
+	<segment x1="302" y1="134" x2="308" y2="31"/>
+	<segment x1="308" y1="31" x2="318" y2="16"/>
+	<segment x1="318" y1="16" x2="335" y2="13"/>
+	<segment x1="335" y1="13" x2="365" y2="14"/>
+	<segment x1="365" y1="14" x2="370" y2="22"/>
+	<segment x1="370" y1="22" x2="369" y2="67"/>
+	<segment x1="369" y1="67" x2="376" y2="130"/>
+	<segment x1="376" y1="130" x2="375" y2="147"/>
+	<segment x1="375" y1="147" x2="409" y2="155"/>
+	<segment x1="409" y1="155" x2="410" y2="159"/>
+	<segment x1="410" y1="159" x2="436" y2="161"/>
+	<segment x1="436" y1="161" x2="438" y2="155"/>
+	<segment x1="438" y1="155" x2="480" y2="162"/>
+	<segment x1="480" y1="248" x2="441" y2="247"/>
+	<segment x1="441" y1="247" x2="437" y2="231"/>
+	<segment x1="437" y1="231" x2="410" y2="231"/>
+	<segment x1="410" y1="231" x2="410" y2="246"/>
+	<segment x1="410" y1="246" x2="396" y2="245"/>
+	<segment x1="396" y1="245" x2="390" y2="252"/>
+	<segment x1="390" y1="252" x2="413" y2="283"/>
+	<segment x1="413" y1="283" x2="434" y2="291"/>
+	<segment x1="434" y1="291" x2="438" y2="307"/>
+	<segment x1="438" y1="307" x2="437" y2="320"/>
+	
+	<segment x1="-46" y1="68" x2="-400" y2="90"/>
+	<segment x1="-46" y1="68" x2="-23" y2="72"/>
+	<segment x1="-23" y1="72" x2="-41" y2="120"/>
+	<segment x1="-41" y1="120" x2="-36" y2="140"/>
+	<segment x1="-36" y1="140" x2="0" y2="138"/>
+	
+	<segment x1="-437" y1="122" x2="-112" y2="122"/>
+	<segment x1="-112" y1="122" x2="-115" y2="70"/>
+	
+</trundle>

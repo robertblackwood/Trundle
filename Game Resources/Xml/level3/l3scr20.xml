@@ -1,0 +1,31 @@
+<trundle map = "">
+	<segment x1="0" y1="19" x2="139" y2="20" type="666"/>
+	<segment x1="139" y1="20" x2="168" y2="29" type="666"/>
+	<segment x1="168" y1="29" x2="206" y2="20" type="666"/>
+	<segment x1="206" y1="20" x2="245" y2="27" type="666"/>
+	<segment x1="245" y1="27" x2="318" y2="23" type="666"/>
+	<segment x1="318" y1="23" x2="358" y2="78" type="666"/>
+	<segment x1="358" y1="78" x2="371" y2="99" type="666"/>
+	<segment x1="371" y1="99" x2="377" y2="126"/>
+	<segment x1="377" y1="126" x2="381" y2="148"/>
+	<segment x1="381" y1="148" x2="385" y2="218"/>
+	<segment x1="385" y1="218" x2="392" y2="224"/>
+	<segment x1="392" y1="224" x2="433" y2="220"/>
+	<segment x1="433" y1="220" x2="438" y2="213"/>
+	<segment x1="438" y1="213" x2="436" y2="194"/>
+	<segment x1="436" y1="194" x2="456" y2="171"/>
+	<segment x1="456" y1="171" x2="480" y2="164"/>
+	
+	<circle x="55" y="180" mass="40" radius="45" visible="true" file="circler45.png" tag="32001"/>
+	<circle x="230" y="228" mass="40" radius="45" visible="true" file="circler45.png" tag="32002"/>
+	
+	<pivot toTag="32001" fromTag="-1" fromX="55" fromY="180"/>
+	<pivot toTag="32002" fromTag="-1" fromX="230" fromY="228"/>
+
+	<motor tag="32001" rate="4"/>
+	<motor tag="32002" rate="-4"/>
+	
+	<leaves/>
+	
+	<defaultxy x="420" y="280" screen="19"/>
+</trundle>

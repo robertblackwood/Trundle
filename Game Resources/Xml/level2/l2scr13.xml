@@ -1,0 +1,111 @@
+<trundle map = "">
+	<segment x1="2" y1="21" x2="52" y2="17"/>
+	<segment x1="52" y1="17" x2="56" y2="43"/>
+	<segment x1="56" y1="43" x2="79" y2="48"/>
+	<segment x1="79" y1="48" x2="80" y2="65"/>
+	<segment x1="80" y1="65" x2="96" y2="66"/>
+	<segment x1="96" y1="66" x2="101" y2="1"/>
+	
+	<segment x1="478" y1="115" x2="464" y2="133"/>
+	<segment x1="464" y1="133" x2="453" y2="190"/>
+	<segment x1="453" y1="190" x2="434" y2="200"/>
+	<segment x1="434" y1="200" x2="437" y2="208"/>
+	<segment x1="437" y1="208" x2="460" y2="206"/>
+	<segment x1="460" y1="206" x2="478" y2="207"/>
+
+	<segment x1="479" y1="288" x2="431" y2="309"/>
+	<segment x1="431" y1="309" x2="359" y2="305"/>
+	<segment x1="359" y1="305" x2="324" y2="302"/>
+	<segment x1="324" y1="302" x2="295" y2="319"/>
+	<segment x1="0" y1="400" x2="295" y2="319"/>
+	
+	<sprite file="rotatingmass.png" x="265" y="158" tag="21301" visible="true"/>
+	<rotateAction duration="20" angle="-360" receiverTag="21301" forever="true"/>
+	
+	<!--pieces-->
+	<segment x1="168" y1="73" x2="218" y2="121" tag="21302"/>
+	<segment x1="218" y1="121" x2="208" y2="140" tag="21303"/>
+	<segment x1="208" y1="140" x2="205.293" y2="151.414" tag="21304"/>
+	<segment x1="205.293" y1="151.414" x2="190.121" y2="147.586" tag="21305"/>
+	<segment x1="190.121" y1="147.586" x2="174" y2="151" tag="21306"/>
+	<segment x1="174" y1="151" x2="163" y2="163" tag="21307"/>
+	<segment x1="163" y1="163" x2="165" y2="187.121" tag="21308"/>
+	<segment x1="165" y1="187.121" x2="181.414" y2="195.828" tag="21309"/>
+	<segment x1="181.414" y1="195.828" x2="181" y2="207" tag="21310"/>
+	<segment x1="181" y1="207" x2="171" y2="220" tag="21311"/>
+	<segment x1="171" y1="220" x2="152.586" y2="218.879" tag="21312" friction="0.05" elasticity="2.0"/>
+	<segment x1="152.586" y1="218.879" x2="144" y2="202" tag="21313" friction="0.05" elasticity="2.0"/>
+	<segment x1="144" y1="202" x2="127" y2="160" tag="21314" friction="0.05" elasticity="2.0"/>
+	<segment x1="127" y1="160" x2="137" y2="139" tag="21315" friction="0.05" elasticity="2.0"/>
+	<segment x1="137" y1="139" x2="135" y2="107" tag="21316" friction="0.05" elasticity="2.0"/>
+	<segment x1="135" y1="107" x2="153" y2="105" tag="21317" friction="0.05" elasticity="2.0"/>
+	<segment x1="153" y1="105" x2="166" y2="95" tag="21318" friction="0.05" elasticity="2.0"/>
+	<segment x1="166" y1="95" x2="167" y2="77" tag="21319" friction="0.05" elasticity="2.0"/>
+
+	<segment x1="171" y1="253" x2="183" y2="253" tag="21320" friction="0.05" elasticity="2.0"/>
+	<segment x1="183" y1="253" x2="193" y2="243" tag="21321" friction="0.05" elasticity="2.0"/>
+	<segment x1="193" y1="243" x2="190" y2="228" tag="21322"/>
+	<segment x1="190" y1="228" x2="170" y2="246" tag="21323" friction="0.05" elasticity="2.0"/>
+
+	<segment x1="208" y1="269" x2="207" y2="250" tag="21324" friction="0.05" elasticity="2.0"/>
+	<segment x1="207" y1="250" x2="236" y2="250" tag="21325"/>
+	<segment x1="236" y1="250" x2="275" y2="247" tag="21326"/>
+	<segment x1="275" y1="247" x2="282" y2="265" tag="21327"/>
+	<segment x1="282" y1="265" x2="263" y2="276" tag="21328" friction="0.05" elasticity="2.0"/>
+	<segment x1="263" y1="276" x2="217" y2="274" tag="21329" friction="0.05" elasticity="2.0"/>
+
+	<segment x1="297" y1="267" x2="296.5" y2="238.5" tag="21330"/>
+	<segment x1="296.5" y1="238.5" x2="304" y2="241" tag="21331"/>
+	<segment x1="304" y1="241" x2="317" y2="251" tag="21332"/>
+	<segment x1="317" y1="251" x2="308" y2="265" tag="21333" friction="0.05" elasticity="2.0"/>
+
+	<segment x1="313" y1="230" x2="332" y2="205" tag="21334"/>
+	<segment x1="332" y1="205" x2="338" y2="180" tag="21335"/>
+	<segment x1="338" y1="180" x2="343.414" y2="161" tag="21336"/>
+	<segment x1="343.414" y1="161" x2="380" y2="159" tag="21337"/>
+	<segment x1="380" y1="159" x2="376" y2="174" tag="21338" friction="0.05" elasticity="2.0"/>
+	<segment x1="376" y1="174" x2="363" y2="188" tag="21339" friction="0.05" elasticity="2.0"/>
+	<segment x1="363" y1="188" x2="362" y2="207" tag="21340" friction="0.05" elasticity="2.0"/>
+	<segment x1="362" y1="207" x2="343" y2="241" tag="21341" friction="0.05" elasticity="2.0"/>
+	<segment x1="343" y1="241" x2="321" y2="236" tag="21342" friction="0.05" elasticity="2.0"/>
+
+	<segment x1="372" y1="145" x2="367.414" y2="138.414" tag="21343" friction="0.05" elasticity="2.0"/>
+	<segment x1="367.414" y1="138.414" x2="379" y2="132" tag="21344" friction="0.05" elasticity="2.0"/>
+	<segment x1="379" y1="132" x2="379" y2="142" tag="21345" friction="0.05" elasticity="2.0"/>
+
+	<segment x1="307" y1="130" x2="312" y2="98" tag="21346"/>
+	<segment x1="312" y1="98" x2="334" y2="74" tag="21347"/>
+	<segment x1="334" y1="74" x2="348" y2="66" tag="21348"/>
+	<segment x1="348" y1="66" x2="377" y2="102" tag="21349" friction="0.05" elasticity="2.0"/>
+	<segment x1="377" y1="102" x2="378" y2="114" tag="21350" friction="0.05" elasticity="2.0"/>
+	<segment x1="378" y1="114" x2="364" y2="117" tag="21351"/>
+	<segment x1="364" y1="117" x2="357" y2="123" tag="21352"/>
+	<segment x1="357" y1="123" x2="332" y2="122" tag="21353"/>
+	<segment x1="332" y1="122" x2="313" y2="128" tag="21354"/>
+	
+	<segment x1="313" y1="61" x2="329" y2="56" tag="21355"/>
+	<segment x1="329" y1="56" x2="324" y2="44" tag="21356" friction="0.05" elasticity="2.0"/>
+	<segment x1="324" y1="44" x2="315" y2="50" tag="21357" friction="0.05" elasticity="2.0"/>
+
+	<segment x1="242" y1="81" x2="265" y2="78" tag="21358"/>
+	<segment x1="265" y1="78" x2="287" y2="65" tag="21359"/>
+	<segment x1="287" y1="65" x2="301" y2="43" tag="21360"/>
+	<segment x1="301" y1="43" x2="299" y2="31" tag="21361"/>
+	<segment x1="299" y1="31" x2="279.707" y2="26.5858" tag="21362" friction="0.05" elasticity="2.0"/>
+	<segment x1="279.707" y1="26.5858" x2="266" y2="23" tag="21363" friction="0.05" elasticity="2.0"/>
+	<segment x1="266" y1="23" x2="211" y2="33" tag="21364" friction="0.05" elasticity="2.0"/>
+	<segment x1="211" y1="33" x2="205" y2="44" tag="21365" elasticity="2.0"/>
+	<segment x1="205" y1="44" x2="237" y2="79" tag="21366"/>
+
+	<segment x1="253" y1="215" x2="237" y2="209" tag="21367"/>
+	<segment x1="237" y1="209" x2="233" y2="193" tag="21368"/>
+	<segment x1="233" y1="193" x2="237" y2="174" tag="21369"/>
+	<segment x1="237" y1="174" x2="251" y2="163" tag="21370"/>
+	<segment x1="251" y1="163" x2="258" y2="144" tag="21371"/>
+	<segment x1="258" y1="144" x2="275" y2="150" tag="21372"/>
+	<segment x1="275" y1="150" x2="285" y2="171" tag="21373"/>
+	<segment x1="285" y1="171" x2="284" y2="196" tag="21374"/>
+	<segment x1="284" y1="196" x2="260" y2="214" tag="21375"/>
+	
+	<rotateAround x="265" y="158" facing="true" reverse="true" tag="21302" duration="20" span="74"/>
+</trundle>

@@ -1,0 +1,45 @@
+<trundle map = "l4scr16">
+	<segment x1="0" y1="250" x2="30" y2="250"/>
+	<segment x1="30" y1="250" x2="20" y2="20"/>
+	<segment x1="20" y1="20" x2="480" y2="20"/>
+	
+	<segment x1="277" y1="23" x2="296" y2="63"/>
+	<segment x1="296" y1="63" x2="300" y2="99"/>
+	<segment x1="300" y1="99" x2="337" y2="100"/>
+	<segment x1="337" y1="100" x2="342" y2="64"/>
+	<segment x1="342" y1="64" x2="348" y2="43"/>
+	<segment x1="348" y1="43" x2="366" y2="22"/>
+	
+	<segment x1="400" y1="400" x2="400" y2="320"/>
+	<segment x1="400" y1="320" x2="343" y2="245"/>
+	<segment x1="343" y1="245" x2="338" y2="198"/>
+	<segment x1="338" y1="198" x2="307" y2="195"/>
+	<segment x1="307" y1="195" x2="303" y2="231"/>
+	<segment x1="303" y1="231" x2="291" y2="248"/>
+	<segment x1="291" y1="248" x2="249" y2="286"/>
+	<segment x1="249" y1="286" x2="232" y2="296"/>
+	<segment x1="232" y1="296" x2="218" y2="320"/>
+	<segment x1="400" y1="400" x2="218" y2="320"/>
+	
+	<segment x1="0" y1="400" x2="480" y2="400"/>
+	
+	<rect x="320" y="150" mass="-1" width="35" height="100" tag="41602" type="41602" visible="true"/>
+
+	<gunTurret x="80" y="120" angle="271" tag="41604"/>
+	<fragmentAction cTag1="8" cTag2="41602" receiverTag="41602" pieces="4" mass="2"/>
+	
+	<rect x="100" y="25" mass="-1" width="20" height="10" tag="41607" type="41607" visible="true"/>
+	<rotateAction cTag1="1" cTag2="41607" receiverTag="41604" repeat="true" duration="0" angle=".25"/>
+	
+	<rect x="200" y="25" mass="-1" width="20" height="10" tag="41605" type="41605" visible="true"/>
+	<fireAction cTag1="1" cTag2="41605" receiverTag="41604" repeat="true"/>
+	
+	<grass x="75" y="25" type="t"/>
+	<grass x="150" y="25" type="t"/>
+	<grass x="225" y="25" type="t"/>
+	<grass x="400" y="25" type="t"/>
+	<grass x="450" y="25" type="t"/>
+	
+	<defaultxy x="100" y="100"/>
+	<fuzzles/>
+</trundle>

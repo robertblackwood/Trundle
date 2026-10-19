@@ -1,0 +1,31 @@
+<trundle map = "l4scr1">
+	<segment	x1="0"		y1="320"	x2="290"	y2="320"	/>
+	<segment	x1="290"	y1="320"	x2="290"	y2="260"	/>
+	<segment	x1="290"	y1="260"	x2="240"	y2="290"	/>
+	<segment	x1="240"	y1="290"	x2="150"	y2="300"	/>
+	<segment	x1="150"	y1="300"	x2="60"		y2="290"	/>
+	<segment	x1="60"		y1="290"	x2="10"		y2="240"	/>
+	<segment	x1="10"		y1="240"	x2="10"		y2="150"	/>
+	<segment	x1="10"		y1="150"	x2="20"		y2="100"	/>
+	<segment	x1="20"		y1="100"	x2="30"		y2="80"		/>
+	<segment	x1="30"		y1="80"		x2="40"		y2="60"		/>
+	<segment	x1="40"		y1="60"		x2="60"		y2="40"		/>
+	<segment	x1="60"		y1="40"		x2="90"		y2="30"		/>
+	<segment	x1="90"		y1="30"		x2="120"	y2="25"		/>
+	<segment	x1="120"	y1="25"		x2="180"	y2="30"		/>
+	<segment	x1="180"	y1="30"		x2="250"	y2="60"		/>
+	<segment	x1="250"	y1="60"		x2="300"	y2="100"	/>
+	<segment	x1="300"	y1="100"	x2="380"	y2="100"	/>
+	
+	<grass x="340" y="98" type="t"/>
+	
+	<segment	x1="380"	y1="100"	x2="400"	y2="190"	/>
+	<segment	x1="400"	y1="190"	x2="480"	y2="250"	/>
+	
+	<transitionScreens left="-1" right="1" top="0" bottom="0"/>
+	
+	<sprite tag="40101" file="l4title.png" x="240" y="160" z="1000" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="2" toTag="40101"/>
+	
+	<fuzzles/>
+</trundle>

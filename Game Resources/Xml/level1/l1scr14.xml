@@ -1,0 +1,57 @@
+<trundle map = "lscr13">
+
+<background file="l1back14.png"/>
+	
+	<segment x1="0" y1="223" x2="53" y2="225"/>
+	<segment x1="53" y1="225" x2="69" y2="231"/>
+	<segment x1="69" y1="231" x2="74" y2="222"/>
+	<segment x1="74" y1="222" x2="31" y2="62"/>
+	<segment x1="31" y1="62" x2="39" y2="46"/>
+	<segment x1="39" y1="46" x2="173" y2="39"/>
+	<segment x1="173" y1="39" x2="308" y2="91"/>
+	<segment x1="308" y1="91" x2="381" y2="73"/>
+	<segment x1="381" y1="73" x2="478" y2="48"/>
+	<segment x1="575" y1="23" x2="478" y2="48"/>
+	<segment x1="575" y1="23" x2="575" y2="200"/>
+
+	
+	<segment x1="542" y1="320" x2="628" y2="10"/>
+	
+	<butterfly startX="495" startY="160" midX="70" midY="245" endX="495" endY="320" control1X="300" control1Y="280" control2X="310" control2Y="130"/>
+
+	<circle x="76" y="94" file="circler25.png" visible="true" mass="5" radius="23" tag="11401"/>
+	<circle x="142" y="61" file="circler15.png" visible="true" mass="5" radius="15" tag="11402"/>
+	
+	<rect x="120" y="107" width="100" height="8" mass="3" file="tractor.png" visible="true" tag="11403" friction="0.1" group="11401"/>
+	<pin toTag="11402" fromTag="11401" toX="0" toY="0" fromX="0" fromY="0" visible="false"/>
+	
+	<pin toTag="11401" fromTag="11403" toX="0" toY="0" fromX="0" fromY="0" visible="false"/>
+	<pin toTag="11402" fromTag="11403" toX="0" toY="0" fromX="0" fromY="0" visible="false"/>
+	
+	<spring toTag="11401" fromTag="11403" toX="0" toY="0" fromX="-30" fromY="0" visible="false" restLength="28" stiffness="4000"/>
+	<spring toTag="11402" fromTag="11403" toX="0" toY="0" fromX="30" fromY="0" visible="false" restLength="28" stiffness="4000"/>	
+	
+	<rect x="75" y="117" width="6" height="20" mass="4" visible="true" tag="11405" group="11401"/>
+	<pin toTag="11403" fromTag="11405" toX="45" toY="0" fromX="0" fromY="10" visible="false"/>
+	<pin toTag="11403" fromTag="11405" toX="-45" toY="0" fromX="0" fromY="-10" visible="false"/>
+	
+	<rect x="168" y="117" width="6" height="20" mass="4" visible="true" tag="11406" group="11401"/>
+	<pin toTag="11403" fromTag="11406" toX="48" toY="0" fromX="0" fromY="-10" visible="false"/>
+	<pin toTag="11403" fromTag="11406" toX="-45" toY="0" fromX="0" fromY="10" visible="false"/>
+	
+	<circle x="145" y="115" radius="20" visible="true" mass="5" tag="11407" group="11401" file="circler20.png"/>
+	<pivot toTag="11407" fromTag="11403" toX="0" toY="0" fromX="25" fromY="8" visible="false"/>
+	<motor tag="11407" rate="7"/>
+	
+	<proximityGear toTag="1" fromTag="11407" siblingTag="11401" ratio="-1" visible="true"/>
+	<proximityGear toTag="1" fromTag="11401" siblingTag="11401" ratio="1" visible="true" radius="70"/>
+	
+	<smoke x="105" y="74" tag="11403"/>
+	
+	<!--<engineAction cTag1="1" cTag2="11403" receiverTag="11401" rate="-10"/>-->
+	
+	<defaultxy x="40" y="280"/>
+	
+	<birds count="1"/>
+	
+</trundle>

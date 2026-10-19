@@ -1,0 +1,24 @@
+<trundle map = "l4scr4">
+	<segment	x1="0"		y1="260"	x2="40"		y2="260"	/>
+	<segment	x1="40"		y1="260"	x2="40"		y2="20"		elasticity="1" friction=".01"/>
+	<segment	x1="40"		y1="20"		x2="430"	y2="20"		/>
+	<segment	x1="430"	y1="20"		x2="430"	y2="260"	elasticity="1" friction=".01"/>
+	<segment	x1="430"	y1="260"	x2="480"	y2="260"	/>
+	
+	<grass x="150" y="20" type="t"/>
+	<grass x="250" y="20" type="t"/>
+	<grass x="350" y="20" type="t"/>
+	
+	<rect x="120"	y="50"	mass="-1"	width="80"	height="6"	visible="true"	tag="40401"/>	
+	<rect x="250"	y="190"	mass="-1"	width="80"	height="6"	visible="true"	tag="40402"/>
+	<rect x="400"	y="200"	mass="-1"	width="40"	height="6"	visible="true"  tag="40403"/>
+	
+	<moveToAndBack tag="40401"	duration="5"	x="120"		y="120"/>
+	<moveToAndBack tag="40402"	duration="5"	x="250"		y="120"/>
+	<moveToAndBack tag="40403"	duration="5"	x="400"		y="260"/>
+	
+	<connector toTag="40401" fromTag="-1" offset1X="0" offset1Y="0" offset2X="120" offset2Y="0" lineWidth="5"/>
+	<connector toTag="40402" fromTag="-1" offset1X="0" offset1Y="0" offset2X="250" offset2Y="0" lineWidth="5"/>
+	<connector toTag="40403" fromTag="-1" offset1X="0" offset1Y="0" offset2X="400" offset2Y="0" lineWidth="5"/>
+	<fuzzles/>
+</trundle>

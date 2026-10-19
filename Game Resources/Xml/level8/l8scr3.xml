@@ -1,0 +1,60 @@
+<trundle map = "">
+
+
+	<poly x="171" y="196" points="12,-100, -40,28, 61,26" mass="6" visible="true" file="wedge.png" group="80301" tag="80301"/>	
+	<poly x="171" y="196" points="-8,28, -40,28, -64,45, -18,50" mass="2" visible="true" group="80301" tag="80302"/>
+	<poly x="171" y="196" points="61,26, 45,26, 49,54, 55,59" mass="2" visible="true" group="80301" tag="80303"/>
+	<poly x="171" y="196" points="-18,50, -38,46, -30,104, -20,104" mass="2" group="80301" tag="80304"/>
+	
+	<pivot toTag="80301" fromTag="-1" worldX="183" worldY="80"/>
+	<pivot toTag="80301" fromTag="80302" worldX="171" worldY="190"/>
+	<pivot toTag="80301" fromTag="80303" worldX="171" worldY="190"/>
+	<pivot toTag="80301" fromTag="80304" worldX="171" worldY="190"/>
+	<pivot toTag="80301" fromTag="80302" worldX="171" worldY="290"/>
+	<pivot toTag="80301" fromTag="80303" worldX="171" worldY="290"/>
+	<pivot toTag="80301" fromTag="80304" worldX="171" worldY="290"/>
+
+
+
+
+	<defaultxy x="80" y="300"/>
+
+	<segment x1="0" y1="268" x2="40" y2="263"/>
+	<segment x1="40" y1="263" x2="88" y2="259"/>
+	<segment x1="88" y1="259" x2="111" y2="232"/>
+	<segment x1="111" y1="232" x2="100" y2="214"/>
+	<segment x1="100" y1="214" x2="88" y2="207"/>
+	<segment x1="88" y1="207" x2="58" y2="206"/>
+	<segment x1="58" y1="206" x2="30" y2="176"/>
+	<segment x1="30" y1="176" x2="17" y2="141"/>
+	<segment x1="17" y1="141" x2="26" y2="83"/>
+	<segment x1="26" y1="83" x2="23" y2="25"/>
+	<segment x1="23" y1="25" x2="34" y2="0"/>
+	<segment x1="154" y1="0" x2="171" y2="53"/>
+	<segment x1="171" y1="53" x2="183" y2="86"/>
+	<segment x1="183" y1="86" x2="189" y2="86"/>
+	<segment x1="189" y1="86" x2="193" y2="53"/>
+	<segment x1="193" y1="53" x2="212" y2="0"/>
+	<segment x1="459" y1="0" x2="432" y2="26"/>
+	<segment x1="432" y1="26" x2="439" y2="32"/>
+	<segment x1="439" y1="32" x2="479" y2="31"/>
+
+	<segment x1="480" y1="84" x2="449" y2="87"/>
+	<segment x1="449" y1="87" x2="402" y2="69"/>
+	<segment x1="402" y1="69" x2="399" y2="77"/>
+	<segment x1="399" y1="77" x2="413" y2="93"/>
+	<segment x1="413" y1="93" x2="432" y2="114"/>
+	<segment x1="432" y1="114" x2="445" y2="152"/>
+	<segment x1="445" y1="152" x2="444" y2="166"/>
+	<segment x1="444" y1="166" x2="450" y2="202"/>
+	<segment x1="450" y1="202" x2="431" y2="243"/>
+	<segment x1="431" y1="243" x2="401" y2="270"/>
+	<segment x1="401" y1="270" x2="370" y2="284"/>
+	<segment x1="370" y1="284" x2="353" y2="286"/>
+	<segment x1="353" y1="286" x2="351" y2="293"/>
+	<segment x1="351" y1="293" x2="343" y2="301"/>
+	<segment x1="343" y1="301" x2="339" y2="320"/>
+
+	<segment x1="442" y1="32" x2="416" y2="20" radius="3" visible="true"/>
+
+</trundle>

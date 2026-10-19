@@ -1,0 +1,132 @@
+<mobilebros map = "l6back4">
+
+	<background file="l6back4.png" spotlight="true" lightRadius="370"/>
+	
+	<segment x1="44" y1="0" x2="46" y2="71"/>
+	<segment x1="46" y1="71" x2="34" y2="111"/>
+	<segment x1="34" y1="111" x2="20" y2="148"/>
+	<segment x1="20" y1="148" x2="0" y2="223"/>
+	
+	<segment x1="0" y1="309" x2="67" y2="301"/>
+	<segment x1="67" y1="301" x2="85" y2="239"/>
+	<segment x1="85" y1="239" x2="94" y2="298"/>
+	<segment x1="94" y1="298" x2="120" y2="294"/>
+	<segment x1="120" y1="294" x2="129" y2="269"/>
+	<segment x1="129" y1="269" x2="132" y2="243"/>
+	<segment x1="132" y1="243" x2="143" y2="291"/>
+	<segment x1="143" y1="291" x2="170" y2="287"/>
+	<segment x1="170" y1="287" x2="182" y2="261"/>
+	<segment x1="182" y1="261" x2="189" y2="193"/>
+	<segment x1="189" y1="193" x2="197" y2="212"/>
+	<segment x1="197" y1="212" x2="197" y2="234"/>
+	<segment x1="197" y1="234" x2="204" y2="276"/>
+	<segment x1="204" y1="276" x2="236" y2="263"/>
+	<segment x1="236" y1="263" x2="244" y2="214"/>
+	<segment x1="244" y1="214" x2="249" y2="232"/>
+	<segment x1="249" y1="232" x2="259" y2="260"/>
+	<segment x1="259" y1="260" x2="284" y2="261"/>
+	<segment x1="284" y1="261" x2="292" y2="238"/>
+	<segment x1="292" y1="238" x2="292" y2="212"/>
+	<segment x1="292" y1="212" x2="292" y2="185"/>
+	<segment x1="292" y1="185" x2="297" y2="203"/>
+	<segment x1="297" y1="203" x2="307" y2="263"/>
+	<segment x1="307" y1="263" x2="367" y2="276"/>
+	<segment x1="367" y1="276" x2="382" y2="239"/>
+	<segment x1="382" y1="239" x2="386" y2="258"/>
+	<segment x1="386" y1="258" x2="393" y2="281"/>
+	<segment x1="393" y1="281" x2="480" y2="305"/>
+	
+	<segment x1="480" y1="208" x2="465" y2="156"/>
+	<segment x1="465" y1="156" x2="447" y2="103"/>
+	<segment x1="447" y1="103" x2="427" y2="69"/>
+	<segment x1="427" y1="69" x2="409" y2="54"/>
+	<segment x1="409" y1="54" x2="381" y2="45"/>
+	<segment x1="381" y1="45" x2="368" y2="99"/>
+	<segment x1="368" y1="99" x2="364" y2="63"/>
+	<segment x1="364" y1="63" x2="357" y2="42"/>
+	<segment x1="357" y1="42" x2="320" y2="35"/>
+	<segment x1="320" y1="35" x2="310" y2="55"/>
+	<segment x1="310" y1="55" x2="307" y2="47"/>
+	<segment x1="307" y1="47" x2="292" y2="30"/>
+	<segment x1="292" y1="30" x2="266" y2="20"/>
+	<segment x1="266" y1="20" x2="257" y2="33"/>
+	<segment x1="257" y1="33" x2="259" y2="58"/>
+	<segment x1="259" y1="58" x2="251" y2="83"/>
+	<segment x1="251" y1="83" x2="252" y2="54"/>
+	<segment x1="252" y1="54" x2="245" y2="35"/>
+	<segment x1="245" y1="35" x2="237" y2="10"/>
+	<segment x1="237" y1="10" x2="197" y2="-10"/>
+	
+	
+	<!-- left spinning sphere -->
+	<segment x1="186" y1="162" x2="180" y2="188" radius="2" tag="60400"/>
+	<segment x1="180" y1="188" x2="167" y2="208" radius="2" tag="60401"/>
+	<segment x1="167" y1="208" x2="146" y2="224" radius="2" tag="60402"/>
+	<segment x1="146" y1="224" x2="116" y2="232" radius="2" tag="60403"/>
+	<segment x1="116" y1="232" x2="87" y2="227" radius="2" tag="60404"/>
+	<segment x1="87" y1="227" x2="60" y2="211" radius="2" tag="60405"/>
+	<segment x1="60" y1="211" x2="42" y2="181" radius="2" tag="60406"/>
+	<segment x1="42" y1="181" x2="40" y2="144" radius="2" tag="60407"/>
+	<segment x1="40" y1="144" x2="52" y2="117" radius="2" tag="60408"/>
+	<segment x1="52" y1="117" x2="71" y2="98" radius="2" tag="60409"/>
+	<segment x1="71" y1="98" x2="97" y2="88" radius="2" tag="60410"/>
+	<segment x1="97" y1="88" x2="129" y2="89" radius="2" tag="60411"/>
+	<segment x1="129" y1="89" x2="155" y2="102" radius="2" tag="60412"/>
+	<segment x1="155" y1="102" x2="170" y2="115" radius="2" tag="60413"/>
+	
+	<rotateAround x="110" y="157" facing="true" reverse="true" tag="60400" duration="10" span="14"/>
+
+	<sprite file="left-tumbler.png" x="110" y="157" tag="60440" visible="true" z="1000"/>
+	<rotateAction duration="10" angle="-360" receiverTag="60440" forever="true"/>
+	<spotlight x="110" y="157" radius="125"/>
+	
+	<!-- center spinning sphere -->
+	<segment x1="197" y1="167" x2="212" y2="186" radius="2" tag="60414"/>
+	<segment x1="212" y1="186" x2="236" y2="195" radius="2" tag="60415"/>
+	<segment x1="236" y1="195" x2="264" y2="194" radius="2" tag="60416"/>
+	<segment x1="264" y1="194" x2="283" y2="182" radius="2" tag="60417"/>
+	<segment x1="283" y1="182" x2="297" y2="164" radius="2" tag="60418"/>
+	<segment x1="297" y1="164" x2="301" y2="139" radius="2" tag="60419"/>
+	<segment x1="301" y1="139" x2="292" y2="112" radius="2" tag="60420"/>
+	<segment x1="292" y1="112" x2="273" y2="93" radius="2" tag="60421"/>
+	<segment x1="273" y1="93" x2="244" y2="87" radius="2" tag="60422"/>
+	<segment x1="244" y1="87" x2="222" y2="92" radius="2" tag="60423"/>
+	<segment x1="222" y1="92" x2="206" y2="104" radius="2" tag="60424"/>
+	<segment x1="206" y1="104" x2="196" y2="117" radius="2" tag="60425"/>
+	
+	<rotateAround x="248" y="141" facing="true" reverse="true" tag="60414" duration="10" span="12"/>
+
+	<sprite file="center-tumbler.png" x="248" y="141" tag="60441" visible="true" z="1000"/>
+	<rotateAction duration="10" angle="-360" receiverTag="60441" forever="true"/>
+	<spotlight x="248" y="141" radius="125"/>
+
+	
+	<!-- right spinning sphere -->
+	<segment x1="306" y1="185" x2="315" y2="202" radius="2" tag="60426"/>
+	<segment x1="315" y1="202" x2="331" y2="217" radius="2" tag="60427"/>
+	<segment x1="331" y1="217" x2="355" y2="225" radius="2" tag="60428"/>
+	<segment x1="355" y1="225" x2="378" y2="223" radius="2" tag="60429"/>
+	<segment x1="378" y1="223" x2="401" y2="212" radius="2" tag="60430"/>
+	<segment x1="401" y1="212" x2="415" y2="193" radius="2" tag="60431"/>
+	<segment x1="415" y1="193" x2="420" y2="172" radius="2" tag="60432"/>
+	<segment x1="420" y1="172" x2="416" y2="143" radius="2" tag="60433"/>
+	<segment x1="416" y1="143" x2="403" y2="126" radius="2" tag="60434"/>
+	<segment x1="403" y1="126" x2="381" y2="113" radius="2" tag="60435"/>
+	<segment x1="381" y1="113" x2="356" y2="110" radius="2" tag="60436"/>
+	<segment x1="356" y1="110" x2="334" y2="117" radius="2" tag="60437"/>
+	<segment x1="334" y1="117" x2="321" y2="127" radius="2" tag="60438"/>
+	<segment x1="321" y1="127" x2="312" y2="136" radius="2" tag="60439"/>
+	
+	<rotateAround x="365" y="167" facing="true" reverse="true" tag="60426" duration="15" span="14"/>
+
+	<sprite file="right-tumbler.png" x="365" y="167" tag="60442" visible="true" z="1000"/>
+	<rotateAction duration="15" angle="-360" receiverTag="60442" forever="true"/>
+	<spotlight x="365" y="167" radius="125"/>
+	
+	<glow x="300" y="70" size="10" numParticles="5" speed="5" r="255" g="150" b="150" tag="60450"/>
+	<circle x="300" y="70" radius="6" mass="-1" sensor="true" tag="60451" type="60450"/>
+	<showAction hide="true" cTag1="1" cTag2="60451" receiverTag="60450"/>
+	<binAction cTag1="1" cTag2="60451" bin="6.4.1" binValue="1"/>
+	
+	<transitionScreens left = "-1" right = "1" top = "0" bottom = "3"/>
+</mobilebros>

@@ -1,0 +1,66 @@
+<trundle map = "">
+
+	<segment x1="620" y1="110" x2="620" y2="245"/>
+	<segment x1="620" y1="110" x2="480" y2="145"/>
+	<segment x1="480" y1="145" x2="457" y2="149"/>
+	<segment x1="457" y1="149" x2="448" y2="147"/>
+	<segment x1="448" y1="147" x2="439" y2="142"/>
+	<segment x1="439" y1="142" x2="428" y2="106"/>
+	<segment x1="428" y1="106" x2="433" y2="43"/>
+	<segment x1="433" y1="43" x2="419" y2="24"/>
+	<segment x1="419" y1="24" x2="400" y2="21"/>
+	<segment x1="400" y1="21" x2="368" y2="22"/>
+	<segment x1="368" y1="22" x2="329" y2="17"/>
+	<segment x1="329" y1="17" x2="254" y2="17"/>
+	<segment x1="254" y1="17" x2="224" y2="18"/>
+	<segment x1="224" y1="18" x2="202" y2="22"/>
+	<segment x1="202" y1="22" x2="173" y2="21"/>
+	<segment x1="173" y1="21" x2="164" y2="25"/>
+	<segment x1="164" y1="25" x2="164" y2="64"/>
+	<segment x1="164" y1="64" x2="149" y2="86"/>
+	<segment x1="149" y1="86" x2="143" y2="88"/>
+	<segment x1="143" y1="88" x2="120" y2="88"/>
+	<segment x1="120" y1="88" x2="112" y2="83"/>
+	<segment x1="112" y1="83" x2="103" y2="86"/>
+	<segment x1="103" y1="86" x2="100" y2="116"/>
+	<segment x1="100" y1="116" x2="90" y2="133"/>
+	<segment x1="90" y1="133" x2="79" y2="140.5"/>
+	<segment x1="79" y1="140.5" x2="67" y2="140"/>
+	<segment x1="67" y1="140" x2="13" y2="139"/>
+	<segment x1="13" y1="139" x2="10" y2="153"/>
+	<segment x1="10" y1="153" x2="14" y2="169"/>
+	<segment x1="14" y1="169" x2="13" y2="178"/>
+	<segment x1="13" y1="178" x2="28" y2="214"/>
+	<segment x1="28" y1="214" x2="25" y2="219"/>
+	<segment x1="25" y1="219" x2="20" y2="221"/>
+	<segment x1="20" y1="221" x2="0" y2="223"/>
+
+	<segment x1="0" y1="281" x2="25" y2="286"/>
+	<segment x1="25" y1="286" x2="39" y2="285"/>
+	<segment x1="39" y1="285" x2="54" y2="288"/>
+	<segment x1="54" y1="288" x2="66" y2="300"/>
+	<segment x1="66" y1="300" x2="93" y2="306"/>
+	<segment x1="93" y1="306" x2="103" y2="320"/>
+	<segment x1="103" y1="320" x2="103" y2="400"/>
+	<segment x1="103" y1="400" x2="480" y2="400"/>
+	
+	<rect x="138" y="104" mass="7" width="30" height="30" visible="true"/>
+
+	<circle x="145" y="215" radius="10" mass=".35" visible="true" file="circler10-3.png"/>
+	<circle x="90" y="215" radius="10" mass=".35" visible="true" file="circler10-3.png"/>
+	<rect x="128" y="198" width="110" height="8" visible="true" mass="-1"/>
+	<connector toTag="-1" fromTag="-1" offset1X="128" offset1Y="198" offset2X="128" lineWidth="5"/>
+	<rect x="73" y="198" mass="-1" width="10" height="12" visible="true"/>
+	<rect x="183" y="198" mass="-1" width="10" height="12" visible="true"/>
+	
+	
+	<rect x="293" y="85" width="225" height="3" file="teeter.png" mass="10" visible="true" tag="10302"/>
+	<pivot toTag="10302" fromTag="-1" toX="-0" toY="0" fromX="293" fromY="85" visible="false"/>
+
+	<rect x="448" y="118" width="80" height="20" visible="true" mass="-1"/>
+	
+	<defaultxy x="15" y="250"/>
+	
+	<rain/>
+	
+</trundle>

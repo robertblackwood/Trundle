@@ -1,0 +1,51 @@
+<trundle map = "lscr1">
+
+<background file="l1back1.png" spotlight="false"/>
+	
+	<segment x1="157" y1="320" x2="84" y2="266" elasticity = "0.75"/>
+	<segment x1="84" y1="266" x2="43" y2="194" elasticity = "0.75"/>
+	<segment x1="43" y1="194" x2="43" y2="57" elasticity = "0.5"/>
+	
+	<segment x1="43" y1="57" x2="144" y2="28"/>
+	<segment x1="144" y1="28" x2="254" y2="10"/>
+	
+	<segment x1="254" y1="10" x2="360" y2="30"/>	
+	<segment x1="360" y1="30" x2="349" y2="139"/>
+	
+	<segment x1="349" y1="139" x2="437" y2="150"/>
+	<segment x1="437" y1="150" x2="445" y2="96"/>
+	<segment x1="445" y1="96" x2="480" y2="74"/>
+	
+	<segment x1="160" y1="75" x2="296" y2="123" radius="5" tag="10101" type="10101"/>
+	<segment x1="190" y1="82" x2="296" y2="112"/>
+	
+	<grass x="168" y="30" rotation="14"/>
+	<grass x="220" y="22" rotation="13"/>
+	<grass x="270" y="18" rotation="-10"/>
+	<grass x="385" y="146" rotation="-10"/>
+	
+	<glowFloorAction cTag1="10101" cTag2="1" receiverTag="10101" repeat="true" radius="60"/>
+	
+	<birds count="1"/>
+	<butterfly startX="100" startY="160" midX="240" midY="115" endX="510" endY="190" control1X="160" control1Y="200" control2X="360" control2Y="250"/>
+	
+	<sprite tag="10102" file="tiltmsg.png" x="60" y="300" z="1000" visible="true"/>
+	<fade in="1" out="2" delay="6" pause="4" toTag="10102"/>
+	
+	<sprite tag="10103" file="jumpmsg.png" x="415" y="50" z="1000" visible="true"/>
+	<fade in="2" out="2" delay="8" pause="4" toTag="10103"/>
+	
+	<sprite tag="10104" file="l1title.png" x="240" y="160" z="1000" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="2" toTag="10104"/>
+	
+<!--	
+	<smoke x="240" y="160"/>
+	<sparks x="240" y="160" numParticles="80"/>
+	<circle x="240" y="160" visible="true" mass="5" radius="10" tag="10102"/>
+	<motor tag="101012" rate="4"/>
+-->
+<!--	
+	<button x="315" y="115" tag="10102"/>
+	<deleteAction senderTag="10102" receiverTag="10101"/>
+	-->
+</trundle>

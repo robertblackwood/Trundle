@@ -1,0 +1,76 @@
+<trundle map = "">
+	<pinion x="504" y="33" tag="110000" type="110000" scale=".7"/>
+	<removeAfter toTag="110000" screen="20"/>
+	
+	<messageAction receiverTag="110000" delay="2" right="true" message="There he\nis! Get him!"/> 
+	
+	<defaultxy x="453" y="40"/> 
+	
+	<walkAction x="403" y="29" duration="1" delay="1" receiverTag="110000"/>
+	<walkAction x="351" y="29" duration=".5" delay="2" receiverTag="110000"/>
+	<walkAction x="307" y="32" duration=".5" delay="2.5" receiverTag="110000"/>
+	<walkAction x="267" y="28" duration=".5" delay="3" receiverTag="110000"/>
+	<walkAction x="207" y="28" duration=".5" delay="3.5" receiverTag="110000"/>
+	<walkAction x="145" y="34" duration=".5" delay="4" receiverTag="110000"/>
+	<walkAction x="51" y="44" duration=".7" delay="4.5" receiverTag="110000"/>
+
+	<transitionScreens left="1" right="-1" top="0" bottom="666"/>
+
+	<pinion x="325" y="260" tag="110001" type="110001"/>	
+	<hunter x="240" y="230" tag="110201"/>
+	<laser x="240" y="180" automatic="true" min="210" max="330" hunter="110201"/>
+
+	<moveAction cTag1="110201" cTag2="110201" receiverTag="110001" delay="1" duration="1" x="360" y="350"/>
+	<jumpAction cTag1="110201" cTag2="110201" receiverTag="110001" delay="2" duration="3" x="240" y="29"/>
+
+	<walkAction x="145" y="34" duration="1" delay="5" cTag1="110201" cTag2="110201" receiverTag="110000"/>
+	<walkAction x="180" y="28" duration=".7" delay="6" cTag1="110201" cTag2="110201" receiverTag="110000"/>
+
+	<circle x="600" y="90" radius="16" mass="-1" file="transportsym.png" visible="true" tag="200" type="200"/>
+	<glow x="21" y="10" toTag="200" z="-1" numParticles="40" size="64" speed="35" r="255" g="255" b="255"/>
+	<transportAction cTag1="200" cTag2="1" receiverTag="200" level="0" screen="0" nonColliding="true"/>
+
+	<moveAction cTag1="110201" cTag2="110201" receiverTag="200" delay="14" duration="5" x="400" y="90"/>
+		
+	<messageAction cTag1="110201" cTag2="110201" receiverTag="110000" delay="5" right="false" message="Dad!\nYou're ok!;This strange\ncreature helped\nme get here."/> 
+	<messageAction cTag1="110201" cTag2="110201" receiverTag="110001" delay="7" right="true" message="Thanks to\nyou! What were\nyou thinking!?;Then we are\nforever in your\ndebt...;I believe you\nmay be looking\nfor this...;Good luck\nstrange creature\nbut be wary..."/> 
+
+
+	<segment x1="494" y1="22" x2="466" y2="19"/>
+	<segment x1="466" y1="19" x2="429" y2="15"/>
+	<segment x1="429" y1="15" x2="400" y2="15"/>
+	<segment x1="400" y1="15" x2="372" y2="15"/>
+	<segment x1="372" y1="15" x2="320" y2="17"/>
+	<segment x1="320" y1="17" x2="283" y2="12"/>
+	<segment x1="283" y1="12" x2="251" y2="14"/>
+	<segment x1="251" y1="14" x2="203" y2="12"/>
+	<segment x1="203" y1="12" x2="151" y2="17"/>
+	<segment x1="151" y1="17" x2="101" y2="23"/>
+	<segment x1="101" y1="23" x2="56" y2="30"/>
+	<segment x1="56" y1="30" x2="20" y2="39"/>
+	<segment x1="20" y1="39" x2="13" y2="50"/>
+	<segment x1="13" y1="50" x2="72" y2="81"/>
+	<segment x1="72" y1="81" x2="31" y2="153" type="9"/>
+	<segment x1="31" y1="153" x2="-4" y2="134"/>
+	<segment x1="-4" y1="134" x2="0" y2="188"/>
+	<segment x1="0" y1="188" x2="19" y2="187"/>
+	<segment x1="19" y1="187" x2="27" y2="182"/>
+	<segment x1="27" y1="182" x2="30" y2="169"/>
+	<segment x1="30" y1="169" x2="35" y2="169"/>
+	<segment x1="35" y1="169" x2="34" y2="233"/>
+	<segment x1="34" y1="233" x2="29" y2="233"/>
+	<segment x1="29" y1="233" x2="22" y2="245"/>
+	<segment x1="22" y1="245" x2="17" y2="243"/>
+	<segment x1="17" y1="243" x2="17" y2="221"/>
+	<segment x1="17" y1="221" x2="2" y2="219"/>
+	<segment x1="2" y1="219" x2="3" y2="261"/>
+	<segment x1="3" y1="261" x2="20" y2="260"/>
+	<segment x1="20" y1="260" x2="35" y2="256"/>
+	<segment x1="35" y1="256" x2="35" y2="268"/>
+	<segment x1="35" y1="268" x2="34" y2="281"/>
+	<segment x1="34" y1="281" x2="22" y2="281"/>
+	<segment x1="22" y1="281" x2="2" y2="278"/>
+	<segment x1="2" y1="278" x2="7" y2="321"/>
+	<segment x1="7" y1="321" x2="3" y2="428"/>
+	<segment x1="3" y1="428" x2="105" y2="480"/>
+</trundle>

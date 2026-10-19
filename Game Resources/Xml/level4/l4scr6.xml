@@ -1,0 +1,32 @@
+<trundle map = "l4scr6">
+
+	<segment x1="60" y1="320" x2="80" y2="300" />	
+	<segment x1="80" y1="300" x2="360" y2="300" />	
+	<segment x1="360" y1="300" x2="400" y2="280" />
+	<segment x1="400" y1="280" x2="400" y2="320" />
+	
+	<rect x="60"	y="70"	mass="-1"	width="60"	height="6"	visible="true"	tag="40601"/>
+	<rect x="90"	y="90"	mass="-1"	width="6"	height="40" visible="true"	tag="40602" file="anglelift.png"/>
+	<rect x="120"	y="110"	mass="-1"	width="60"	height="6"	visible="true"  tag="40603"/>
+	
+	<moveToAndBack tag="40601"	duration="5"	x="60"		y="200"/>
+	<moveToAndBack tag="40602"	duration="5"	x="90"		y="220"/>
+	<moveToAndBack tag="40603"	duration="5"	x="120"		y="240"/>
+	
+	<rect x="300"	y="70"	mass="-1"	width="60"	height="6"	visible="true"	tag="40604"/>
+	<rect x="330"	y="90"	mass="-1"	width="6"	height="40" visible="true"	tag="40605" file="anglelift.png"/>
+	<rect x="360"	y="110"	mass="-1"	width="60"	height="6"	visible="true"  tag="40606"/>
+	
+	<moveToAndBack tag="40604"	duration="5"	x="300"		y="200"/>
+	<moveToAndBack tag="40605"	duration="5"	x="330"		y="220"/>
+	<moveToAndBack tag="40606"	duration="5"	x="360"		y="240"/>
+	
+	<connector toTag="40602" fromTag="-1" offset1X="68" offset1Y="70" offset2X="90" offset2Y="0" lineWidth="5"/>
+	<connector toTag="40605" fromTag="-1" offset1X="68" offset1Y="70" offset2X="330" offset2Y="0" lineWidth="5"/>
+	
+	<defaultxy x="25" y="300" screen="5"/>
+	
+	<transitionScreens left="-1" right="1" top="5" bottom="666"/>
+
+	<fuzzles/>
+</trundle>

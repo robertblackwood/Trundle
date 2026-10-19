@@ -1,0 +1,30 @@
+<trundle map = "">
+	<segment x1="0" y1="91" x2="110" y2="90"/>
+	<segment x1="110" y1="90" x2="120" y2="81"/>
+	<segment x1="120" y1="81" x2="123" y2="43"/>
+	<segment x1="123" y1="43" x2="150" y2="40"/>
+	<segment x1="150" y1="40" x2="159" y2="31"/>
+	<segment x1="159" y1="31" x2="158" y2="0"/>
+	<segment x1="480" y1="287" x2="227" y2="284"/>
+	<segment x1="227" y1="284" x2="216" y2="277"/>
+	<segment x1="216" y1="277" x2="212" y2="253"/>
+	<segment x1="212" y1="253" x2="204" y2="246"/>
+	<segment x1="204" y1="246" x2="166" y2="244"/>
+	<segment x1="166" y1="244" x2="163" y2="221"/>
+	<segment x1="163" y1="221" x2="153" y2="213"/>
+	<segment x1="153" y1="213" x2="57" y2="214"/>
+	<segment x1="57" y1="214" x2="50" y2="189"/>
+	<segment x1="50" y1="189" x2="0" y2="185"/>
+	
+	<rect x="240" y="135" mass="30" width="8" height="50" visible="true" tag="90701" type="90701"/>
+	<pivot toTag="90701" fromTag="-1" toX="0" toY="0" fromX="240" fromY="135"/>
+	<motor tag="90701" rate="-8"/>
+	
+	<rect x="400" y="185" mass="30" width="8" height="50" visible="true" tag="90702" type="90702"/>
+	<pivot toTag="90702" fromTag="-1" toX="0" toY="0" fromX="400" fromY="185"/>
+	<motor tag="90702" rate="-8"/>
+	
+	<firefly/>
+	<firefly/>
+	
+</trundle>

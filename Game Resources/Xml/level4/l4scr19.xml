@@ -1,0 +1,27 @@
+<trundle map = "l4scr19">
+	<segment x1="0" y1="249" x2="13" y2="208"/>
+	<segment x1="13" y1="208" x2="18" y2="197"/>
+	<segment x1="18" y1="197" x2="14" y2="185"/>
+	<segment x1="14" y1="185" x2="14" y2="153"/>
+	<segment x1="14" y1="153" x2="20" y2="137"/>
+	<segment x1="20" y1="137" x2="12" y2="119"/>
+	<segment x1="12" y1="119" x2="13" y2="78"/>
+	<segment x1="13" y1="78" x2="64" y2="50"/>
+	<segment x1="64" y1="50" x2="64" y2="0"/>
+
+	<segment x1="480" y1="200" x2="440" y2="200"/>
+	<segment x1="440" y1="200" x2="440" y2="220"/>
+	<segment x1="440" y1="220" x2="480" y2="220"/>
+	
+	<segment x1="460" y1="200" x2="460" y2="0"/>
+	<rect x="430" y="130" width="60" height="18" mass="-1" visible="true"/>
+	
+	<gunTurret x="90" y="40" angle="300" tag="41901" automatic="true"/>		
+	<gunTurret x="150" y="40" angle="300" tag="41901" automatic="true"/>
+	<gunTurret x="210" y="40" angle="300" tag="41902" automatic="true"/>
+	<gunTurret x="270" y="40" angle="300" tag="41902" automatic="true"/>
+	<gunTurret x="330" y="40" angle="300" tag="41902" automatic="true"/>
+	<gunTurret x="390" y="40" angle="300" tag="41903" automatic="true"/>
+	
+	<fuzzles/>
+</trundle>

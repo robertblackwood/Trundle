@@ -1,0 +1,18 @@
+<trundle map = "">
+	<segment x1="183" y1="1" x2="182" y2="7"/>
+	<segment x1="182" y1="7" x2="171" y2="9"/>
+	<segment x1="171" y1="9" x2="168" y2="25"/>
+	<segment x1="168" y1="25" x2="168" y2="41"/>
+	<segment x1="168" y1="41" x2="156" y2="41"/>
+	<segment x1="156" y1="41" x2="156" y2="27"/>
+	<segment x1="156" y1="27" x2="78" y2="27"/>
+	<segment x1="78" y1="27" x2="0" y2="31"/>
+	<segment x1="-278" y1="34" x2="0" y2="31"/>
+
+	
+	<poly x="110" y="50" points="10,-18, -10,-18, 0,18" mass="2" visible="true"/>
+	
+	<transitionScreens left="-1" right="17" top="0" bottom="1"/>
+	
+	<rain/>
+</trundle>

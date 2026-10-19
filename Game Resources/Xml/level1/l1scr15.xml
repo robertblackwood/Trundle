@@ -1,0 +1,20 @@
+<trundle map = "lscr15">
+
+	<background file="l1back15.png"/>
+	
+	<segment x1="-156" y1="83" x2="157" y2="19"/>
+	<segment x1="157" y1="20" x2="459" y2="20"/>
+	<segment x1="459" y1="20" x2="458" y2="201"/>
+	<segment x1="458" y1="201" x2="394" y2="202"/>
+	<segment x1="394" y1="202" x2="393" y2="213"/>
+	<segment x1="393" y1="213" x2="480" y2="214"/>
+	
+	<rect x="225" y="110.5" width="30" height="180" mass="25" visible="true" type="6"/>
+	<rect x="225" y="206" width="320" height="10" mass="5" visible="true" tag="11501"/>
+	<circle x="160" y="100" mass="-1" radius="6" visible="false" group="1"/>
+	
+	<pin toTag="11501" fromTag="-1" toX="160" toY="0" fromX="392" fromY="208" visible="true"/>
+
+	<birds count="1"/>
+	
+</trundle>

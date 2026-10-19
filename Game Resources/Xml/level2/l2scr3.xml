@@ -1,0 +1,23 @@
+<trundle map = "lscr1">
+	<segment x1="-100" y1="44" x2="540" y2="27"/>
+	<segment x1="700" y1="27" x2="540" y2="27"/>
+	<segment x1="132" y1="149" x2="241" y2="149" radius="10"/>
+	<segment x1="133" y1="214" x2="215" y2="214" radius="10"/>
+	<segment x1="275" y1="265" x2="275" y2="235" radius="10"/>
+	<segment x1="405" y1="220" x2="405" y2="139" radius="7"/>
+	<segment x1="442" y1="221" x2="442" y2="164" radius="7"/>
+
+	<grass x="150" y="40" rotation="1"/>	
+	<grass x="210" y="40" rotation="5"/>
+	<grass x="270" y="36" rotation="4"/>
+	
+	<rect x="275" y="290" width="360" height="8" visible="true" tag="10201" mass="8"/>
+	<rect x="180" y="230" width="30" height="30" mass="6" visible="true" tag="10202"/>
+	<rect x="423" y="160" width="16" height="100" mass="1" visible="true" tag="10203"/>
+	
+	<pin toTag="-1" fromTag="10201" toX="275" toY="290" fromX="0" fromY="0" visible="TRUE"/>
+	<pin toTag="10201" fromTag="10202" toX="-180" toY="0" fromX="0" fromY="0" visible="true"/>
+	<pin toTag="10201" fromTag="10203" toX="150" toY="0" fromX="0" fromY="50" visible="true"/>
+	
+
+</trundle>

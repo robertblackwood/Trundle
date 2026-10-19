@@ -1,0 +1,27 @@
+<trundle map = "l7scr18">
+	<background file="l7back18.png" spotlight="true" lightRadius="420"/>
+	
+	<!--<glow x="430" y="240" numParticles="20" speed="15" r="255" g="150" b="0"/>-->
+
+	<segment x1="460" y1="0" x2="460" y2="300"/>
+	<segment x1="460" y1="300" x2="20" y2="300"/>
+	<segment x1="20" y1="300" x2="20" y2="0"/>
+	
+	<segment x1="0" y1="-110" x2="400" y2="-110"/>
+	<segment x1="0" y1="-110" x2="-200" y2="0"/>
+	<segment x1="400" y1="-110" x2="680" y2="0"/>
+
+
+
+	<rect x="420" y="220" width="80" height="10" mass="-1" visible="true" type="71801" tag="71801" rotation="35"/>
+	<rect x="270" y="100" width="60" height="10" mass="-1" visible="true" type="71802" tag="71802"/>
+	<rect x="100" y="60" width="60" height="10" mass="-1" visible="true" type="71803" tag="71803"/>
+	<rect x="360" y="160" width="10" height="60" mass="-1" visible="true" type="71804" tag="71804"/>
+
+	<rain/>	
+	<defaultxy x="200" y="200" screen="13"/>
+	<transitionScreens left="0" right="0" top="0" bottom="-1"/>
+	
+	<circle x="75" y="90" radius="18" file="circler18.png" mass="6" visible="true" tag="71805"/>
+		
+</trundle>

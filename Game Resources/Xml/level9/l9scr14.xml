@@ -1,0 +1,52 @@
+<trundle map = "">
+	<segment x1="-200" y1="20" x2="31" y2="20"/>
+	<segment x1="31" y1="20" x2="57" y2="16"/>
+	<segment x1="57" y1="16" x2="74" y2="21"/>
+	<segment x1="74" y1="21" x2="94" y2="20"/>
+	<segment x1="94" y1="20" x2="114" y2="28"/>
+	<segment x1="114" y1="28" x2="137" y2="40"/>
+	<segment x1="137" y1="40" x2="152" y2="44"/>
+	<segment x1="152" y1="44" x2="200" y2="40" friction=".6"/>
+	<segment x1="200" y1="40" x2="209" y2="44"/>
+	<segment x1="209" y1="44" x2="248" y2="44"/>
+	<segment x1="248" y1="44" x2="338" y2="46"/>
+	<segment x1="338" y1="46" x2="353" y2="50"/>
+	<segment x1="353" y1="50" x2="377" y2="48"/>
+	<segment x1="377" y1="48" x2="405" y2="51"/>
+	<segment x1="405" y1="51" x2="427" y2="55"/>
+	<segment x1="427" y1="55" x2="445" y2="50"/>
+	<segment x1="445" y1="50" x2="469" y2="55"/>
+	<segment x1="469" y1="55" x2="480" y2="49"/>
+	<segment x1="680" y1="50" x2="480" y2="49"/>
+
+	
+	<segment x1="184" y1="212" x2="313" y2="212" radius="8"/>
+	
+	<circle x="240" y="55" mass="1.8" radius="10" file="circler10-2.png" visible="true" tag="91401" type="91401"/>
+	<circle x="290" y="55" mass="1.8" radius="10" file="circler10-2.png" visible="true" tag="91402" type="91402"/>
+	
+	<pin toTag="91401" fromTag="91402" toX="0" toY="0" fromX="0" fromY="0" visible="true"/>
+	
+	<rect x="240" y="100" mass="3" width="10" height="18" visible="true" tag="91403" type="91403"/>
+	<rect x="290" y="100" mass="3" width="10" height="18" visible="true" tag="91404" type="91404"/>
+	
+	<pivot toTag="91401" fromTag="91403" toX="0" toY="0" fromX="0" fromY="-45" visible="true"/>
+	<pivot toTag="91402" fromTag="91404" toX="0" toY="0" fromX="0" fromY="-45" visible="true"/>
+	
+	<pin toTag="91401" fromTag="91404" toX="0" toY="0" fromX="0" fromY="9" visible="true"/>
+	<pin toTag="91402" fromTag="91403" toX="0" toY="0" fromX="0" fromY="9" visible="true"/>
+	
+	<rect x="200" y="65" width="35" height="35" mass="6" visible="true"/>
+	
+	<circle x="250" y="250" radius="27" visible="true" mass="3" tag="91405" type="91405"/>
+	
+	<shootingStars count="2" offsetX="0" offsetY="0"/>
+	
+	<grass x="310" y="50" type="t" rotation="-5"/>
+	<grass x="400" y="60" type="t" rotation="-5"/>
+
+	
+	<firefly/>
+	<firefly/>
+	
+</trundle>

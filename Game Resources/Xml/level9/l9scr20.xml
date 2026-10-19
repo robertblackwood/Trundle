@@ -1,0 +1,67 @@
+<trundle map = "">
+	<segment x1="0" y1="131" x2="54" y2="123"/>
+	<segment x1="54" y1="123" x2="64" y2="107"/>
+	<segment x1="64" y1="107" x2="78" y2="101"/>
+	<segment x1="78" y1="101" x2="99" y2="101"/>
+	<segment x1="99" y1="101" x2="130" y2="91"/>
+	<segment x1="130" y1="91" x2="132" y2="60"/>
+	<segment x1="132" y1="60" x2="110" y2="55"/>
+	<segment x1="110" y1="55" x2="0" y2="53"/>
+
+	<segment x1="0" y1="31" x2="28" y2="28"/>
+	<segment x1="28" y1="28" x2="65" y2="28"/>
+	<segment x1="65" y1="28" x2="108" y2="26"/>
+	<segment x1="108" y1="26" x2="144" y2="24"/>
+	<segment x1="144" y1="24" x2="145" y2="19"/>
+	<segment x1="145" y1="19" x2="426" y2="21" type="666"/>
+	<segment x1="426" y1="21" x2="428" y2="32"/>
+	<segment x1="428" y1="32" x2="428" y2="73"/>
+	<segment x1="428" y1="73" x2="435" y2="79"/>
+	<segment x1="435" y1="79" x2="470" y2="82"/>
+	
+	<segment x1="470" y1="82" x2="470" y2="184"/>
+	<segment x1="470" y1="184" x2="459" y2="197"/>
+	<segment x1="459" y1="197" x2="442" y2="206"/>
+	<segment x1="442" y1="206" x2="320" y2="203"/>
+	<segment x1="320" y1="203" x2="305" y2="186"/>
+	<segment x1="305" y1="186" x2="300" y2="161"/>
+	<segment x1="300" y1="161" x2="298" y2="120"/>
+	<segment x1="298" y1="120" x2="290" y2="110"/>
+	<segment x1="290" y1="110" x2="258" y2="108"/>
+	<segment x1="258" y1="108" x2="260" y2="248"/>
+	<segment x1="260" y1="248" x2="421" y2="249"/>
+	<segment x1="421" y1="249" x2="439" y2="253"/>
+	<segment x1="439" y1="253" x2="467" y2="279"/>
+	<segment x1="467" y1="279" x2="470" y2="400"/>
+	<segment x1="470" y1="400" x2="0" y2="520"/>
+	
+	<firefly/>
+	<firefly/>
+	<firefly/>
+	
+	<rect x="80" y="130" width="70" height="6" mass="2" visible="true" tag="92001" group="92001"/>
+	<rect x="48" y="132" width="6" height="25" mass="1" visible="true" tag="92002" group="92001"/>
+	<rect x="112" y="132" width="6" height="25" mass="1" visible="true" tag="92003" group="92001"/> 
+	
+	<pivot toTag="92001" fromTag="92002" worldX="48" worldY="135"/>
+	<pivot toTag="92001" fromTag="92003" worldX="112" worldY="135"/>
+	
+	<pin toTag="92001" fromTag="92002" toX="0" toY="0" fromX="0" fromY="10"/>
+	<pin toTag="92001" fromTag="92003" toX="0" toY="0" fromX="0" fromY="10"/>
+	
+	<!--<glow x="342" y="150" numParticles="40" size="34" speed="35" r="255" g="253" b="233"/>
+	<circle x="342" y="150" radius="13" mass="-1" file="lev0select.png" visible="true" tag="300" type="200" z="49"/>
+	<transportAction cTag1="300" cTag2="1" receiverTag="300" level="0" screen="0" nonColliding="true"/>
+-->
+	<glow x="342" y="150" numParticles="40" size="64" speed="35" r="255" g="255" b="255"/>
+	<circle x="342" y="150" radius="16" mass="-1" file="transportsym.png" visible="true" tag="200" type="200"/>
+	<transportAction cTag1="200" cTag2="1" receiverTag="200" level="11" screen="1" nonColliding="true"/>
+
+	<shootingStars count="2" offsetX="-60" offsetY="0"/>
+	
+	<grass x="400" y="261" type="t"/>
+	<grass x="310" y="261" type="t"/>
+
+	<defaultxy x="50" y="200"/>
+		
+</trundle>

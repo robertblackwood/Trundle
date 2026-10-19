@@ -1,0 +1,71 @@
+<trundle map = "l4scr11">
+
+	<segment x1="62" y1="0" x2="50" y2="17"/>
+	<segment x1="50" y1="17" x2="50" y2="23"/>
+	<segment x1="50" y1="23" x2="43" y2="30"/>
+	<segment x1="43" y1="30" x2="43" y2="44"/>
+	<segment x1="43" y1="44" x2="0" y2="76"/>
+	<segment x1="0" y1="76" x2="0" y2="400"/>
+	
+	<segment x1="-100" y1="400" x2="480" y2="400"/>
+
+	<segment x1="48" y1="400" x2="40" y2="303"/>
+	<segment x1="40" y1="303" x2="45" y2="292"/>
+	<segment x1="45" y1="292" x2="54" y2="291"/>
+	<segment x1="54" y1="291" x2="42" y2="268"/>
+	<segment x1="42" y1="268" x2="50" y2="257"/>
+	<segment x1="50" y1="257" x2="44" y2="245"/>
+	<segment x1="44" y1="245" x2="41" y2="149"/>
+	<segment x1="41" y1="149" x2="53" y2="129"/>
+	<segment x1="53" y1="129" x2="67" y2="121"/>
+	<segment x1="67" y1="121" x2="66" y2="113"/>
+	<segment x1="66" y1="113" x2="129" y2="76"/>
+	<segment x1="129" y1="76" x2="137" y2="76"/>
+	<segment x1="137" y1="76" x2="138" y2="70"/>
+	<segment x1="138" y1="70" x2="173" y2="39"/>
+	<segment x1="173" y1="39" x2="183" y2="43"/>
+	<segment x1="183" y1="43" x2="183" y2="34"/>
+	<segment x1="183" y1="34" x2="210" y2="24"/>
+	<segment x1="210" y1="24" x2="220" y2="29"/>
+	<segment x1="220" y1="29" x2="234" y2="22"/>
+	<segment x1="234" y1="22" x2="244" y2="32"/>
+	<segment x1="244" y1="32" x2="248" y2="32"/>
+	<segment x1="248" y1="32" x2="258" y2="23"/>
+	<segment x1="258" y1="23" x2="269" y2="24"/>
+	<segment x1="269" y1="24" x2="275" y2="30"/>
+	<segment x1="275" y1="30" x2="282" y2="21"/>
+	<segment x1="282" y1="21" x2="299" y2="22"/>
+	<segment x1="299" y1="22" x2="304" y2="28"/>
+	<segment x1="304" y1="28" x2="315" y2="24"/>
+	<segment x1="315" y1="24" x2="352" y2="21"/>
+	<segment x1="352" y1="21" x2="358" y2="26"/>
+	<segment x1="358" y1="26" x2="369" y2="27"/>
+	<segment x1="369" y1="27" x2="373" y2="21"/>
+	<segment x1="373" y1="21" x2="390" y2="22"/>
+	<segment x1="390" y1="22" x2="401" y2="22"/>
+	<segment x1="401" y1="22" x2="403" y2="0"/>
+
+	<segment x1="480" y1="184" x2="410" y2="218"/>
+	<segment x1="410" y1="218" x2="414" y2="232"/>
+	<segment x1="414" y1="232" x2="376" y2="248"/>
+	<segment x1="376" y1="248" x2="376" y2="252"/>
+	<segment x1="376" y1="252" x2="384" y2="257"/>
+	<segment x1="384" y1="257" x2="390" y2="255"/>
+	<segment x1="390" y1="255" x2="408" y2="255"/>
+	<segment x1="408" y1="255" x2="419" y2="257"/>
+	<segment x1="419" y1="257" x2="428" y2="254"/>
+	<segment x1="428" y1="254" x2="480" y2="257"/>	
+	
+	<rect x="245"	y="70"	mass="-1"	width="60"	height="6"	visible="true"	tag="41101"/>
+	<rect x="275"	y="90"	mass="-1"	width="6"	height="40" visible="true"	tag="41102" file="anglelift.png"/>/>
+	<rect x="305"	y="110"	mass="-1"	width="60"	height="6"	visible="true"  tag="41103"/>
+	
+	<moveToAndBack tag="41101"	duration="5"	x="245"		y="200"/>
+	<moveToAndBack tag="41102"	duration="5"	x="275"		y="220"/>
+	<moveToAndBack tag="41103"	duration="5"	x="305"		y="240"/>
+	
+	<transitionScreens left = "0" right = "1" top = "0" bottom = "-5"/>
+	
+	<connector toTag="41102" fromTag="-1" offset1X="68" offset1Y="70" offset2X="275" offset2Y="0" lineWidth="5"/>
+	<fuzzles/>
+</trundle>

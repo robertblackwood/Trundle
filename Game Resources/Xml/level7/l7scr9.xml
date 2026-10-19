@@ -1,0 +1,11 @@
+<trundle map = "l7scr9">
+	<background file="l7back9.png" spotlight="true" lightRadius="420"/>
+	
+	<segment x1="0" y1="40" x2="30" y2="40"/>
+	<segment x1="30" y1="40" x2="30" y2="0"/>
+	<segment x1="0" y1="300" x2="480" y2="300"/>
+	
+	<rain/>
+	<defaultxy x="150" y="150"/>
+	<transitionScreens left="-1" right="3" top="0" bottom="1"/>
+</trundle>

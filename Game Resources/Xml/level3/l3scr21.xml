@@ -1,0 +1,22 @@
+<trundle map = "">
+	<segment x1="0" y1="164" x2="9" y2="165"/>
+	<segment x1="9" y1="165" x2="35" y2="149"/>
+	<segment x1="35" y1="149" x2="51" y2="133"/>
+	<segment x1="51" y1="133" x2="85" y2="125"/>
+	<segment x1="85" y1="125" x2="109" y2="104"/>
+	<segment x1="109" y1="104" x2="183" y2="75"/>
+	<segment x1="183" y1="75" x2="254" y2="67"/>
+	<segment x1="254" y1="67" x2="272" y2="77"/>
+	<segment x1="272" y1="77" x2="314" y2="85"/>
+	<segment x1="314" y1="85" x2="360" y2="88"/>
+	<segment x1="360" y1="88" x2="394" y2="91"/>
+	<segment x1="394" y1="91" x2="414" y2="104"/>
+	<segment x1="414" y1="104" x2="437" y2="110"/>
+	<segment x1="437" y1="110" x2="449" y2="123"/>
+	<segment x1="449" y1="123" x2="480" y2="139"/>
+	
+	<glow x="242" y="170" numParticles="40" size="64" speed="35" r="255" g="255" b="255"/>
+	<circle x="242" y="170" radius="16" mass="-1" file="transportsym.png" visible="true" tag="200" type="200"/>
+	<transportAction cTag1="200" cTag2="1" receiverTag="200" level="4" screen="1" nonColliding="true"/>
+
+</trundle>

@@ -1,0 +1,84 @@
+<trundle map = "lscr13">
+	
+	<background file="l1back13.png"/>
+	
+	<!--<poly x="175.5" y="229.5" mass="-1" rotation="45" visible="true" file="millprop.png" tag="11301" points="-48,-33, -48,33, 48,5, 48,-5"/>
+	<poly x="274.5" y="229.5" rotation="135" visible="true" file="millprop.png" tag="11302" points="-48,-33, -48,33, 48,5, 48,-5"/>
+	<poly x="274.5" y="130.5" mass="-1" rotation="225" visible="true" file="millprop.png" tag="11303" points="-48,-33, -48,33, 48,5, 48,-5"/>
+	<poly x="175.5" y="130.5" mass="-1" rotation="-45" visible="true" file="millprop.png" tag="11304" points="-48,-33, -48,33, 48,5, 48,-5"/>
+
+	<rotateAround x="225" y="180" facing="true" tag="11301" duration="15"/>
+	<rotateAround x="225" y="180" facing="true" tag="11302" duration="15"/>	
+	<rotateAround x="225" y="180" facing="true" tag="11303" duration="15"/>
+	<rotateAround x="225" y="180" facing="true" tag="11304" duration="15"/>
+	-->
+	
+	<circle x="175" y="229" mass="-1" radius="25" visible="true" tag="11305" file="circler25.png"/>
+	<circle x="274" y="229" mass="-1" radius="25" visible="true" tag="11306" file="circler25.png"/>
+	<circle x="274" y="130" mass="-1" radius="25" visible="true" tag="11307" file="circler25.png"/>
+	<circle x="175" y="130" mass="-1" radius="25" visible="true" tag="11308" file="circler25.png"/>
+	<rotateAround x="225" y="180" facing="true" tag="11305" duration="15"/>
+	<rotateAround x="225" y="180" facing="true" tag="11306" duration="15"/>	
+	<rotateAround x="225" y="180" facing="true" tag="11307" duration="15"/>
+	<rotateAround x="225" y="180" facing="true" tag="11308" duration="15"/>
+
+	<teslaAction x="225" y="180" toTag="11305" duration="-1"/>
+	<teslaAction x="225" y="180" toTag="11306" duration="-1"/>
+	<teslaAction x="225" y="180" toTag="11307" duration="-1"/>
+	<teslaAction x="225" y="180" toTag="11308" duration="-1"/>
+
+	
+	<circle x="143" y="262" mass="-1" radius="10" visible="true" tag="11309" file="circler10-2.png"/>
+	<circle x="307" y="262" mass="-1" radius="10" visible="true" tag="11310" file="circler10-2.png"/>
+	<circle x="307" y="98" mass="-1" radius="10" visible="true" tag="11311" file="circler10-2.png"/>
+	<circle x="143" y="98" mass="-1" radius="10" visible="true" tag="11312" file="circler10-2.png"/>
+	<rotateAround x="225" y="180" facing="true" tag="11309" duration="15" reverse="false"/>
+	<rotateAround x="225" y="180" facing="true" tag="11310" duration="15" reverse="false"/>
+	<rotateAround x="225" y="180" facing="true" tag="11311" duration="15" reverse="false"/>
+	<rotateAround x="225" y="180" facing="true" tag="11312" duration="15" reverse="false"/>
+
+	<circle x="120" y="180" mass="-1" radius="10" visible="true" tag="11313" file="circler10-2.png"/>
+	<circle x="330" y="180" mass="-1" radius="10" visible="true" tag="11314" file="circler10-2.png"/>
+	<circle x="225" y="285" mass="-1" radius="10" visible="true" tag="11315" file="circler10-2.png"/>
+	<circle x="225" y="75" mass="-1" radius="10" visible="true" tag="11316" file="circler10-2.png"/>
+	
+	<rotateAround x="225" y="180" tag="11313" duration="15" reverse="false"/>
+	<rotateAround x="225" y="180" tag="11314" duration="15" reverse="false"/>
+	<rotateAround x="225" y="180" tag="11315" duration="15" reverse="false"/>
+	<rotateAround x="225" y="180" tag="11316" duration="15" reverse="false"/>
+	
+	<rotateAction receiverTag="11313" duration="15" forever="true" angle="360"/>
+	<rotateAction receiverTag="11314" duration="15" forever="true" angle="360"/>
+	<rotateAction receiverTag="11315" duration="15" forever="true" angle="360"/>
+	<rotateAction receiverTag="11316" duration="15" forever="true" angle="360"/>
+
+	
+	<glow x="225" y="180" numParticles="35" speed="15"/>
+	
+	<grass x="385" y="220" rotation="-4"/>
+	<grass x="440" y="222" rotation="2"/>
+	
+	<segment x1="332" y1="1" x2="330" y2="24"/>
+	<segment x1="330" y1="24" x2="201" y2="24"/>
+	<segment x1="201" y1="24" x2="82" y2="47"/>
+	<segment x1="82" y1="47" x2="31" y2="87"/>
+	<segment x1="31" y1="87" x2="34" y2="127"/>
+	<segment x1="34" y1="127" x2="54" y2="159"/>
+	<segment x1="54" y1="159" x2="87" y2="167"/>
+	<segment x1="87" y1="167" x2="86" y2="181"/>
+	<segment x1="86" y1="181" x2="54" y2="201"/>
+	<segment x1="54" y1="201" x2="51" y2="240"/>
+	<segment x1="51" y1="240" x2="110" y2="320"/>
+	<segment x1="480" y1="540" x2="110" y2="320"/>
+
+	<segment x1="433" y1="0" x2="436" y2="8"/>
+	<segment x1="436" y1="8" x2="464" y2="9"/>
+	<segment x1="464" y1="9" x2="466" y2="118"/>
+	<segment x1="466" y1="118" x2="449" y2="148"/>
+	<segment x1="449" y1="148" x2="356" y2="189"/>
+	<segment x1="356" y1="189" x2="355" y2="215"/>
+	<segment x1="355" y1="215" x2="479" y2="222"/>
+	
+	<transitionScreens left = "-1" right = "1" top = "0" bottom = "-1"/>
+	
+</trundle>

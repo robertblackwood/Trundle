@@ -1,0 +1,72 @@
+<trundle map = "">
+
+	<segment x1="920" y1="65" x2="920" y2="265"/>
+	<segment x1="920" y1="65" x2="480" y2="65"/>
+	<segment x1="480" y1="65" x2="354" y2="90"/>
+	<segment x1="354" y1="90" x2="318" y2="110"/>
+	<segment x1="318" y1="110" x2="284" y2="104"/>
+	<segment x1="284" y1="104" x2="200" y2="102"/>
+	<segment x1="200" y1="102" x2="186" y2="108"/>
+	<segment x1="186" y1="108" x2="178" y2="98"/>
+	<segment x1="178" y1="98" x2="141" y2="63"/>
+	<segment x1="141" y1="63" x2="105" y2="36"/>
+	<segment x1="105" y1="36" x2="80" y2="25"/>
+	<segment x1="80" y1="25" x2="31" y2="24"/>
+	<segment x1="31" y1="24" x2="19" y2="17"/>
+	<segment x1="19" y1="17" x2="0" y2="20"/>
+
+	<segment x1="-200" y1="76" x2="-200" y2="276"/>
+	<segment x1="-200" y1="76" x2="0" y2="76"/>
+	<segment x1="0" y1="76" x2="19" y2="77"/>
+	<segment x1="19" y1="77" x2="30" y2="120"/>
+	<segment x1="30" y1="120" x2="26" y2="131"/>
+	<segment x1="26" y1="131" x2="36" y2="162"/>
+	<segment x1="36" y1="162" x2="34" y2="171"/>
+	<segment x1="34" y1="171" x2="37" y2="178"/>
+	<segment x1="37" y1="178" x2="33" y2="206"/>
+	<segment x1="33" y1="206" x2="28" y2="212"/>
+	<segment x1="28" y1="212" x2="71" y2="257"/>
+	<segment x1="71" y1="257" x2="97" y2="248"/>
+	<segment x1="97" y1="248" x2="79" y2="236"/>
+	<segment x1="79" y1="236" x2="79" y2="226"/>
+	<segment x1="79" y1="226" x2="88" y2="215"/>
+	<segment x1="88" y1="215" x2="113" y2="233"/>
+	<segment x1="113" y1="233" x2="132" y2="233"/>
+	<segment x1="132" y1="233" x2="146" y2="246"/>
+	<segment x1="146" y1="246" x2="148" y2="255"/>
+	<segment x1="148" y1="255" x2="157" y2="255"/>
+	<segment x1="157" y1="255" x2="182" y2="275"/>
+	<segment x1="182" y1="275" x2="188" y2="269"/>
+	<segment x1="188" y1="269" x2="189" y2="288"/>
+	<segment x1="189" y1="288" x2="180" y2="304"/>
+	<segment x1="180" y1="304" x2="175" y2="310"/>
+	<segment x1="175" y1="310" x2="181" y2="320"/>
+	<segment x1="181" y1="320" x2="181" y2="400"/>
+	<segment x1="181" y1="400" x2="480" y2="400"/>
+	
+	<circle x="190" y="150" file="circler15.png" visible="true" mass="5" radius="15" tag="11401"/>
+	<circle x="250" y="150" file="circler15.png" visible="true" mass="5" radius="15" tag="11402"/>
+	
+	<rect x="220" y="172" width="100" height="8" mass="3" file="car.png" visible="true" tag="11403" group="11401"/>
+	<pin toTag="11402" fromTag="11401" toX="0" toY="0" fromX="0" fromY="0" visible="true"/>
+	
+	<pin toTag="11401" fromTag="11403" toX="0" toY="0" fromX="0" fromY="0" visible="true"/>
+	<pin toTag="11402" fromTag="11403" toX="0" toY="0" fromX="0" fromY="0" visible="true"/>
+	
+	<spring toTag="11401" fromTag="11403" toX="0" toY="0" fromX="-30" fromY="0" visible="false" restLength="22" stiffness="3000"/>
+	<spring toTag="11402" fromTag="11403" toX="0" toY="0" fromX="30" fromY="0" visible="false" restLength="22" stiffness="3000"/>	
+	
+	<rect x="175" y="182" width="6" height="20" mass="4" visible="true" tag="11405" group="11401"/>
+	<pin toTag="11403" fromTag="11405" toX="45" toY="0" fromX="0" fromY="10" visible="false"/>
+	<pin toTag="11403" fromTag="11405" toX="-45" toY="0" fromX="0" fromY="-10" visible="false"/>
+	
+	<rect x="268" y="182" width="6" height="20" mass="4" visible="true" tag="11406" group="11401"/>
+	<pin toTag="11403" fromTag="11406" toX="48" toY="0" fromX="0" fromY="-10" visible="false"/>
+	<pin toTag="11403" fromTag="11406" toX="-45" toY="0" fromX="0" fromY="10" visible="false"/>
+	
+	<sprite tag="30101" file="beacon.png" x="230" y="219" z="1" visible="true"/>
+	<fade in="1.2" out="1.2" delay="2" pause="1.5" toTag="30101" repeat="true"/>
+	
+	<leaves/>
+	
+</trundle>

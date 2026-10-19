@@ -1,0 +1,72 @@
+<trundle map = "lscr16">
+
+	<background file="l1back18.png"/>
+
+	<segment x1="-1" y1="91" x2="15" y2="85" radius="2"/>
+	<segment x1="15" y1="85" x2="20" y2="70" radius="2"/>
+	<segment x1="20" y1="70" x2="31" y2="62" radius="2"/>
+	<segment x1="31" y1="62" x2="39" y2="27" radius="2"/>
+	<segment x1="39" y1="27" x2="120" y2="10" radius="2"/>
+	<segment x1="120" y1="10" x2="162" y2="13" radius="2"/>
+	<segment x1="162" y1="13" x2="199" y2="6" radius="2"/>
+	<segment x1="199" y1="6" x2="265" y2="6" radius="2"/>
+	<segment x1="265" y1="6" x2="342" y2="9" radius="2"/>
+	<segment x1="342" y1="9" x2="347" y2="78" radius="2"/>
+	<segment x1="347" y1="78" x2="300" y2="83" radius="2"/>
+	<segment x1="300" y1="83" x2="296" y2="71" radius="2"/>
+	<segment x1="296" y1="71" x2="285" y2="71" radius="2"/>
+	<segment x1="285" y1="71" x2="287" y2="85" radius="2"/>
+	<segment x1="287" y1="85" x2="299" y2="94" radius="2"/>
+	<segment x1="299" y1="94" x2="328" y2="98" radius="2"/>
+	<segment x1="328" y1="98" x2="286" y2="161" radius="2"/>
+	<segment x1="286" y1="161" x2="273" y2="175" radius="2" friction="0.001" elasticity=".9"/>
+	<segment x1="273" y1="175" x2="279" y2="204" radius="2" friction="0.001" elasticity=".9"/>
+	<segment x1="279" y1="204" x2="240" y2="264" radius="2" friction="0.001" elasticity=".9"/>
+	<segment x1="240" y1="264" x2="237" y2="275" radius="2"/>
+	<segment x1="237" y1="275" x2="325" y2="224" radius="2"/>
+	<segment x1="325" y1="224" x2="308" y2="207" radius="2"/>
+	<segment x1="308" y1="207" x2="315" y2="157" radius="2"/>
+	<segment x1="315" y1="157" x2="367" y2="107" radius="2"/>
+	<segment x1="367" y1="107" x2="453" y2="83" radius="2"/>
+	<segment x1="453" y1="83" x2="479" y2="91" radius="2"/>
+
+	<waterflow x="290" y="65" angle="-90" numParticles="32" speed="40"/>
+		
+	<rect x="290" y="40" width="20" height="44" mass="-1" visible="false" type="11801" tag="11801"/>
+	
+	<segment x1="241" y1="10" x2="241" y2="64" visible="true" group="11801" tag="11805" mass="12" radius="2"/>
+	<circle x="241" y="64" radius="8" mass="12" file="circler10.png" visible="true" group="11801" type="11802" tag="11802"/>
+	<pin toTag="11802" fromTag="11805" toX="0" toY="0" fromX="0" fromY="27" visible="true"/>
+	<pin toTag="-1" fromTag="11805" toX="241" toY="10" fromX="0" fromY="-27" visible="true"/>
+
+	<spring toTag="-1" fromTag="11802" toX="235" toY="90" fromX="0" fromY="0" lineWidth="1" visible="false" restLength="18.5" stiffness="165"/>
+	
+	<circle x="120" y="60" radius="15" file="circler15.png" mass="20" visible="true" type="11803" tag="11803"/>
+	<pivot toTag="11803" fromTag="-1" toX="0" toY="0" fromX="120" fromY="60" visible="true"/>
+
+	<circle x="200" y="75" radius="15" file="circler15.png" mass="40" visible="true" type="11803" tag="11806"/>
+	<pivot toTag="11806" fromTag="-1" toX="0" toY="0" fromX="200" fromY="75" visible="true"/>
+	
+	<circle x="200" y="235" radius="15" file="circler15.png" mass="40" visible="true" type="11807" tag="11807"/>
+	<pivot toTag="11807" fromTag="-1" toX="0" toY="0" fromX="200" fromY="235" visible="true"/>
+	<connector toTag="11807" fromTag="-1" offset1X="15" offset1Y="15" offset2X="275" offset2Y="190" lineWidth="5"/>
+
+	<rect width="6" height="66" mass="3" x="200" y="283" visible="true" tag="11808"/>
+	<pivot toTag="11807" fromTag="11808" toX="0" toY="48" fromX="0" fromY="0"/>
+	<pivot toTag="11807" fromTag="11808" toX="0" toY="18" fromX="0" fromY="-30"/>
+
+	<gear toTag="11802" fromTag="11803" ratio="-1" visible="true" lineWidth="2"/>
+	<gear toTag="11806" fromTag="11803" ratio="-1" visible="true" lineWidth="2"/>
+	<gear toTag="11806" fromTag="11807" ratio="-1" visible="true" lineWidth="2"/>
+	
+	<rect x="130" y="95" width="140" height="6" elasticity="0.99" mass="7" visible="true" type="11804" tag="11804"/>
+	<pin toTag="11806" fromTag="11804" toX="0" toY="0" fromX="0" fromY="0" visible="true"/>
+	<pin toTag="11806" fromTag="11804" toX="0" toY="20" fromX="70" fromY="0" visible="true"/>
+	
+	<ignoreCollision cTag1="11801" cTag2="1"/>
+
+	<impulseAction cTag1="11801" cTag2="11802" receiverTag="11802" repeat="true" x="0" y="-14" nonColliding="true"/>
+	<impulseAction cTag1="11801" cTag2="11802" receiverTag="11803" repeat="true" x="0" y="14" nonColliding="true"/>
+	<impulseAction cTag1="11801" cTag2="11802" receiverTag="11806" repeat="true" x="0" y="-14" nonColliding="true"/>
+	
+</trundle>

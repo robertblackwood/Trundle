@@ -1,0 +1,50 @@
+<trundle map = "">
+	<segment x1="0" y1="88" x2="36" y2="51"/>
+	<segment x1="36" y1="51" x2="87" y2="47"/>
+	<segment x1="87" y1="47" x2="101" y2="34"/>
+	<segment x1="101" y1="34" x2="149" y2="32"/>
+	<segment x1="149" y1="32" x2="217" y2="30"/>
+	<segment x1="217" y1="30" x2="252" y2="42"/>
+	<segment x1="252" y1="42" x2="253" y2="86"/>
+	<segment x1="253" y1="86" x2="237" y2="96"/>
+	<segment x1="237" y1="96" x2="222" y2="84"/>
+	<segment x1="222" y1="84" x2="195" y2="79"/>
+	<segment x1="195" y1="79" x2="141" y2="119"/>
+	<segment x1="141" y1="119" x2="147" y2="131"/>
+	<segment x1="147" y1="131" x2="156" y2="142"/>
+	<segment x1="156" y1="142" x2="148" y2="156"/>
+	<segment x1="148" y1="156" x2="165" y2="170"/>
+	<segment x1="165" y1="170" x2="175" y2="184"/>
+	<segment x1="175" y1="184" x2="212" y2="190"/>
+	<segment x1="212" y1="190" x2="258" y2="182"/>
+	<segment x1="258" y1="182" x2="296" y2="178"/>
+	<segment x1="296" y1="178" x2="320" y2="175"/>
+	<segment x1="320" y1="175" x2="337" y2="152"/>
+	<segment x1="337" y1="152" x2="349" y2="133"/>
+	<segment x1="349" y1="133" x2="347" y2="116"/>
+	<segment x1="347" y1="116" x2="303" y2="112"/>
+	<segment x1="303" y1="112" x2="286" y2="109"/>
+	<segment x1="286" y1="109" x2="274" y2="87"/>
+	<segment x1="274" y1="87" x2="276" y2="48"/>
+	<segment x1="276" y1="48" x2="295" y2="36"/>
+	<segment x1="295" y1="36" x2="338" y2="20"/>
+	<segment x1="338" y1="20" x2="389" y2="41"/>
+	<segment x1="389" y1="41" x2="411" y2="51"/>
+	<segment x1="411" y1="51" x2="425" y2="64"/>
+	<segment x1="425" y1="64" x2="448" y2="80"/>
+	<segment x1="448" y1="80" x2="477" y2="86"/>
+	
+	<pinion x="300" y="56" tag="20001" type="20001"/>
+	<messageAction receiverTag="20001" message="The desert\nmakes my eyes\nitch."/>
+	
+	<messageAction cTag1="1" cTag2="20001" receiverTag="20001" message="I feel safe\nunder heavy\ndangling rocks.;\nDon't you?"/> 	
+	
+	<circle x="240" y="210" radius="15" tag="20002" type="20002" visible="false"/>
+	<messageAction cTag1="1" cTag2="20002" receiverTag="20001" nonColliding="true" message="Uh oh,\nHere he\ncomes.;Stop shaking\nthe rock."/> 	
+	
+	<circle x="440" y="210" radius="15" tag="20003" type="20003" visible="false"/>
+	<messageAction cTag1="1" cTag2="20003" receiverTag="20001" nonColliding="true" message="Are you\ntrying to\nfly?"/> 
+	
+	
+	<music file="level2music.mp3"/>
+</trundle>

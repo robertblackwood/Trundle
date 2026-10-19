@@ -1,0 +1,28 @@
+<trundle map = "l7scr16">
+	<background file="l7back16.png" spotlight="true" lightRadius="420"/>
+
+	<segment x1="460" y1="0" x2="460" y2="300"/>
+	<segment x1="460" y1="300" x2="0" y2="300"/>
+	<segment x1="0" y1="130" x2="48" y2="110"/>
+	<segment x1="48" y1="110" x2="77" y2="90"/>
+	<segment x1="77" y1="90" x2="97" y2="52"/>
+	<segment x1="97" y1="52" x2="109" y2="17"/>
+	<segment x1="109" y1="17" x2="110" y2="0"/>
+	<segment x1="110" y1="0" x2="80" y2="0"/>
+	<segment x1="80" y1="0" x2="76" y2="27"/>
+	<segment x1="76" y1="27" x2="63" y2="58"/>
+	<segment x1="63" y1="58" x2="40" y2="83"/>
+	<segment x1="40" y1="83" x2="18" y2="95"/>
+	<segment x1="18" y1="95" x2="0" y2="100"/>
+	
+	<!--<glow x="40" y="20" numParticles="20" speed="15" r="255" g="100" b="0"/>
+	<glow x="350" y="237" numParticles="30" speed="15" r="255" g="100" b="0"/>-->
+	
+	<segment x1="0" y1="-110" x2="400" y2="-110"/>
+	<segment x1="0" y1="-110" x2="-200" y2="0"/>
+	<segment x1="400" y1="-110" x2="680" y2="0"/>
+
+	<rain/>	
+	<defaultxy x="200" y="200" screen="13"/>
+	<transitionScreens left="1" right="0" top="0" bottom="-2"/>
+</trundle>

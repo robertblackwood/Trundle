@@ -1,0 +1,60 @@
+<trundle map = "">
+	<segment x1="0" y1="206" x2="17" y2="186"/>
+	<segment x1="17" y1="186" x2="45" y2="149"/>
+	<segment x1="45" y1="149" x2="78" y2="121"/>
+	<segment x1="78" y1="121" x2="118" y2="88"/>
+	<segment x1="118" y1="88" x2="171" y2="63"/>
+	<segment x1="171" y1="63" x2="227" y2="47"/>
+	<segment x1="227" y1="47" x2="283" y2="38"/>
+	<segment x1="283" y1="38" x2="338" y2="41"/>
+	<segment x1="338" y1="41" x2="391" y2="64"/>
+	<segment x1="391" y1="64" x2="433" y2="89"/>
+	<segment x1="433" y1="89" x2="459" y2="115"/>
+	<segment x1="459" y1="115" x2="467" y2="165"/>
+	<segment x1="467" y1="165" x2="455" y2="184"/>
+	<segment x1="455" y1="184" x2="435" y2="196"/>
+	<segment x1="435" y1="196" x2="414" y2="194"/>
+	<segment x1="414" y1="194" x2="399" y2="186"/>
+	<segment x1="399" y1="186" x2="397" y2="203"/>
+	<segment x1="397" y1="203" x2="411" y2="223"/>
+	<segment x1="411" y1="223" x2="436" y2="248"/>
+	<segment x1="436" y1="248" x2="440" y2="277"/>
+	<segment x1="440" y1="277" x2="422" y2="308"/>
+	<segment x1="422" y1="308" x2="390" y2="319"/>
+	<segment x1="390" y1="319" x2="354" y2="317"/>
+	<segment x1="354" y1="317" x2="292" y2="310"/>
+	<segment x1="292" y1="310" x2="229" y2="322" radius="3"/>
+	<segment x1="86" y1="322" x2="152" y2="280"/>
+	<segment x1="152" y1="280" x2="160" y2="263"/>
+	<segment x1="160" y1="263" x2="158" y2="243"/>
+	<segment x1="158" y1="243" x2="142" y2="241"/>
+	<segment x1="142" y1="241" x2="118" y2="258"/>
+	<segment x1="118" y1="258" x2="80" y2="264"/>
+	<segment x1="80" y1="264" x2="39" y2="271"/>
+	<segment x1="39" y1="271" x2="4" y2="281"/>
+	
+	<circle x="211" y="186" mass="12" radius="44" visible="true" file="circler45.png" tag="21601" friction="0.001"/>
+	<circle x="342" y="103" mass="5" radius="14" visible="true" file="circler15.png" tag="21602" elasticity=".9" friction="0.001"/>
+	
+	<pivot toTag="21601" fromTag="-1" toX="0" toY="0" fromX="211" fromY="186"/>
+	<pivot toTag="21602" fromTag="-1" toX="0" toY="0" fromX="342" fromY="103"/>
+	
+	<!--
+	<rect width="6" height="26" mass="3" x="342" y="75" visible="true" tag="21603"/>
+	<pivot toTag="21602" fromTag="21603" toX="0" toY="-28" fromX="0" fromY="0"/>
+	<pivot toTag="21602" fromTag="21603" toX="0" toY="-18" fromX="0" fromY="10"/>
+-->
+
+	<rect width="6" height="26" mass="3" x="342" y="131" visible="true" tag="21604"/>
+	<pivot toTag="21602" fromTag="21604" toX="0" toY="28" fromX="0" fromY="0"/>
+	<pivot toTag="21602" fromTag="21604" toX="0" toY="18" fromX="0" fromY="-10"/>
+	
+	<gear toTag="21601" fromTag="21602" visible="true" ratio="-1"/>
+	
+	<rect width="6" height="110" x="210" y="275" rotation="60" mass="6" visible="true" tag="21605"/>
+	<pivot toTag="21601" fromTag="21605" toX="-1" toY="89" fromX="0" fromY="0"/>
+	<pin toTag="21601" fromTag="21605" toX="0" toY="0" fromX="0" fromY="-50" visible="true" linewidth="6"/>
+
+	<transitionScreens left = "-1" right = "0" top = "1" bottom = "0"/>
+	
+</trundle>

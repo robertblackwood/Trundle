@@ -1,0 +1,20 @@
+<trundle map = "l4scr13">
+	<segment x1="0"		y1="250"	x2="40"		y2="235"/>
+	<segment x1="40"	y1="235"	x2="60"		y2="220"/>
+	<segment x1="60"	y1="220"	x2="80"		y2="180"/>
+	<segment x1="80"	y1="180"	x2="100"	y2="130"/>
+	<segment x1="100"	y1="130"	x2="120"	y2="90"/>
+	<segment x1="120"	y1="90"		x2="160"	y2="60"/>
+	<segment x1="160"	y1="60"		x2="220"	y2="40"/>
+	<segment x1="220"	y1="40"		x2="260"	y2="40"/>
+	<segment x1="260"	y1="40"		x2="260"	y2="0"/>
+	
+	<circle x="380" y="-50" visible="true" tag="41301" mass="-1" radius="80"/>
+	
+	<rotateAction duration="8" angle="-360" forever="true" receiverTag="41301"/>
+
+	<transitionScreens left = "-4" right = "1" top = "0" bottom = "666"/>
+	<defaultxy x="100" y="300"/>
+	
+	<fuzzles/>
+</trundle>
